@@ -81,14 +81,14 @@
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="wrap" id="app-wrap">
   <header class="hero">
     <div>
       <h1>Where should I be this week?</h1>
-      <p class="subhead" id="subhead">Tue May 5 — Mon May 11, 2026 · Barcelona · Amsterdam · Antwerp · Brussels</p>
+      <p class="subhead" id="subhead">Fri May 8 â Thu May 14, 2026 Â· Barcelona Â· Amsterdam Â· Antwerp Â· Belgium</p>
     </div>
     <div class="meta">
-      <div>Last scan: <strong id="last-scan">—</strong></div>
+      <div>Last scan: <strong id="last-scan">â</strong></div>
       <div id="event-count" style="margin-top:2px;"></div>
     </div>
   </header>
@@ -100,7 +100,7 @@
       <span class="pill city" data-city="Barcelona">Barcelona</span>
       <span class="pill city" data-city="Amsterdam">Amsterdam</span>
       <span class="pill city" data-city="Antwerp">Antwerp</span>
-      <span class="pill city" data-city="Brussels">Brussels</span>
+      <span class="pill city" data-city="Belgium">Belgium</span>
       <span class="divider"></span>
       <span class="label">Category</span>
       <span class="pill cat active" data-cat="all">All</span>
@@ -127,94 +127,109 @@
   </section>
 
   <section class="section lookahead">
-    <h2>Looking ahead — Festivals <span class="count" id="festivals-count"></span></h2>
+    <h2>Looking ahead â Festivals <span class="count" id="festivals-count"></span></h2>
     <div id="lookahead-festivals" class="events"></div>
   </section>
 
   <section class="section lookahead">
-    <h2>Looking ahead — Other <span class="count" id="other-count"></span></h2>
+    <h2>Looking ahead â Other <span class="count" id="other-count"></span></h2>
     <div id="lookahead-board" class="events"></div>
   </section>
 
   <div class="footnote">
-    Sources: Eventbrite · Meetup · Resident Advisor · Luma · Hipsy · AllEvents · venue sites · IG.
+    Sources: Eventbrite Â· Meetup Â· Resident Advisor Â· Luma Â· Hipsy Â· AllEvents Â· venue sites Â· IG.
     Save state stored locally. Refreshed daily by scheduled scan.
   </div>
 </div>
 
 <script>
-const LAST_SCAN  = "May 5, 2026";
-const WEEK_START = "2026-05-05";
-const WEEK_END   = "2026-05-11";
-const TODAY      = "2026-05-05";
+// âââââââââââââââââââââââââââââââââââââââââââââââââââ
+// DATA â loaded at runtime from event_board_data.json
+// âââââââââââââââââââââââââââââââââââââââââââââââââââ
+let LAST_SCAN  = "May 8, 2026";
+let WEEK_START = "2026-05-08";
+let WEEK_END   = "2026-05-14";
+let TODAY      = "2026-05-08";
 
-const EVENTS = [
-  { id:"ecstatic-dance-kaap-ams-may5", name:"Ecstatic Dance Amsterdam @ KAAP — Tuesday Session", organizer:"Ecstatic Dance Amsterdam", date:"2026-05-05", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"KAAP Amsterdam (IJdijk 10)", category:"wellness", subcategory:"ecstatic dance · weekly", cost:"?", source:"Ecstatic Dance Amsterdam", url:"https://www.ecstaticdanceamsterdam.com/", hook:"Weekly Tuesday freeform movement at KAAP — Amsterdam's most consistent ecstatic dance space, tonight's edition.", score:7.8, hidden_gem:true },
-  { id:"ecstatic-dance-amersfoort-may5", name:"Ecstatic Dance Amersfoort w/ DJ IRADI + Cacao Ceremony w/ Premala", organizer:"Ecstatic Dance Amersfoort", date:"2026-05-05", time:"19:15", endTime:"23:00", city:"Amersfoort", venue:"Amersfoort", category:"wellness", subcategory:"ecstatic dance · cacao ceremony", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"Ecstatic dance + cacao ceremony double-feature — travel-worthy from Amsterdam (~30 min).", score:8.4, hidden_gem:true },
-  { id:"liberation-dance-museumplein-may5", name:"Liberation Dance Festival — Museumplein", organizer:"City of Amsterdam", date:"2026-05-05", time:"14:00", endTime:"22:00", city:"Amsterdam", venue:"Museumplein", category:"music", subcategory:"dance festival · daytime · free", cost:"free", source:"I amsterdam", url:"https://www.iamsterdam.com/en/whats-on/remembrance-liberation-day/liberation-day-tips", hook:"Free outdoor daytime dance festival for Liberation Day — silent disco, workshops, multiple dance traditions.", score:7.2, hidden_gem:false },
-  { id:"bcn-entrepreneurs-may5", name:"Barcelona Entrepreneurs — Workshop [29th Edition]", organizer:"Barcelona Entrepreneurs and Startups", date:"2026-05-05", time:"19:30", endTime:"22:00", city:"Barcelona", venue:"TBA", category:"networking", subcategory:"founders · workshop", cost:"?", source:"Meetup", url:"https://www.meetup.com/barcelona-entrepreneurs-and-startups/", hook:"29th-edition recurring founder workshop — Barcelona's most consistent founders meetup.", score:7.5, hidden_gem:true },
-  { id:"product-tech-scaling-bcn-may6", name:"Product & Tech Networking — \"From 0 to Scale\"", organizer:"Talent-R / Stellar", date:"2026-05-06", time:"18:30", endTime:"21:00", city:"Barcelona", venue:"Talent-R Office, Rambla de Catalunya 35", category:"networking", subcategory:"product · tech · founders", cost:"?", source:"Meetup", url:"https://www.meetup.com/find/?location=es--Barcelona", hook:"Rooftop terrace evening with speakers from Stellar, Softonic, and NDA — intimate high-quality product crowd.", score:7.8, hidden_gem:true },
-  { id:"coworking-day-bru-may6", name:"European Coworking Day — Brussels", organizer:"Commons Hub Brussels", date:"2026-05-06", time:"09:00", endTime:"18:00", city:"Brussels", venue:"Commons Hub Brussels", category:"community", subcategory:"coworking · networking", cost:"free", source:"Coworking Assembly", url:"https://coworkingday.eu/location/commons-hub-brussels/", hook:"Pan-European coworking celebration — free workshops and natural founder/community overlap.", score:7.6, hidden_gem:false },
-  { id:"seun-kuti-razz-may7", name:"Seun Kuti & Egypt 80", organizer:"Razzmatazz", date:"2026-05-07", time:"20:30", endTime:"23:30", city:"Barcelona", venue:"Razzmatazz 2", category:"music", subcategory:"afrobeat · live", cost:"?", source:"Time Out BCN", url:"https://www.timeout.es/barcelona/es/musica/festivales-musica-barcelona", hook:"Fela Kuti's son leading Egypt 80 — live afrobeat is rare and high-energy. Strong Thursday option in BCN.", score:8.3, hidden_gem:false },
-  { id:"max-cooper-paradiso-may7", name:"Max Cooper — 3D / AV Live", organizer:"Paradiso", date:"2026-05-07", time:"19:00", endTime:"22:30", city:"Amsterdam", venue:"Paradiso", category:"music", subcategory:"electronic · audiovisual", cost:"?", source:"Resident Advisor", url:"https://ra.co/events/2329972", hook:"Cerebral electronic music meets science-driven 3D visuals — one of the most respected AV shows in Europe.", score:8.8, hidden_gem:false },
-  { id:"devworld-rai-may7", name:"DEVWorld Conference", organizer:"DEVWorld", date:"2026-05-07", time:"09:00", endTime:"18:00", city:"Amsterdam", venue:"RAI Amsterdam", category:"networking", subcategory:"AI · developer community", cost:"€53+", source:"Eventbrite NL", url:"https://www.eventbrite.nl/e/devworld-conference-tickets-1984927945919", hook:"5,000 engineers focused on AI-driven workflows — high-density founder/AI networking.", score:8.5, hidden_gem:false },
-  { id:"hot-since-82-lofi-may8", name:"Hot Since 82 [3hrs] + support", organizer:"Lofi", date:"2026-05-08", time:"23:00", endTime:"05:00", city:"Amsterdam", venue:"Lofi", category:"music", subcategory:"house · 3hr extended", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/nl/amsterdam", hook:"Hot Since 82 — 3-hour set, big-room house. Friday night staple at one of AMS's best sound systems.", score:8.4, hidden_gem:false },
-  { id:"shelter-forever-days-may8", name:"Shelter presents: Forever Days", organizer:"Shelter Amsterdam", date:"2026-05-08", time:"23:00", endTime:"07:00", city:"Amsterdam", venue:"Shelter Amsterdam", category:"music", subcategory:"techno · all-night", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/nl/amsterdam", hook:"Shelter under the A'DAM Toren — high-quality techno, locals' favorite Friday format.", score:8.0, hidden_gem:false },
-  { id:"liquicity-antwerp-may8", name:"Liquicity Antwerp 2026", organizer:"Liquicity", date:"2026-05-08", time:"20:00", endTime:"04:00", city:"Antwerp", venue:"Trix", category:"music", subcategory:"drum & bass · festival", cost:"€40+", source:"Resident Advisor", url:"https://ra.co/guide/be/antwerp", hook:"Liquicity = the iconic uplifting d&b label night — Antwerp edition at Trix.", score:7.6, hidden_gem:false },
-  { id:"ai-engineers-bcn-may8", name:"AI Engineers Barcelona — Weekly Meetup", organizer:"AI Engineers Barcelona", date:"2026-05-08", time:"19:00", endTime:"22:00", city:"Barcelona", venue:"Alice Secret Garden (Pau Claris 90)", category:"networking", subcategory:"AI · builder community", cost:"free", source:"Meetup", url:"https://www.meetup.com/ai-engineers-barcelona/", hook:"Recurring Friday gathering of Barcelona's AI builders — small, high-signal room.", score:8.4, hidden_gem:true },
-  { id:"vaag-iosio-kimswim-anr-may8", name:"Club Vaag: IOSIO & KIM SWIM", organizer:"Club Vaag", date:"2026-05-08", time:"23:00", endTime:"06:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"techno · club night", cost:"?", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"IOSIO & KIM SWIM at Club Vaag — Antwerp's home for uncompromising techno, Friday warm-up before Vaag Outdoor.", score:7.7, hidden_gem:false },
-  { id:"kirtan-mela-ams-may9", name:"Amsterdam Kirtan Mela 2026", organizer:"Kirtan Amsterdam", date:"2026-05-09", time:"10:00", endTime:"22:00", city:"Amsterdam", venue:"Amsterdam (TBA)", category:"wellness", subcategory:"kirtan · mantra · festival", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"All-day Kirtan / mantra festival — a deep dive into chanting practice, rare in AMS.", score:8.7, hidden_gem:true },
-  { id:"iris-festival-bru-may9", name:"Fête de l'Iris — Free Festival at Parc Royal", organizer:"City of Brussels", date:"2026-05-09", time:"12:00", endTime:"23:00", city:"Brussels", venue:"Parc Royal / Place du Trône, Brussels", category:"music", subcategory:"free festival · DJ · outdoor", cost:"free", source:"We Love Brussels", url:"https://www.brussels.be/iris-festival", hook:"Brussels' annual regional festival — DJs Meduza and Henri PFR headlining, massive free outdoor party at Parc Royal.", score:8.3, hidden_gem:false },
-  { id:"soundit-blessed-madonna-bcn-may9", name:"SOUNDIT Plaza: The Blessed Madonna · CC:DISCO! · Chima Isaaro · Blend Affect", organizer:"SOUNDIT", date:"2026-05-09", time:"16:00", endTime:"00:00", city:"Barcelona", venue:"Plaza Monumental de Barcelona", category:"music", subcategory:"open-air · house · disco", cost:"€45+", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"The Blessed Madonna + CC:DISCO! at the old bullring — biggest open-air booking of the week, daytime into night.", score:9.3, hidden_gem:false },
-  { id:"music-on-festival-ams-may9-10", name:"Music On Festival 2026 — Day 1", organizer:"Music On", date:"2026-05-09", time:"11:00", endTime:"23:00", city:"Amsterdam", venue:"Meerpark", category:"music", subcategory:"techno · house · 2-day festival · daytime", cost:"SOLD OUT (resale)", source:"Festivalfans", url:"https://festivalfans.nl/event/music-on-festival/", hook:"Marco Carola's iconic Music On — 2-day Meerpark festival, biggest techno booking of the weekend. Hunt resale.", score:9.4, hidden_gem:false },
-  { id:"white-fire-conscious-clubbing-may9", name:"WHITE FIRE — \"ONE MORE TIME!\"", organizer:"White Fire", date:"2026-05-09", time:"19:00", endTime:"01:00", city:"Amsterdam", venue:"TBA", category:"music", subcategory:"conscious clubbing · ecstatic rave", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"Conscious clubbing / ecstatic rave — White Fire's signature high-energy sober dance experience.", score:8.8, hidden_gem:true },
-  { id:"turbina-bcn-may9", name:"TURBINA 02 — MIRA Festival", organizer:"TURBINA / MIRA", date:"2026-05-09", time:"14:00", endTime:"00:00", city:"Barcelona", venue:"3 Xemeneies", category:"music", subcategory:"festival · digital art · sound", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"MIRA's TURBINA at the iconic 3 Xemeneies industrial site — where digital art and sound merge.", score:8.2, hidden_gem:false },
-  { id:"thuishaven-bart-skils-may9", name:"Thuishaven w/ Bart Skils — 10HRS", organizer:"Thuishaven", date:"2026-05-09", time:"14:00", endTime:"00:00", city:"Amsterdam", venue:"Thuishaven", category:"music", subcategory:"techno · daytime · 10hr extended", cost:"SOLD OUT", source:"Resident Advisor", url:"https://ra.co/guide/nl/amsterdam", hook:"Bart Skils 10-hour extended at Thuishaven — sold out, but worth chasing resale.", score:8.9, hidden_gem:false },
-  { id:"heartsong-chanting-ams-may9", name:"Kevin James & Susana — HeartSong Chanting Circle & Healing Tones", organizer:"HeartFire.nl", date:"2026-05-09", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"HeartFire", category:"wellness", subcategory:"chanting circle · sound healing", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"International chanting artists Kevin James + Susana — held by HeartFire, one of NL's strongest sacred-sound communities.", score:8.5, hidden_gem:true },
-  { id:"hope-beach-party-sitges-may9", name:"HOPE pres: Beach Party w/ Oden & Fatzo (Live)", organizer:"HOPE", date:"2026-05-09", time:"13:00", endTime:"22:00", city:"Sitges", venue:"Hola Club Sitges (Cala Vallcarca)", category:"music", subcategory:"beach party · daytime · house", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"Daytime beach party with Oden & Fatzo live — exactly your daytime/conscious-clubbing zone, train from BCN.", score:8.7, hidden_gem:false },
-  { id:"jackies-open-air-bcn-may9", name:"Jackies Open Air Daytime w/ Chus + Ceballos (open to close)", organizer:"Jackies", date:"2026-05-09", time:"13:00", endTime:"22:00", city:"Barcelona", venue:"La Terrrazza", category:"music", subcategory:"open-air · daytime · house", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"Daytime open-air at La Terrrazza, Chus + Ceballos open-to-close — peak BCN Saturday.", score:8.6, hidden_gem:false },
-  { id:"les-enfants-seasea-bcn-may9", name:"Les Enfants @ SeaSea: Traumer b2b Shonky · The Ghost · DJ Senc", organizer:"Les Enfants", date:"2026-05-09", time:"23:00", endTime:"06:00", city:"Barcelona", venue:"Seaseaclub Barcelona", category:"music", subcategory:"minimal · seaside", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"Traumer b2b Shonky leading a deep minimal night — Les Enfants is one of BCN's best-curated parties.", score:8.5, hidden_gem:false },
-  { id:"vaag-outdoor-anr-may9", name:"Vaag Outdoor 5th Edition", organizer:"Club Vaag", date:"2026-05-09", time:"14:00", endTime:"23:00", city:"Antwerp", venue:"Jachthavenweg 1, Antwerp-Linkeroever", category:"music", subcategory:"outdoor · daytime · techno", cost:"?", source:"Club Vaag / Resident Advisor", url:"https://www.vaagoutdoor.be/", hook:"Vaag Outdoor's 5th edition — full day of hard kicks and open-air energy at Antwerp's Linkeroever waterfront.", score:8.1, hidden_gem:false },
-  { id:"fuse-x-club-narciss-may9", name:"Fuse: AV/VA by ascendant vierge (hybrid set) w/ uphoria & Todiefor", organizer:"Fuse", date:"2026-05-09", time:"23:00", endTime:"07:00", city:"Brussels", venue:"Fuse", category:"music", subcategory:"techno · institutional", cost:"?", source:"Resident Advisor", url:"https://ra.co/clubs/2069", hook:"Fuse — Brussels' techno institution. ascendant vierge hybrid set this Saturday.", score:8.0, hidden_gem:false },
-  { id:"patrones-invisibles-bcn-may9", name:"Tus Patrones Invisibles — Liberarte de lo que no ves", organizer:"redConsciencia", date:"2026-05-09", time:"19:30", endTime:"22:00", city:"Barcelona", venue:"TBA", category:"wellness", subcategory:"personal growth · embodiment", cost:"?", source:"Meetup", url:"https://www.meetup.com/find/?location=es--Barcelona", hook:"Personal-growth workshop on hidden patterns — redConsciencia is the conscious-community group in BCN.", score:7.6, hidden_gem:true },
-  { id:"the-other-side-ams-may9", name:"The Other Side — Sober Ecstatic Clubbing", organizer:"The Other Side", date:"2026-05-09", time:"22:00", endTime:"03:00", city:"Amsterdam", venue:"The Other Side · Houthavens", category:"music", subcategory:"sober dance · conscious clubbing", cost:"?", source:"I amsterdam", url:"https://amsterdamnightlifeticket.com/en/clubs/the-other-side", hook:"No booze, no stimulants — high-energy ecstatic dancing in Amsterdam's signature sober venue.", score:9.0, hidden_gem:true },
-  { id:"house-of-silk-ams-may9", name:"House of Silk — Amsterdam Weekender", organizer:"House of Silk", date:"2026-05-09", time:"23:00", endTime:"06:00", city:"Amsterdam", venue:"Panama Club", category:"music", subcategory:"techno · electronic", cost:"?", source:"Resident Advisor", url:"https://ra.co/events/2307296", hook:"5th-anniversary edition of a respected techno series, waterfront venue, deep lineup.", score:7.8, hidden_gem:false },
-  { id:"sonic-spheres-bcn-may10", name:"Sonic Spheres — Ecstatic Dance & Sound Healing", organizer:"Sonic Spheres", date:"2026-05-10", time:"18:00", endTime:"21:00", city:"Barcelona", venue:"Sonic Spheres Studio", category:"wellness", subcategory:"ecstatic dance · sound healing", cost:"?", source:"Sonic Spheres", url:"https://www.sonicspheres.com/ecstatic-dance/", hook:"Movement, vocal expression, and deep sound healing — explicitly designed for nervous system regulation.", score:9.2, hidden_gem:true },
-  { id:"music-on-festival-ams-may10", name:"Music On Festival 2026 — Day 2", organizer:"Music On", date:"2026-05-10", time:"11:00", endTime:"23:00", city:"Amsterdam", venue:"Meerpark", category:"music", subcategory:"techno · house · daytime", cost:"SOLD OUT (resale)", source:"Festivalfans", url:"https://festivalfans.nl/event/music-on-festival/", hook:"Day 2 of Music On — Sunday daytime festival at Meerpark.", score:9.2, hidden_gem:false },
-  { id:"brunch-electronik-bcn-may10", name:"Brunch Electronik — Poble Espanyol Open Air", organizer:"Brunch Electronik", date:"2026-05-10", time:"16:00", endTime:"22:00", city:"Barcelona", venue:"Poble Espanyol, Barcelona", category:"music", subcategory:"open-air · daytime · electronic", cost:"?", source:"Brunch Electronik", url:"https://barcelona.brunchelectronik.com/en", hook:"Brunch Electronik's monthly Poble Espanyol session — Sunday daytime electronic music in a stunning historic courtyard.", score:8.6, hidden_gem:false },
-  { id:"holy-name-retreat-ams-may10", name:"Holy Name Retreat w/ Sacinandana Swami", organizer:"Sacinandana Swami", date:"2026-05-10", time:"13:00", endTime:"18:00", city:"Amsterdam", venue:"Oranjekerk Amsterdam", category:"wellness", subcategory:"mantra · retreat · spiritual", cost:"?", source:"Eventbrite NL", url:"https://www.eventbrite.com/d/netherlands--amsterdam/breathwork/", hook:"Half-day mantra and devotional retreat with an internationally respected spiritual teacher — Sunday deep-dive.", score:7.5, hidden_gem:true },
-  { id:"torax-razzmatazz-may10", name:"Torax: Function · Rrose · DJohnston · Albal · Verushka", organizer:"Razzmatazz", date:"2026-05-10", time:"23:00", endTime:"07:00", city:"Barcelona", venue:"Razzmatazz", category:"music", subcategory:"techno · industrial", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"Function + Rrose at Razzmatazz — heavy techno bill, Sunday night.", score:8.0, hidden_gem:false },
-  { id:"flora-open-air-vauxhall-bru-may10", name:"FLORA OPEN AIR @ Vauxhall (Parc Royal)", organizer:"Flora", date:"2026-05-10", time:"13:00", endTime:"22:00", city:"Brussels", venue:"Parc Royal / Warandepark", category:"music", subcategory:"open-air · daytime", cost:"?", source:"Resident Advisor / We Love Brussels", url:"https://ra.co/guide/be/brussels", hook:"Sunday daytime open-air in Parc Royal — golden light, raw energy, perfect Sunday-park vibe.", score:7.8, hidden_gem:false }
+let EVENTS = [
+  { id:"odessa-cacao-ruby-may8", name:"Cacao Ecstatic Dance @ Odessa with Ruby", organizer:"Odessa Amsterdam", date:"2026-05-08", time:"20:00", endTime:"23:30", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance Â· cacao Â· Fri", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Friday cacao ceremony + ecstatic dance with Ruby â the cacao edition at Odessa tends to run deeper and higher-energy.", score:8.5, hidden_gem:true, reasons:["alignment","uniqueness","inspiration"] },
+  { id:"ai-engineers-bcn-may8", name:"AI Engineers Barcelona â Weekly Meetup", organizer:"AI Engineers Barcelona", date:"2026-05-08", time:"19:00", endTime:"22:00", city:"Barcelona", venue:"Alice Secret Garden, Pau Claris 90, L'Eixample", category:"networking", subcategory:"AI Â· builder community Â· weekly", cost:"free", source:"Meetup", url:"https://www.meetup.com/ai-engineers-barcelona/", hook:"Recurring Friday gathering of BCN's AI builders â technical, high-signal, free.", score:8.4, hidden_gem:true, reasons:["networking","alignment","audience"] },
+  { id:"lofi-amsterdam-may8", name:"Lofi Amsterdam â Friday Night (Ranger Trucco)", organizer:"Lofi", date:"2026-05-08", time:"23:00", endTime:"07:00", city:"Amsterdam", venue:"Lofi, Sloterdijk", category:"music", subcategory:"house Â· club Â· 1500-cap", cost:"?", source:"Amsterdam Spotted / RA", url:"https://ra.co/clubs/168878", hook:"Ranger Trucco at Lofi â proper Friday house party in the cavernous converted GVB bus garage.", score:7.9, hidden_gem:false, reasons:["audience","alignment"] },
+  { id:"shelter-amsterdam-may8", name:"Shelter Amsterdam â Friday Night", organizer:"Shelter Amsterdam", date:"2026-05-08", time:"23:00", endTime:"07:00", city:"Amsterdam", venue:"Shelter Amsterdam (under A'DAM Tower)", category:"music", subcategory:"techno Â· Funktion-One Â· club", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/nl/amsterdam", hook:"Shelter's Friday â Funktion-One sound under the A'DAM Tower, reliably well-curated.", score:7.8, hidden_gem:false, reasons:["audience","alignment"] },
+  { id:"music-on-festival-ams-may9-10", name:"Music On Festival 2026 â Day 1 (Sat)", organizer:"Music On", date:"2026-05-09", time:"12:00", endTime:"23:00", city:"Amsterdam", venue:"Meerpark, Amsterdam-Oost", category:"music", subcategory:"techno Â· house Â· 2-day festival Â· daytime", cost:"SOLD OUT (Ticketswap)", source:"Music On Festival / Resident Advisor", url:"https://www.musiconfestival.nl/", hook:"Day 1: Marco Carola, Easttown, Franky Rizardo, Josh Baker, Joey Daniel at Meerpark. Biggest techno weekend in AMS â hunt resale.", score:9.4, hidden_gem:false, reasons:["audience","alignment","uniqueness"] },
+  { id:"vaag-outdoor-anr-may9", name:"Vaag Outdoor â 5th Edition", organizer:"Club Vaag", date:"2026-05-09", time:"14:00", endTime:"23:00", city:"Antwerp", venue:"Jachthavenweg 1, Antwerp-Linkeroever", category:"music", subcategory:"outdoor Â· daytime Â· techno", cost:"?", source:"Club Vaag / vaagoutdoor.be", url:"https://www.vaagoutdoor.be/", hook:"Confirmed 5th edition â full day of hard kicks and open-air energy at Antwerp Linkeroever waterfront. Afterparty follows.", score:8.3, hidden_gem:false, reasons:["alignment","uniqueness","audience"] },
+  { id:"white-fire-conscious-clubbing-may9", name:"WHITE FIRE â Conscious Clubbing Night", organizer:"White Fire", date:"2026-05-09", time:"19:00", endTime:"01:00", city:"Amsterdam", venue:"TBA, Amsterdam", category:"music", subcategory:"conscious clubbing Â· ecstatic rave Â· sober", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"White Fire's signature high-energy sober dance experience â full presence, no substances.", score:8.6, hidden_gem:true, reasons:["alignment","uniqueness","audience"] },
+  { id:"odessa-ecstatic-jera-may9", name:"Ecstatic Journey @ Odessa with Jera", organizer:"Odessa Amsterdam", date:"2026-05-09", time:"19:00", endTime:"22:30", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance Â· Saturday Â· boat", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Saturday Ecstatic Journey with Jera on the Odessa floating boat â the conscious alternative to club Saturday.", score:8.0, hidden_gem:true, reasons:["alignment","uniqueness","community"] },
+  { id:"turbina-bcn-may9", name:"TURBINA 02 â MIRA Festival @ 3 Xemeneies", organizer:"MIRA Festival", date:"2026-05-09", time:"14:00", endTime:"00:00", city:"Barcelona", venue:"3 Xemeneies, Barcelona", category:"music", subcategory:"festival Â· digital art Â· sound", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"MIRA's TURBINA series at the iconic industrial 3 Xemeneies chimney site â where digital art and sound merge.", score:8.2, hidden_gem:false, reasons:["uniqueness","alignment","inspiration"] },
+  { id:"heartsong-chanting-ams-may9", name:"HeartSong Chanting Circle â Kevin James & Susana", organizer:"HeartFire.nl", date:"2026-05-09", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"HeartFire Amsterdam", category:"wellness", subcategory:"chanting circle Â· sound healing", cost:"?", source:"Hipsy", url:"https://hipsy.nl", hook:"International chanting artists Kevin James + Susana â sacred-sound evening at HeartFire.", score:8.3, hidden_gem:true, reasons:["alignment","inspiration","community"] },
+  { id:"music-on-festival-ams-may10", name:"Music On Festival 2026 â Day 2 (Sun)", organizer:"Music On", date:"2026-05-10", time:"13:00", endTime:"23:00", city:"Amsterdam", venue:"Meerpark, Amsterdam-Oost", category:"music", subcategory:"techno Â· house Â· daytime festival", cost:"SOLD OUT (Ticketswap)", source:"Music On Festival / Resident Advisor", url:"https://www.musiconfestival.nl/", hook:"Day 2: Dennis Cruz, East End Dubs, Mason Collective, Marco Carola, JoÃ«lla Jackson at Meerpark â Sunday closer.", score:9.2, hidden_gem:false, reasons:["audience","alignment","uniqueness"] },
+  { id:"odessa-morning-ecstatic-may10", name:"Morning Ecstatic Dance @ Odessa with Inphiknight", organizer:"Odessa Amsterdam", date:"2026-05-10", time:"10:00", endTime:"13:00", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance Â· morning Â· Sunday", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Sunday morning ecstatic with Inphiknight at Odessa â perfect reset after the weekend.", score:8.1, hidden_gem:true, reasons:["alignment","uniqueness"] },
+  { id:"sonic-spheres-bcn-may10", name:"Sonic Spheres â Ecstatic Dance & Sound Healing", organizer:"Sonic Spheres", date:"2026-05-10", time:"18:00", endTime:"21:00", city:"Barcelona", venue:"Sonic Spheres Studio, Barcelona", category:"wellness", subcategory:"ecstatic dance Â· sound healing", cost:"?", source:"Sonic Spheres", url:"https://www.sonicspheres.com/ecstatic-dance/", hook:"Movement, vocal expression, and deep sound healing â BCN's best nervous-system reset on a Sunday evening.", score:9.0, hidden_gem:true, reasons:["uniqueness","alignment","inspiration"] },
+  { id:"torax-razzmatazz-may10", name:"Torax: Function Â· Rrose Â· DJohnston Â· Albal Â· Verushka", organizer:"Razzmatazz", date:"2026-05-10", time:"23:00", endTime:"07:00", city:"Barcelona", venue:"Razzmatazz, Barcelona", category:"music", subcategory:"techno Â· industrial Â· Sunday close", cost:"?", source:"Resident Advisor", url:"https://ra.co/guide/es/barcelona", hook:"Function + Rrose at Razzmatazz â heavyweight industrial techno Sunday night closer in BCN.", score:8.0, hidden_gem:false, reasons:["audience","alignment"] },
+  { id:"ecstatic-dance-kaap-ams-may12", name:"Ecstatic Dance Amsterdam @ KAAP â Tuesday Session", organizer:"Ecstatic Dance Amsterdam", date:"2026-05-12", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"KAAP Amsterdam (IJdijk 10)", category:"wellness", subcategory:"ecstatic dance Â· weekly", cost:"?", source:"Ecstatic Dance Amsterdam", url:"https://www.ecstaticdanceamsterdam.com/", hook:"Weekly Tuesday freeform movement at KAAP â Amsterdam's most consistent mid-week ecstatic dance.", score:7.6, hidden_gem:true, reasons:["alignment","community"] },
+  { id:"horst-festival-vilvoorde-may14-16", name:"Horst Arts & Music Festival 2026 â Opens Today", organizer:"Horst Arts & Music", date:"2026-05-14", time:"12:00", endTime:"23:59", city:"Vilvoorde", venue:"Asiat Park, Vilvoorde (north of Brussels)", category:"music", subcategory:"festival Â· 3-day Â· electronic + arts", cost:"SOLD OUT (Ticketswap)", source:"Resident Advisor / Horst", url:"https://www.horstartsandmusic.com/festival", hook:"ThuâSat May 14â16. 120+ artists: Daphni, Todd Edwards, Call Super & Parris, Barker live, Stacey Hotwaxx Hale. Belgium's most cerebral festival. Chase resale.", score:9.5, hidden_gem:false, reasons:["audience","alignment","uniqueness","inspiration"] },
+  { id:"social-capital-bru-may14", name:"Social Capital Brussels â Networking Evening", organizer:"Social Capital Brussels", date:"2026-05-14", time:"18:00", endTime:"21:00", city:"Brussels", venue:"ChÃ¢teau Moderne, Brussels", category:"networking", subcategory:"comms Â· marketing Â· founders", cost:"free", source:"Social Capital", url:"https://social-capital.community/", hook:"100+ comms/marketing pros across EU policy + B2B â strong founder-adjacent Brussels room. Free.", score:7.4, hidden_gem:false, reasons:["networking","audience"] },
+  { id:"vaag-afterparty-anr-may14", name:"Vaag Outdoor Afterparty â NÃNAME Â· BP-EM Â· LEXI Â· ACNAM", organizer:"Club Vaag", date:"2026-05-14", time:"23:00", endTime:"06:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"techno Â· club Â· afterparty", cost:"?", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"Second Vaag Outdoor afterparty night â NÃNAME, BP-EM, LEXI & ACNAM at Club Vaag on Thursday.", score:7.8, hidden_gem:false, reasons:["audience","alignment"] }
 ];
 
-const LOOKAHEAD = [
-  { id:"horst-festival-vilvoorde-may14-16", name:"Horst Arts & Music Festival 2026", organizer:"Horst Arts & Music", date:"2026-05-14", time:"12:00", city:"Vilvoorde", venue:"Asiat Park (just north of Brussels)", category:"music", subcategory:"festival · 3-day · electronic + arts", cost:"SOLD OUT (Ticketswap)", source:"Resident Advisor", url:"https://ra.co/festivals/be", hook:"Thu–Sat May 14–16. 130+ artists incl. Gilles Peterson, Todd Edwards, Daphni. Belgium's most cerebral electronic festival. Chase resale.", score:9.5, hidden_gem:false },
-  { id:"extrema-outdoor-may22-24", name:"Extrema Outdoor Belgium 2026", organizer:"Extrema Outdoor", date:"2026-05-22", time:"12:00", city:"Houthalen-Helchteren", venue:"Recreatieoord De Plas", category:"music", subcategory:"festival · 3-day · house · techno", cost:"€?", source:"Festival site", url:"https://www.extrema.be/", hook:"Fri–Sun May 22–24. 3-day forest+lake house/techno festival. Belgium's biggest May electronic destination.", score:8.7, hidden_gem:false },
-  { id:"das-festival-ams-may23", name:"Das Festival 2026", organizer:"Das Festival", date:"2026-05-23", time:"12:00", city:"Amsterdam", venue:"Tuinen van West, Amsterdam", category:"music", subcategory:"festival · multi-stage · electronic", cost:"?", source:"Resident Advisor", url:"https://ra.co/events/2311679", hook:"Das Festival at Tuinen van West — curated multi-stage electronic acts in one of Amsterdam's most atmospheric outdoor settings.", score:8.4, hidden_gem:false },
-  { id:"primavera-sound-bcn-jun3", name:"Primavera Sound 2026", organizer:"Primavera Sound", date:"2026-06-03", time:"17:00", city:"Barcelona", venue:"Parc del Fòrum, Barcelona", category:"music", subcategory:"festival · 5-day · rock · electronic", cost:"€125–350 (SOLD OUT)", source:"Primavera Sound", url:"https://www.primaverasound.com/en/barcelona", hook:"Doja Cat, Massive Attack, The Cure, Gorillaz, The xx — SOLD OUT but Ticketswap worth hunting. BCN's biggest cultural moment (Jun 3–7).", score:9.2, hidden_gem:false },
-  { id:"sonar-bcn-jun18", name:"Sónar 2026", organizer:"Sónar", date:"2026-06-18", time:"16:00", city:"Barcelona", venue:"Fira Barcelona Gran Via", category:"music", subcategory:"festival · 3-day · electronic · AV", cost:"?", source:"Sónar", url:"https://sonar.es/en", hook:"The Prodigy, Dom Dolla, Charlotte de Witte, Boys Noize — Sónar at Fira Gran Via (Jun 18–20). + OFFSónar week.", score:9.0, hidden_gem:false },
-  { id:"paradise-city-bru-jun26-28", name:"Paradise City Festival 2026", organizer:"Paradise City", date:"2026-06-26", time:"12:00", city:"Perk (Brussels)", venue:"Ribaucourt Castle", category:"music", subcategory:"festival · sustainable · house · techno", cost:"€?", source:"Resident Advisor", url:"https://ra.co/festivals/be", hook:"Sustainability-focused festival in a castle north of Brussels — refined house/techno crowd, conscious festival vibe.", score:8.4, hidden_gem:false },
-  { id:"maatwerk-festival-be-jun13", name:"MAATWERK FESTIVAL 2026", organizer:"Maatwerk", date:"2026-06-13", time:"13:00", city:"Belgium", venue:"TBA", category:"music", subcategory:"festival · curated electronic", cost:"?", source:"Resident Advisor", url:"https://ra.co/festivals/be", hook:"Curated Belgian electronic festival — June 13.", score:7.8, hidden_gem:true },
-  { id:"social-capital-bru-may14", name:"Social Capital Brussels — Networking", organizer:"Social Capital Brussels", date:"2026-05-14", time:"18:00", city:"Brussels", venue:"Château Moderne", category:"networking", subcategory:"comms · marketing · founders", cost:"free", source:"Social Capital", url:"https://social-capital.community/", hook:"100+ comms/marketing pros across EU policy + B2B — strong founder-adjacent room.", score:7.4, hidden_gem:false },
-  { id:"ai-tinkerers-bcn-may15", name:"AI Tinkerers Barcelona — Builders Meetup", organizer:"AI Tinkerers", date:"2026-05-15", time:"19:00", city:"Barcelona", venue:"TBA", category:"networking", subcategory:"AI · builders only", cost:"free", source:"AI Tinkerers", url:"https://barcelona.aitinkerers.org/", hook:"No slides, no pitches — live builder demos only. Highest-signal AI room in BCN.", score:8.6, hidden_gem:true },
-  { id:"brussels-jazz-weekend-may22", name:"Brussels Jazz Weekend 2026", organizer:"City of Brussels", date:"2026-05-22", time:"12:00", city:"Brussels", venue:"Multiple public spaces, Brussels", category:"music", subcategory:"jazz · free festival · outdoor", cost:"free", source:"City of Brussels", url:"https://www.brussels.be/", hook:"Free outdoor jazz festival across Brussels — Belgian + international artists over 3 days (May 22–24).", score:7.5, hidden_gem:false },
-  { id:"startup-grind-bcn-may20", name:"Startup Grind Barcelona — Monthly", organizer:"Startup Grind Barcelona", date:"2026-05-20", time:"18:30", city:"Barcelona", venue:"TBA", category:"networking", subcategory:"founders", cost:"free", source:"Startup Grind", url:"https://www.startupgrind.com/barcelona/", hook:"Monthly Barcelona founder community — global Startup Grind chapter.", score:7.5, hidden_gem:false }
+let LOOKAHEAD = [
+  { id:"ai-tinkerers-bcn-may15", name:"AI Tinkerers Barcelona â Builders Meetup", organizer:"AI Tinkerers Barcelona", date:"2026-05-15", time:"19:00", endTime:"22:00", city:"Barcelona", venue:"TBA, Barcelona", category:"networking", subcategory:"AI Â· builders only Â· live demos", cost:"free", source:"AI Tinkerers", url:"https://barcelona.aitinkerers.org/", hook:"No slides, no pitches â live builder demos only. Highest-signal AI room in BCN. Free.", score:8.6, hidden_gem:true },
+  { id:"christian-loffler-vaag-may16", name:"Christian LÃ¶ffler â Live @ Club Vaag", organizer:"Club Vaag", date:"2026-05-16", time:"20:00", endTime:"00:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"live Â· electronic Â· intimate", cost:"?", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"Christian LÃ¶ffler live at Vaag â intimate venue, deeply emotive electronic music. Confirmed May 16.", score:8.5, hidden_gem:false },
+  { id:"extrema-outdoor-may22-24", name:"Extrema Outdoor Belgium 2026", organizer:"Extrema Outdoor", date:"2026-05-22", time:"12:00", endTime:"23:59", city:"Houthalen-Helchteren", venue:"Recreatieoord De Plas", category:"music", subcategory:"festival Â· 3-day Â· house Â· techno", cost:"â¬75/day or â¬170/full", source:"Extrema Outdoor", url:"https://www.extrema.be/", hook:"FriâSun May 22â24. Tale of Us, Amelie Lens â 3-day forest+lake festival. Belgium's biggest May electronic destination.", score:8.7, hidden_gem:false },
+  { id:"brussels-jazz-weekend-may22", name:"Brussels Jazz Weekend 2026", organizer:"City of Brussels", date:"2026-05-22", time:"12:00", endTime:"23:00", city:"Brussels", venue:"Multiple public spaces, Brussels", category:"music", subcategory:"jazz Â· free outdoor festival Â· 3-day", cost:"free", source:"City of Brussels", url:"https://www.brussels.be/", hook:"Free outdoor jazz festival across Brussels â Belgian + international artists, every street corner, May 22â24.", score:7.5, hidden_gem:false },
+  { id:"brunch-electronik-bcn-may24", name:"Brunch Electronik Barcelona: Ben BÃ¶hmer Â· Innellea Â· Nicky Elisabeth", organizer:"Brunch Electronik", date:"2026-05-24", time:"16:00", endTime:"22:00", city:"Barcelona", venue:"Poble Espanyol, Barcelona", category:"music", subcategory:"open-air Â· daytime Â· electronic", cost:"?", source:"Resident Advisor / Brunch Electronik", url:"https://barcelona.brunchelectronik.com/en/line-up", hook:"Confirmed May 24: Ben BÃ¶hmer, Innellea, Nicky Elisabeth, Brizas â Sunday daytime open-air at Poble Espanyol.", score:8.8, hidden_gem:false },
+  { id:"das-festival-ams-may23", name:"Das Festival 2026", organizer:"Das Festival", date:"2026-05-23", time:"12:00", endTime:"23:00", city:"Amsterdam", venue:"Tuinen van West, Amsterdam", category:"music", subcategory:"festival Â· multi-stage Â· electronic", cost:"?", source:"Resident Advisor", url:"https://ra.co/events/2311679", hook:"Das Festival at Tuinen van West â curated multi-stage electronic in one of Amsterdam's most atmospheric outdoor settings.", score:8.4, hidden_gem:false },
+  { id:"primavera-sound-bcn-jun3", name:"Primavera Sound 2026", organizer:"Primavera Sound", date:"2026-06-03", time:"17:00", endTime:"04:00", city:"Barcelona", venue:"Parc del FÃ²rum, Barcelona", category:"music", subcategory:"festival Â· 5-day Â· rock Â· electronic", cost:"SOLD OUT (Ticketswap)", source:"Primavera Sound", url:"https://www.primaverasound.com/en/barcelona", hook:"Massive Attack, Gorillaz, The xx, Doja Cat â BCN's biggest cultural moment Jun 3â7. Hunt Ticketswap.", score:9.2, hidden_gem:false },
+  { id:"sonar-bcn-jun18", name:"SÃ³nar 2026", organizer:"SÃ³nar Festival", date:"2026-06-18", time:"16:00", endTime:"08:00", city:"Barcelona", venue:"Fira Barcelona Gran Via", category:"music", subcategory:"festival Â· 3-day Â· electronic Â· AV", cost:"?", source:"SÃ³nar", url:"https://sonar.es/en", hook:"The Prodigy, Dom Dolla, Charlotte de Witte, Boys Noize â SÃ³nar at Fira Gran Via Jun 18â20 + OFFSÃ³nar week.", score:9.0, hidden_gem:false },
+  { id:"paradise-city-bru-jun26-28", name:"Paradise City Festival 2026", organizer:"Paradise City", date:"2026-06-26", time:"12:00", endTime:"23:59", city:"Perk (Brussels)", venue:"Ribaucourt Castle, Perk", category:"music", subcategory:"festival Â· sustainable Â· house Â· techno", cost:"?", source:"Resident Advisor", url:"https://ra.co/festivals/be", hook:"Sustainability-focused castle festival north of Brussels â refined house/techno crowd, conscious festival vibe.", score:8.4, hidden_gem:false }
 ];
+// âââââââââââââââââââââââââââââââââââââââââââââââââââ
+// DATA_END
+// âââââââââââââââââââââââââââââââââââââââââââââââââââ
 
+// ââ Data loader â fetches event_board_data.json from the same origin ââ
+// Renders immediately with embedded data, then re-renders if fresh JSON loads.
+async function loadEventData() {
+  try {
+    const res = await fetch('event_board_data.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if (data.events?.length)    EVENTS    = data.events;
+    if (data.lookahead?.length) LOOKAHEAD = data.lookahead;
+    if (data.last_scan)  LAST_SCAN  = data.last_scan;
+    if (data.week_start) WEEK_START = data.week_start;
+    if (data.week_end)   WEEK_END   = data.week_end;
+    if (data.today)      TODAY      = data.today;
+    renderAll(); // re-render with fresh JSON data
+  } catch(e) {
+    console.warn("event_board_data.json load failed â keeping embedded data:", e.message);
+  }
+}
+
+// ââ State ââ
 const STORE_KEY = "event-board-state-v1";
 const state = (() => { try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch(e) { return {}; } })();
 state.saves   = state.saves   || {};
 state.filters = state.filters || { city:"all", cat:"all", freeOnly:false, gemsOnly:false, savedOnly:false };
 function persist() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch(e) {} }
 
+// ââ Helpers ââ
+const DOWS      = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const FULL_DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const isoToFullDay = iso => FULL_DAYS[new Date(iso+"T12:00:00").getDay()];
 const prettyDate   = iso => new Date(iso+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"});
 const scoreClass   = s  => s>=9?"s9":s>=8?"s8":s>=7?"s7":s>=6?"s6":"";
 
+// Cities that have their own dedicated filter pill (so "Belgium" should exclude them)
+const NON_BELGIUM_CITIES = new Set(["Barcelona","Amsterdam","Antwerp"]);
+
 function passesFilter(ev) {
   const f = state.filters;
-  if (f.city!=="all" && ev.city!==f.city) return false;
+  if (f.city === "Belgium") {
+    // Belgium filter: catch Brussels, Ghent, Vilvoorde, Houthalen-Helchteren, Perk, etc.
+    // Exclude any city that has its own named filter pill
+    if (NON_BELGIUM_CITIES.has(ev.city)) return false;
+  } else if (f.city!=="all" && ev.city!==f.city) return false;
   if (f.cat!=="all"  && ev.category!==f.cat) return false;
   if (f.freeOnly  && !/free/i.test(ev.cost)) return false;
   if (f.gemsOnly  && !ev.hidden_gem) return false;
@@ -257,6 +272,7 @@ function downloadIcs(ev) {
   document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(a.href);
 }
 
+// ââ Card builders ââ
 function eventCard(ev) {
   const saveState = state.saves[ev.id];
   const card = document.createElement("div");
@@ -267,8 +283,8 @@ function eventCard(ev) {
       <span class="score-badge ${scoreClass(ev.score)}">${ev.score.toFixed(1)}</span>
     </div>
     <div class="event-meta">
-      <div class="row"><strong>${ev.time}</strong> · ${ev.venue} · ${ev.city}</div>
-      <div class="row">${ev.organizer} · ${ev.cost} · <em>${ev.source}</em></div>
+      <div class="row"><strong>${ev.time}</strong> Â· ${ev.venue} Â· ${ev.city}</div>
+      <div class="row">${ev.organizer} Â· ${ev.cost} Â· <em>${ev.source}</em></div>
     </div>
     <div class="badge-row">
       <span class="cat-badge cat-${ev.category}">${ev.subcategory||ev.category}</span>
@@ -279,9 +295,9 @@ function eventCard(ev) {
       <a class="btn primary" href="${googleCalUrl(ev)}" target="_blank" rel="noopener">+ Google</a>
       <button class="btn ics-btn">+ .ics</button>
       <span style="flex:1"></span>
-      <button class="btn save interested ${saveState==="interested"?"active":""}" data-save="interested">★</button>
+      <button class="btn save interested ${saveState==="interested"?"active":""}" data-save="interested">â</button>
       <button class="btn save maybe ${saveState==="maybe"?"active":""}" data-save="maybe">~</button>
-      <button class="btn save ${saveState==="going"?"active":""}" data-save="going">✓</button>
+      <button class="btn save ${saveState==="going"?"active":""}" data-save="going">â</button>
     </div>`;
   card.querySelector(".ics-btn").addEventListener("click",()=>downloadIcs(ev));
   card.querySelectorAll("[data-save]").forEach(btn=>btn.addEventListener("click",()=>{
@@ -296,20 +312,21 @@ function pickCard(ev, rank) {
   const c = document.createElement("div");
   c.className = "pick-card";
   c.innerHTML = `
-    <div class="rank">#${rank} · ${ev.score.toFixed(1)}</div>
-    <div class="pick-day">${isoToFullDay(ev.date)} ${prettyDate(ev.date)} · ${ev.time}</div>
+    <div class="rank">#${rank} Â· ${ev.score.toFixed(1)}</div>
+    <div class="pick-day">${isoToFullDay(ev.date)} ${prettyDate(ev.date)} Â· ${ev.time}</div>
     <div class="pick-name">${ev.name}</div>
-    <div class="pick-meta">${ev.venue} · ${ev.city} · ${ev.cost}</div>
+    <div class="pick-meta">${ev.venue} Â· ${ev.city} Â· ${ev.cost}</div>
     <div class="pick-hook">${ev.hook}</div>
     <div class="pick-actions">
       <a class="btn primary" href="${googleCalUrl(ev)}" target="_blank" rel="noopener">+ Google</a>
       <button class="btn ics-btn">+ .ics</button>
-      <a class="btn" href="${ev.url}" target="_blank" rel="noopener">Open source ↗</a>
+      <a class="btn" href="${ev.url}" target="_blank" rel="noopener">Open source â</a>
     </div>`;
   c.querySelector(".ics-btn").addEventListener("click",()=>downloadIcs(ev));
   return c;
 }
 
+// ââ Render ââ
 function renderPicks() {
   const grid = document.getElementById("picks-grid");
   grid.innerHTML = "";
@@ -339,7 +356,7 @@ function renderWeek() {
 function renderLookahead() {
   const fg=document.getElementById("lookahead-festivals"),og=document.getElementById("lookahead-board");
   fg.innerHTML=""; og.innerHTML="";
-  const isFest=ev=>/festival/i.test(ev.subcategory||"");
+  const isFest=ev=>/festival/i.test(ev.subcategory||"")||ev.is_festival;
   const sorted=[...LOOKAHEAD].sort((a,b)=>a.date.localeCompare(b.date));
   const fests=sorted.filter(isFest), others=sorted.filter(ev=>!isFest(ev));
   fests.forEach(ev=>fg.appendChild(eventCard(ev))); others.forEach(ev=>og.appendChild(eventCard(ev)));
@@ -356,15 +373,17 @@ function renderFilters() {
 function renderAll() {
   renderFilters(); renderPicks(); renderWeek(); renderLookahead();
   document.getElementById("last-scan").textContent=LAST_SCAN;
-  document.getElementById("event-count").textContent=`${EVENTS.length} events · ${LOOKAHEAD.length} upcoming`;
+  document.getElementById("event-count").textContent=`${EVENTS.length} events Â· ${LOOKAHEAD.length} upcoming`;
 }
 
+// ââ Filter wiring ââ
 document.querySelectorAll(".pill.city").forEach(p=>p.addEventListener("click",()=>{state.filters.city=p.dataset.city;persist();renderAll();}));
 document.querySelectorAll(".pill.cat").forEach(p=>p.addEventListener("click",()=>{state.filters.cat=p.dataset.cat;persist();renderAll();}));
 document.querySelectorAll(".pill.toggle").forEach(p=>p.addEventListener("click",()=>{const k=p.dataset.toggle;state.filters[k]=!state.filters[k];persist();renderAll();}));
 document.getElementById("clear-filters").addEventListener("click",()=>{state.filters={city:"all",cat:"all",freeOnly:false,gemsOnly:false,savedOnly:false};persist();renderAll();});
 
-renderAll();
+renderAll();      // immediate render with embedded data
+loadEventData();  // async: re-renders if fresh JSON is available
 </script>
 </body>
 </html>
