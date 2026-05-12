@@ -394,7 +394,7 @@ function pickCard(ev, rank) {
 function renderPicks() {
   const grid = document.getElementById("picks-grid");
   grid.innerHTML = "";
-  const top = [...EVENTS].filter(passesFilter).sort((a,b)=>b.score-a.score).slice(0,5);
+  const top = [...EVENTS].filter(ev => !ev.prymal && passesFilter(ev)).sort((a,b)=>b.score-a.score).slice(0,5);
   if (!top.length) { grid.innerHTML='<div class="empty">No events match your filters.</div>'; document.getElementById("picks-count").textContent="(0)"; return; }
   top.forEach((ev,i)=>grid.appendChild(pickCard(ev,i+1)));
   document.getElementById("picks-count").textContent=`(top ${top.length})`;
@@ -403,7 +403,7 @@ function renderPicks() {
 function renderWeek() {
   const board = document.getElementById("weekly-board");
   board.innerHTML = "";
-  const filtered = EVENTS.filter(passesFilter);
+  const filtered = EVENTS.filter(ev => !ev.prymal && passesFilter(ev));
   document.getElementById("week-count").textContent=`(${filtered.length} of ${EVENTS.length})`;
   const days=[], start=new Date(WEEK_START+"T12:00:00");
   for(let i=0;i<7;i++){const d=new Date(start);d.setDate(start.getDate()+i);days.push(d.toISOString().slice(0,10));}
