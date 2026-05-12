@@ -452,8 +452,7 @@ function renderFilters() {
 // ── Subhead: computed from actual first/last event date in EVENTS ──
 function renderSubhead() {
   if (!EVENTS.length) return;
-  const dates = EVENTS.filter(e => e.date >= TODAY).map(e => e.date).sort();
-  if (!dates.length) return; // all events are in the past
+  const dates = EVENTS.map(e => e.date).sort();
   const firstIso = dates[0];
   const lastIso  = dates[dates.length - 1];
   const fmtFull  = iso => new Date(iso+"T12:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
