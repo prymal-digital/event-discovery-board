@@ -9,27 +9,42 @@
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif; color: #1a1a1a; background: #fafaf7; line-height: 1.45; font-size: 14px; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 20px 22px 80px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif; color: #1a1a1a; background: #0a0612; line-height: 1.45; font-size: 14px; }
+  body {
+    background-image: url('https://images.unsplash.com/photo-1506157786151-b8491531f063?w=1920&q=80');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(160deg, rgba(8,6,18,0.62) 0%, rgba(20,12,30,0.58) 100%);
+    z-index: 0;
+    pointer-events: none;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 20px 22px 80px; position: relative; z-index: 1; }
   .hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 6px; }
-  .hero h1 { font-size: 26px; line-height: 1.15; margin: 0 0 4px; letter-spacing: -0.01em; font-weight: 700; }
-  .hero .subhead { color: #666; font-size: 13.5px; margin: 0; }
-  .hero .meta { font-size: 12px; color: #888; text-align: right; }
-  .hero .meta strong { color: #444; font-weight: 600; }
+  .hero h1 { font-size: 26px; line-height: 1.15; margin: 0 0 4px; letter-spacing: -0.01em; font-weight: 700; color: #fff; }
+  .hero .subhead { color: rgba(255,255,255,0.65); font-size: 13.5px; margin: 0; }
+  .hero .meta { font-size: 12px; color: rgba(255,255,255,0.55); text-align: right; }
+  .hero .meta strong { color: rgba(255,255,255,0.85); font-weight: 600; }
   .section { margin-top: 28px; }
-  .section h2 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #888; border-bottom: 1px solid #e6e3dc; padding-bottom: 6px; margin: 0 0 14px; }
-  .section h2 .count { color: #b8b2a4; font-weight: 500; margin-left: 6px; }
-  .filters { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; padding: 10px 12px; background: #fff; border: 1px solid #ece7dd; border-radius: 10px; margin-bottom: 18px; }
-  .filters .label { font-size: 11.5px; color: #888; text-transform: uppercase; letter-spacing: 0.06em; margin-right: 4px; }
-  .pill { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: #f3efe6; border: 1px solid transparent; color: #555; border-radius: 999px; font-size: 12px; cursor: pointer; user-select: none; transition: all 0.12s; }
-  .pill:hover { background: #ece7d9; }
-  .pill.active { background: #1a1a1a; color: #fff; }
-  .pill.toggle.active { background: #6b5b3e; }
-  .filters .divider { width: 1px; height: 18px; background: #e6e3dc; margin: 0 4px; }
-  .filters .clear { font-size: 11.5px; color: #999; cursor: pointer; padding: 4px 6px; margin-left: auto; }
-  .filters .clear:hover { color: #444; }
+  .section h2 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.55); border-bottom: 1px solid rgba(255,255,255,0.12); padding-bottom: 6px; margin: 0 0 14px; }
+  .section h2 .count { color: rgba(255,255,255,0.35); font-weight: 500; margin-left: 6px; }
+  .filters { display: flex; flex-direction: column; gap: 8px; padding: 10px 12px; background: rgba(255,255,255,0.10); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.15); border-radius: 10px; margin-bottom: 18px; }
+  .filter-row { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; }
+  .filters .label { font-size: 11.5px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.06em; margin-right: 4px; }
+  .pill { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18); color: rgba(255,255,255,0.75); border-radius: 999px; font-size: 12px; cursor: pointer; user-select: none; transition: all 0.12s; }
+  .pill:hover { background: rgba(255,255,255,0.22); }
+  .pill.active { background: rgba(255,255,255,0.92); color: #1a1a1a; }
+  .pill.toggle.active { background: #D4850A; color: #fff; border-color: #D4850A; }
+  .filters .divider { width: 1px; height: 18px; background: rgba(255,255,255,0.18); margin: 0 4px; }
+  .filters .clear { font-size: 11.5px; color: rgba(255,255,255,0.4); cursor: pointer; padding: 4px 6px; margin-left: auto; }
+  .filters .clear:hover { color: rgba(255,255,255,0.9); }
   .picks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
-  .pick-card { background: linear-gradient(180deg,#fff 0%,#fdfaf1 100%); border: 1px solid #e6dfca; border-radius: 12px; padding: 14px 16px; position: relative; overflow: hidden; }
+  .pick-card { background: #fff; border: 1px solid #e8e3d8; border-radius: 12px; padding: 14px 16px; position: relative; overflow: hidden; }
   .pick-card .rank { position: absolute; top: 10px; right: 12px; font-size: 11px; font-weight: 700; color: #b89647; background: #fff5dc; padding: 2px 8px; border-radius: 999px; }
   .pick-card .pick-day { font-size: 11.5px; color: #b89647; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
   .pick-card .pick-name { font-size: 15px; font-weight: 600; margin: 4px 0 6px; line-height: 1.25; padding-right: 40px; }
@@ -38,16 +53,16 @@
   .pick-card .pick-actions { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
   .day-group { margin-bottom: 18px; }
   .day-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; padding-bottom: 4px; }
-  .day-header .dow { font-size: 13px; font-weight: 700; color: #1a1a1a; text-transform: uppercase; letter-spacing: 0.06em; }
-  .day-header .date { font-size: 12px; color: #888; }
+  .day-header .dow { font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.9); text-transform: uppercase; letter-spacing: 0.06em; }
+  .day-header .date { font-size: 12px; color: rgba(255,255,255,0.45); }
   .day-header.today .dow { color: #6b8e3d; }
   .day-header.today::after { content: "TODAY"; font-size: 10px; font-weight: 700; color: #6b8e3d; background: #ecf3df; padding: 2px 6px; border-radius: 4px; letter-spacing: 0.06em; }
-  .day-empty { font-size: 12.5px; color: #b8b2a4; font-style: italic; padding: 6px 0 12px; }
+  .day-empty { font-size: 12.5px; color: rgba(255,255,255,0.35); font-style: italic; padding: 6px 0 12px; }
   .events { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 10px; }
-  .event-card { background: #fff; border: 1px solid #ece7dd; border-radius: 10px; padding: 12px 14px; transition: all 0.12s; display: flex; flex-direction: column; }
+  .event-card { background: #fff; border: 1px solid #e8e3d8; border-radius: 10px; padding: 12px 14px; transition: all 0.12s; display: flex; flex-direction: column; }
   .event-card:hover { border-color: #d8d1bc; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
-  .event-card.gem { border-color: #d4c8a3; background: linear-gradient(180deg,#fff 0%,#fdfbf3 100%); }
-  .event-card.saved-going { border-color: #6b8e3d; background: linear-gradient(180deg,#fff 0%,#f4f8eb 100%); }
+  .event-card.gem { border-color: #d4c8a3; background: #fff; }
+  .event-card.saved-going { border-color: #6b8e3d; background: #fff; }
   .event-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
   .event-title { font-size: 14.5px; font-weight: 600; line-height: 1.25; margin: 0; }
   .event-title a { color: inherit; text-decoration: none; }
@@ -75,15 +90,18 @@
   .btn.save.active { background: #6b8e3d; color: #fff; }
   .btn.save.maybe.active { background: #c9b67a; color: #fff; }
   .btn.save.interested.active { background: #5b7da8; color: #fff; }
-  .lookahead .event-card { background: #fbfaf6; opacity: 0.92; }
-  .empty { text-align: center; padding: 40px 20px; color: #999; font-size: 13px; background: #fff; border: 1px dashed #e6e3dc; border-radius: 10px; }
-  .footnote { margin-top: 32px; font-size: 11.5px; color: #aaa; text-align: center; padding-top: 18px; border-top: 1px solid #ece7dd; }
+  .lookahead .event-card { background: #fff; }
+  .empty { text-align: center; padding: 40px 20px; color: rgba(255,255,255,0.45); font-size: 13px; background: rgba(255,255,255,0.06); border: 1px dashed rgba(255,255,255,0.15); border-radius: 10px; }
+  .footnote { margin-top: 32px; font-size: 11.5px; color: rgba(255,255,255,0.35); text-align: center; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.1); }
   /* ── PRYMAL events ── */
   .prymal-section h2 { color: #9a6200; border-bottom-color: #e8c97a; }
   .prymal-section h2 .count { color: #c9a030; }
-  .event-card.prymal { border-color: #e0a820; border-left: 3px solid #D4850A; background: linear-gradient(135deg, rgba(212,133,10,0.05) 0%, #fff 60%); }
+  .event-card.prymal { border-color: #e0a820; border-left: 3px solid #D4850A; background: #fff; }
   .event-card.prymal:hover { border-color: #D4850A; box-shadow: 0 2px 8px rgba(212,133,10,0.12); }
   .prymal-badge { font-size: 9.5px; font-weight: 700; color: #7a4800; background: #ffeab8; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.07em; white-space: nowrap; border: 1px solid #e0a820; }
+  .powered-by { text-align: center; padding: 32px 0 8px; font-size: 11.5px; color: rgba(255,255,255,0.3); letter-spacing: 0.04em; }
+  .powered-by a { color: rgba(255,255,255,0.45); text-decoration: none; font-weight: 600; transition: color 0.15s; }
+  .powered-by a:hover { color: #D4850A; }
   @media (max-width: 600px) { .hero h1 { font-size: 20px; } .picks-grid, .events { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -92,7 +110,7 @@
   <header class="hero">
     <div>
       <h1>Where should I be this week?</h1>
-      <p class="subhead" id="subhead">Fri May 8 — Thu May 14, 2026 · Barcelona · Amsterdam · Antwerp · Belgium</p>
+      <p class="subhead" id="subhead">Loading…</p>
     </div>
     <div class="meta">
       <div>Last scan: <strong id="last-scan">—</strong></div>
@@ -102,24 +120,27 @@
 
   <section class="section" style="margin-top:18px;">
     <div class="filters" id="filters">
-      <span class="label">City</span>
-      <span class="pill city active" data-city="all">All</span>
-      <span class="pill city" data-city="Barcelona">Barcelona</span>
-      <span class="pill city" data-city="Amsterdam">Amsterdam</span>
-      <span class="pill city" data-city="Antwerp">Antwerp</span>
-      <span class="pill city" data-city="Belgium">Belgium</span>
-      <span class="divider"></span>
-      <span class="label">Category</span>
-      <span class="pill cat active" data-cat="all">All</span>
-      <span class="pill cat" data-cat="wellness">Wellness</span>
-      <span class="pill cat" data-cat="music">Music</span>
-      <span class="pill cat" data-cat="networking">Networking</span>
-      <span class="pill cat" data-cat="community">Community</span>
-      <span class="divider"></span>
-      <span class="pill toggle" data-toggle="freeOnly">Free only</span>
-      <span class="pill toggle" data-toggle="gemsOnly">Hidden gems</span>
-      <span class="pill toggle" data-toggle="savedOnly">Saved only</span>
-      <span class="clear" id="clear-filters">reset</span>
+      <div class="filter-row">
+        <span class="label">City</span>
+        <span class="pill city active" data-city="all">All</span>
+        <span class="pill city" data-city="Barcelona">Barcelona</span>
+        <span class="pill city" data-city="Amsterdam">Amsterdam</span>
+        <span class="pill city" data-city="Antwerp">Antwerp</span>
+        <span class="pill city" data-city="Belgium">Belgium</span>
+      </div>
+      <div class="filter-row">
+        <span class="label">Type</span>
+        <span class="pill cat active" data-cat="all">All</span>
+        <span class="pill cat" data-cat="wellness">Wellness</span>
+        <span class="pill cat" data-cat="music">Music</span>
+        <span class="pill cat" data-cat="networking">Networking</span>
+        <span class="pill cat" data-cat="community">Community</span>
+        <span class="divider"></span>
+        <span class="pill toggle" data-toggle="freeOnly">Free only</span>
+        <span class="pill toggle" data-toggle="gemsOnly">Hidden gems</span>
+        <span class="pill toggle" data-toggle="savedOnly">Saved only</span>
+        <span class="clear" id="clear-filters">reset</span>
+      </div>
     </div>
   </section>
 
@@ -150,18 +171,18 @@
 
   <div class="footnote">
     Sources: Eventbrite · Meetup · Resident Advisor · Luma · Hipsy · AllEvents · venue sites · IG.
-    Save state stored locally. Refreshed daily by scheduled scan.
-  </div>
+    Save state stored locally. Refreshed weekly by scheduled scan.
+  <footer class="powered-by">Powered by <a href="https://www.prymal.world/?utm_source=event+board&utm_medium=webpage&utm_campaign=Event+Discovery+Board" target="_blank" rel="noopener">PRYMAL</a></footer>
 </div>
 
 <script>
 // ═══════════════════════════════════════════════════
 // DATA — loaded at runtime from event_board_data.json
 // ═══════════════════════════════════════════════════
-let LAST_SCAN  = "2026-05-08";
+let LAST_SCAN  = "May 10, 2026";
 let WEEK_START = "2026-05-08";
 let WEEK_END   = "2026-05-14";
-let TODAY      = "2026-05-08";
+const TODAY = new Date().toLocaleDateString("en-CA"); // always the real today, not scan date
 
 let EVENTS = [
   { id:"moog-monraker-bcn-may08", name:"Moog Club: Villarosa w/ Monraker", organizer:"Moog Barcelona", date:"2026-05-08", time:"00:00", endTime:"06:00", city:"Barcelona", venue:"Moog Club", category:"music", subcategory:"underground techno / house", cost:"€10", source:"Songkick", url:"https://moogbarcelona.com", hook:"Barcelona's legendary underground two-floor club — nightly sessions since 1996, low ceiling, serious music.", score:7, hidden_gem:false, reasons:["alignment","uniqueness"] },
@@ -196,7 +217,17 @@ let EVENTS = [
   { id:"ecstatic-dance-kaap-ams-may12", name:"Ecstatic Dance Amsterdam @ KAAP — Tuesday Session", organizer:"Ecstatic Dance Amsterdam", date:"2026-05-12", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"KAAP Amsterdam (IJdijk 10)", category:"wellness", subcategory:"ecstatic dance · weekly", cost:"?", source:"Ecstatic Dance Amsterdam", url:"https://www.ecstaticdanceamsterdam.com/", hook:"Weekly Tuesday freeform movement at KAAP — Amsterdam's most consistent mid-week ecstatic dance.", score:7.6, hidden_gem:true, reasons:["alignment","community"] },
   { id:"horst-festival-vilvoorde-may14-16", name:"Horst Arts & Music Festival 2026 — Opens Today", organizer:"Horst Arts & Music", date:"2026-05-14", time:"12:00", endTime:"23:59", city:"Vilvoorde", venue:"Asiat Park, Vilvoorde (north of Brussels)", category:"music", subcategory:"festival · 3-day · electronic + arts", cost:"SOLD OUT (Ticketswap)", source:"Resident Advisor / Horst", url:"https://www.horstartsandmusic.com/festival", hook:"Thu–Sat May 14–16. 120+ artists: Daphni, Todd Edwards, Call Super & Parris, Barker live, Stacey Hotwaxx Hale. Belgium's most cerebral festival. Chase resale.", score:9.5, hidden_gem:false, reasons:["audience","alignment","uniqueness","inspiration"] },
   { id:"social-capital-bru-may14", name:"Social Capital Brussels — Networking Evening", organizer:"Social Capital Brussels", date:"2026-05-14", time:"18:00", endTime:"21:00", city:"Brussels", venue:"Château Moderne, Brussels", category:"networking", subcategory:"comms · marketing · founders", cost:"free", source:"Social Capital", url:"https://social-capital.community/", hook:"100+ comms/marketing pros across EU policy + B2B — strong founder-adjacent Brussels room. Free.", score:7.4, hidden_gem:false, reasons:["networking","audience"] },
-  { id:"vaag-afterparty-anr-may14", name:"Vaag Outdoor Afterparty — NØNAME · BP-EM · LEXI · ACNAM", organizer:"Club Vaag", date:"2026-05-14", time:"23:00", endTime:"06:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"techno / club / afterparty", cost:"TBA", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"Afterparty continuation of Vaag Outdoor — NØNAME, BP-EM, LEXI & ACNAM at Club Vaag on Thursday night.", score:7.8, hidden_gem:false, reasons:["audience","alignment"] }
+  { id:"vaag-afterparty-anr-may14", name:"Vaag Outdoor Afterparty — NØNAME · BP-EM · LEXI · ACNAM", organizer:"Club Vaag", date:"2026-05-14", time:"23:00", endTime:"06:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"techno / club / afterparty", cost:"TBA", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"Afterparty continuation of Vaag Outdoor — NØNAME, BP-EM, LEXI & ACNAM at Club Vaag on Thursday night.", score:7.8, hidden_gem:false, reasons:["audience","alignment"] },
+  { id:"ecstatic-dance-kaap-ams-may12", name:"Ecstatic Dance Amsterdam @ KAAP — Tuesday Session", organizer:"Ecstatic Dance Amsterdam", date:"2026-05-12", time:"19:30", endTime:"22:00", city:"Amsterdam", venue:"KAAP Amsterdam (IJdijk 10)", category:"wellness", subcategory:"ecstatic dance · weekly", cost:"?", source:"Ecstatic Dance Amsterdam", url:"https://www.ecstaticdanceamsterdam.com/", hook:"Weekly Tuesday freeform movement at KAAP — Amsterdam's most consistent mid-week ecstatic dance.", score:7.6, hidden_gem:true, reasons:["alignment","community"] },
+  { id:"odessa-ecstatic-ruby-may13", name:"Ecstatic Dance @ Odessa with Ruby", organizer:"Odessa Amsterdam", date:"2026-05-13", time:"20:00", endTime:"23:00", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance · Wednesday", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Wednesday ecstatic with Ruby — same facilitator from the Friday cacao edition, mid-week presence reset.", score:7.8, hidden_gem:true, reasons:["alignment","community"] },
+  { id:"odessa-ecstatic-yarun-may14", name:"Ecstatic Dance @ Odessa with Yarun Dee", organizer:"Odessa Amsterdam", date:"2026-05-14", time:"20:00", endTime:"23:00", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance · Thursday", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Thursday ecstatic with Yarun Dee — solid pre-weekend movement session on the Odessa boat.", score:7.5, hidden_gem:true, reasons:["alignment","community"] },
+  { id:"ai-tinkerers-bcn-may15", name:"AI Tinkerers Barcelona — Builders Meetup", organizer:"AI Tinkerers Barcelona", date:"2026-05-15", time:"19:00", endTime:"22:00", city:"Barcelona", venue:"TBA, Barcelona", category:"networking", subcategory:"AI · builders only · live demos", cost:"free", source:"AI Tinkerers", url:"https://barcelona.aitinkerers.org/", hook:"No slides, no pitches — live code demos only. Highest-signal AI room in BCN. Free.", score:8.6, hidden_gem:true, reasons:["networking","alignment","audience"] },
+  { id:"odessa-cacao-yona-may15", name:"Cacao Ecstatic Dance @ Odessa with Yona", organizer:"Odessa Amsterdam", date:"2026-05-15", time:"20:00", endTime:"23:30", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance · cacao · Friday", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Friday cacao ceremony + ecstatic dance with Yona — the cacao edition runs deeper; full-presence alternative to the club.", score:8.2, hidden_gem:true, reasons:["alignment","uniqueness","inspiration"] },
+  { id:"ai-engineers-bcn-may15", name:"AI Engineers Barcelona — Weekly Meetup", organizer:"AI Engineers Barcelona", date:"2026-05-15", time:"19:00", endTime:"22:00", city:"Barcelona", venue:"Alice Secret Garden, Pau Claris 90, L'Eixample", category:"networking", subcategory:"AI · builder community · weekly", cost:"free", source:"Meetup", url:"https://www.meetup.com/ai-engineers-barcelona/", hook:"Recurring Friday gathering of BCN's AI builders — technical, high-signal, free.", score:7.5, hidden_gem:false, reasons:["networking","alignment","audience"] },
+  { id:"christian-loffler-vaag-may16", name:"Christian Löffler — Live @ Club Vaag", organizer:"Club Vaag", date:"2026-05-16", time:"20:00", endTime:"00:00", city:"Antwerp", venue:"Club Vaag, Antwerp", category:"music", subcategory:"live · electronic · intimate", cost:"?", source:"Club Vaag", url:"https://www.clubvaag.be/agenda", hook:"Christian Löffler live at Vaag — intimate venue, deeply emotive electronic music. Confirmed May 16.", score:8.5, hidden_gem:false, reasons:["uniqueness","alignment","inspiration"] },
+  { id:"ecstatic-dance-bcn-institutintegratiu-may16", name:"Ecstatic Dance Barcelona @ Institut Integratiu — DJ Albert Pala", organizer:"Ecstatic Dance Barcelona", date:"2026-05-16", time:"18:15", endTime:"21:00", city:"Barcelona", venue:"Institut Integratiu, C/ Valencia 665", category:"wellness", subcategory:"ecstatic dance · end of season", cost:"€15 (cash)", source:"ecstaticdancebarcelona.com", url:"https://ecstaticdancebarcelona.com/sesion-barcelona/", hook:"Last session of the season at Institut Integratiu — DJ Albert Pala. End-of-season editions carry extra energy; people show up fully.", score:8.0, hidden_gem:true, reasons:["alignment","uniqueness","community"] },
+  { id:"odessa-ecstatic-leela-may16", name:"Ecstatic Journey @ Odessa with Leela", organizer:"Odessa Amsterdam", date:"2026-05-16", time:"19:00", endTime:"22:30", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance · Saturday · boat", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Saturday Ecstatic Journey with Leela on the Odessa boat — the conscious alternative to club Saturday.", score:7.8, hidden_gem:true, reasons:["alignment","uniqueness","community"] },
+  { id:"odessa-morning-ladyjoker-may17", name:"Morning Ecstatic Dance @ Odessa with Lady Joker", organizer:"Odessa Amsterdam", date:"2026-05-17", time:"10:00", endTime:"13:00", city:"Amsterdam", venue:"Odessa Boat, Amsterdam-Oost", category:"wellness", subcategory:"ecstatic dance · morning · Sunday", cost:"?", source:"Odessa Amsterdam", url:"https://www.odessa.amsterdam/", hook:"Sunday morning ecstatic with Lady Joker — perfect weekly reset to close the weekend.", score:7.5, hidden_gem:true, reasons:["alignment","community"] },
 ];
 
 let LOOKAHEAD = [
@@ -233,7 +264,6 @@ async function loadEventData() {
     if (data.last_scan)  LAST_SCAN  = data.last_scan;
     if (data.week_start) WEEK_START = data.week_start;
     if (data.week_end)   WEEK_END   = data.week_end;
-    if (data.today)      TODAY      = data.today;
     renderAll(); // re-render with fresh JSON data
   } catch(e) {
     console.warn("event_board_data.json load failed — keeping embedded data:", e.message);
@@ -319,7 +349,7 @@ function eventCard(ev) {
     </div>
     <div class="event-meta">
       <div class="row"><strong>${isoToFullDay(ev.date)} ${prettyDate(ev.date)} · ${ev.time}</strong> · ${ev.venue} · ${ev.city}</div>
-      <div class="row">${ev.organizer} · ${ev.cost} · <em>${ev.source}</em></div>
+      ${ev.prymal?"":'<div class="row">'+ev.organizer+' · '+ev.cost+' · <em>'+ev.source+'</em></div>'}
     </div>
     <div class="badge-row">
       <span class="cat-badge cat-${ev.category}">${ev.subcategory||ev.category}</span>
@@ -404,7 +434,8 @@ function renderLookahead() {
   const fg=document.getElementById("lookahead-festivals"),og=document.getElementById("lookahead-board");
   fg.innerHTML=""; og.innerHTML="";
   const isFest=ev=>/festival/i.test(ev.subcategory||"")||ev.is_festival;
-  const sorted=[...LOOKAHEAD].sort((a,b)=>a.date.localeCompare(b.date));
+  const cityMatch=ev=>{const f=state.filters,c=ev.city;if(f.city==="Belgium")return !NON_BELGIUM_CITIES.has(c);if(f.city!=="all")return c===f.city;return true;};
+  const sorted=[...LOOKAHEAD].filter(cityMatch).sort((a,b)=>a.date.localeCompare(b.date));
   const fests=sorted.filter(isFest), others=sorted.filter(ev=>!isFest(ev));
   fests.forEach(ev=>fg.appendChild(eventCard(ev))); others.forEach(ev=>og.appendChild(eventCard(ev)));
   document.getElementById("festivals-count").textContent=`(${fests.length})`;
@@ -417,7 +448,30 @@ function renderFilters() {
   document.querySelectorAll(".pill.toggle").forEach(p=>p.classList.toggle("active",!!state.filters[p.dataset.toggle]));
 }
 
+
+// ── Subhead: computed from actual first/last event date in EVENTS ──
+function renderSubhead() {
+  if (!EVENTS.length) return;
+  const dates = EVENTS.map(e => e.date).sort();
+  const firstIso = dates[0];
+  const lastIso  = dates[dates.length - 1];
+  const fmtFull  = iso => new Date(iso+"T12:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
+  const fmtShort = iso => new Date(iso+"T12:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
+  const firstD = new Date(firstIso+"T12:00:00");
+  const lastD  = new Date(lastIso+"T12:00:00");
+  let range;
+  if (firstIso === lastIso) {
+    range = fmtFull(firstIso);
+  } else if (firstD.getFullYear() === lastD.getFullYear()) {
+    range = fmtShort(firstIso) + " — " + fmtFull(lastIso);
+  } else {
+    range = fmtFull(firstIso) + " — " + fmtFull(lastIso);
+  }
+  document.getElementById("subhead").textContent = range + " · Barcelona · Amsterdam · Antwerp · Belgium";
+}
+
 function renderAll() {
+  renderSubhead();
   renderFilters(); renderPrymal(); renderPicks(); renderWeek(); renderLookahead();
   document.getElementById("last-scan").textContent=LAST_SCAN;
   document.getElementById("event-count").textContent=`${EVENTS.length} events · ${LOOKAHEAD.length} upcoming`;
