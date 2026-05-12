@@ -303,32 +303,6 @@
       ]
     },
     {
-      "id": "ai-tinkerers-bcn-may15",
-      "name": "AI Tinkerers Barcelona — Builders Meetup",
-      "organizer": "AI Tinkerers",
-      "date": "2026-05-15",
-      "time": "18:30",
-      "endTime": "21:00",
-      "city": "Barcelona",
-      "venue": "TBC Barcelona",
-      "category": "networking",
-      "subcategory": "AI builders meetup",
-      "cost": "Free",
-      "source": "Luma / Meetup",
-      "url": "https://barcelona.aitinkerers.org/",
-      "hook": "Hands-on AI builders meet — demos, experiments, and the people shipping actual AI products in BCN.",
-      "score": 7.5,
-      "hidden_gem": true,
-      "is_festival": false,
-      "prymal": false,
-      "reasons": [
-        "alignment",
-        "networking",
-        "strategic",
-        "uniqueness"
-      ]
-    },
-    {
       "id": "input-fumi-bcn-may15",
       "name": "INPUT pres. FUMI",
       "organizer": "INPUT",
