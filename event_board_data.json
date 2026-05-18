@@ -82,6 +82,30 @@
       ]
     },
     {
+      "id": "trix-phosphorescent-anr-may19",
+      "name": "Phosphorescent + Rich Ruth (live)",
+      "organizer": "Trix Antwerp",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "endTime": "23:00",
+      "city": "Antwerp",
+      "venue": "Trix, Noordersingel 28-30, Antwerp",
+      "category": "music",
+      "subcategory": "indie folk / live concert",
+      "cost": "EUR 25-30",
+      "source": "Trix Antwerp",
+      "url": "https://www.trixonline.be",
+      "hook": "Phosphorescent (Matthew Houck) plays new album Revelator — intimate, etherial indie-folk on a Tuesday at Trix.",
+      "score": 7.6,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "inspiration",
+        "uniqueness"
+      ]
+    },
+    {
       "id": "odessa-wed-ams-may20",
       "name": "Odessa Amsterdam — Wednesday Ecstatic Dance",
       "organizer": "Odessa Amsterdam",
@@ -104,6 +128,30 @@
         "alignment",
         "community",
         "uniqueness"
+      ]
+    },
+    {
+      "id": "macarena-funk-dvoid-bcn-may21",
+      "name": "Macarena Club — Funk D'Void & Friends (Toby Ezby, Deckard)",
+      "organizer": "Macarena Club",
+      "date": "2026-05-21",
+      "time": "00:00",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "Macarena Club, Carrer Nou de Sant Francesc 5",
+      "category": "music",
+      "subcategory": "house / techno",
+      "cost": "EUR 10-15",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/3818",
+      "hook": "Soma Records veteran Funk D'Void plays Barcelona's tiny, beloved Macarena — late-night house in the Gothic Quarter.",
+      "score": 7.3,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "uniqueness",
+        "community"
       ]
     },
     {
@@ -284,6 +332,54 @@
       ]
     },
     {
+      "id": "bret-bubblegum-fish56octagon-ams-may22",
+      "name": "BRET — Bubblegum w/ Fish56Octagon, DJANGO, ESI, Tuff Trax",
+      "organizer": "Bubblegum / BRET",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "06:00",
+      "city": "Amsterdam",
+      "venue": "BRET, Orlyplein 76 (Amsterdam Sloterdijk)",
+      "category": "music",
+      "subcategory": "club / leftfield electro",
+      "cost": "EUR 15-20",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/108549",
+      "hook": "Fish56Octagon headlines Bubblegum at BRET — playful, electro-leaning club night in Amsterdam's industrial west.",
+      "score": 7.3,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "uniqueness",
+        "community"
+      ]
+    },
+    {
+      "id": "radion-mark-broom-ams-may22",
+      "name": "RADION w/ Mark Broom, Carmen Electro, HUJUS",
+      "organizer": "RADION",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Amsterdam",
+      "venue": "RADION, Louwesweg 1, Amsterdam West",
+      "category": "music",
+      "subcategory": "techno",
+      "cost": "EUR 18-22",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/91202",
+      "hook": "British techno veteran Mark Broom headlines RADION — proper UK-flavoured warehouse techno at one of Amsterdam's grittiest rooms.",
+      "score": 8.0,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "inspiration"
+      ]
+    },
+    {
       "id": "nitsa-erol-alkan-bcn-may22",
       "name": "Nitsa Club w/ Erol Alkan · Arnau Obials",
       "organizer": "Nitsa Club",
@@ -307,6 +403,80 @@
         "inspiration",
         "audience",
         "uniqueness"
+      ]
+    },
+    {
+      "id": "laut-answer-code-request-bcn-may22",
+      "name": "LAUT w/ Answer Code Request + DJohnston",
+      "organizer": "LAUT",
+      "date": "2026-05-22",
+      "time": "23:59",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "LAUT, Carrer de Vila i Vilà 63",
+      "category": "music",
+      "subcategory": "techno / Ostgut Ton",
+      "cost": "EUR 18-22",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/129273",
+      "hook": "Berghain resident Answer Code Request brings hypnotic, dub-leaning techno to LAUT — paired with sharp local opener DJohnston.",
+      "score": 8.3,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "inspiration",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "boris-club-tim-engelhardt-bcn-may22",
+      "name": "BORIS CLUB pres. Tim Engelhardt, Andrea Castells & K:ROL",
+      "organizer": "BORIS CLUB",
+      "date": "2026-05-22",
+      "time": "23:59",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "Boris Club Barcelona, Carrer de Bori i Fontestà 25",
+      "category": "music",
+      "subcategory": "melodic house / Innervisions-adjacent",
+      "cost": "EUR 18-25",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/277679",
+      "hook": "Tim Engelhardt (Keinemusik / Lossless) headlines an intimate Boris Club night — melodic, emotive house in Sant Gervasi.",
+      "score": 7.7,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "razzmatazz-raptor-marfox-bcn-may22",
+      "name": "The Raptor Residency: DJ Marfox + Nídia + Kontronatura + DJ BabaTR & Tekilatex + DJ Deep RH",
+      "organizer": "Razzmatazz",
+      "date": "2026-05-22",
+      "time": "23:59",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "Sala Razzmatazz, Carrer dels Almogàvers 122",
+      "category": "music",
+      "subcategory": "kuduro / batida / Príncipe sound",
+      "cost": "EUR 18-25",
+      "source": "Razzmatazz",
+      "url": "https://www.salarazzmatazz.com/en/",
+      "hook": "Príncipe Discos heavyweights DJ Marfox and Nídia head The Raptor Residency at Razzmatazz — Lisbon's batida/kuduro sound in full flight.",
+      "score": 8.4,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "uniqueness",
+        "inspiration"
       ]
     },
     {
@@ -439,6 +609,54 @@
       ]
     },
     {
+      "id": "bret-aura-ams-may23",
+      "name": "BRET — AURA w/ Hashashin, Just(e) Alex, MILKA, Prance, RUIZ OSC1",
+      "organizer": "AURA / BRET",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Amsterdam",
+      "venue": "BRET, Orlyplein 76 (Amsterdam Sloterdijk)",
+      "category": "music",
+      "subcategory": "hard / fast techno",
+      "cost": "EUR 18-22",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/108549",
+      "hook": "AURA's roster of fast, hypnotic techno DJs takes over BRET — Hashashin, RUIZ OSC1 and Prance lead a long Saturday.",
+      "score": 7.5,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "uniqueness",
+        "audience"
+      ]
+    },
+    {
+      "id": "shelter-jasper-james-juliana-x-ams-may23",
+      "name": "Shelter Amsterdam w/ Jasper James, Juliana X, Sem Jacobs, Apontow Akyi",
+      "organizer": "Shelter Amsterdam",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "08:00",
+      "city": "Amsterdam",
+      "venue": "Shelter Amsterdam (under the IJ)",
+      "category": "music",
+      "subcategory": "house / techno",
+      "cost": "EUR 22-28",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/124413",
+      "hook": "Jasper James (Numbers, son of Optimo's JD Twitch) joins Sem Jacobs and Juliana X for a long Saturday at Shelter.",
+      "score": 8.1,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "inspiration"
+      ]
+    },
+    {
       "id": "nitsa-efdemin-bcn-may23",
       "name": "Nitsa Club w/ Efdemin · Konduku · DJ Fra",
       "organizer": "Nitsa Club",
@@ -461,6 +679,78 @@
         "alignment",
         "inspiration",
         "uniqueness"
+      ]
+    },
+    {
+      "id": "nacar-club-luz-de-gas-bcn-may23",
+      "name": "Nacar Club curated by Brunch Electronik — Andy Luff, Aline Umber b2b Alci, Brieela, Arista",
+      "organizer": "Brunch Electronik",
+      "date": "2026-05-23",
+      "time": "23:59",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "Luz de Gas, Carrer de Muntaner 246",
+      "category": "music",
+      "subcategory": "house / Brunch Electronik club night",
+      "cost": "EUR 18-25",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/20462",
+      "hook": "Brunch Electronik's weekly Nacar Club takeover at the historic Luz de Gas — high-energy Saturday night curated by Barcelona's biggest open-air promoter.",
+      "score": 7.6,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "audience",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "laut-hiru-occa-marti-cros-bcn-may23",
+      "name": "LAUT — Hiru: OCCA + Martí Cros",
+      "organizer": "Hiru / LAUT",
+      "date": "2026-05-23",
+      "time": "23:59",
+      "endTime": "06:00",
+      "city": "Barcelona",
+      "venue": "LAUT, Carrer de Vila i Vilà 63",
+      "category": "music",
+      "subcategory": "techno / local underground",
+      "cost": "EUR 15-20",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/129273",
+      "hook": "Hiru collective hosts OCCA and Martí Cros for a deep, percussive Saturday at LAUT — one of BCN's best underground rooms.",
+      "score": 7.4,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "community",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "detroit-club-technozulo-blackritual-bcn-may23",
+      "name": "DETROIT CLUB pres. TechnoZulo X BLACKRITUAL",
+      "organizer": "DETROIT CLUB",
+      "date": "2026-05-23",
+      "time": "23:59",
+      "endTime": "07:00",
+      "city": "Barcelona",
+      "venue": "DETROIT CLUB, Passatge Can Polític 13, L'Hospitalet",
+      "category": "music",
+      "subcategory": "techno / industrial",
+      "cost": "EUR 15-20",
+      "source": "Resident Advisor",
+      "url": "https://ra.co/clubs/163338",
+      "hook": "TechnoZulo and BLACKRITUAL collide at DETROIT CLUB — hard-edged techno on Barcelona's industrial fringe.",
+      "score": 7.2,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "alignment",
+        "uniqueness",
+        "community"
       ]
     },
     {
