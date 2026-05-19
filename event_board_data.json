@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-05-18",
+  "last_scan": "2026-05-19",
   "week_start": "2026-05-18",
   "week_end": "2026-05-24",
-  "today": "2026-05-18",
+  "today": "2026-05-19",
   "events": [
     {
       "id": "ai-tinkerers-ams-may19",
@@ -380,6 +380,100 @@
       ]
     },
     {
+      "id": "fuse-brussels-may22",
+      "name": "Fuse Brussels — Lacchesi · Beau Didier · Siren333 · Dali",
+      "organizer": "Fuse Brussels",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Brussels",
+      "venue": "Fuse Brussels, Rue Blaesstraat 208",
+      "category": "music",
+      "subcategory": "techno · house · club",
+      "cost": "€15-25",
+      "source": "Fuse Brussels / RA",
+      "url": "https://www.fuse.be/events",
+      "hook": "Friday at Fuse — Brussels' longest-running techno institution. Solid local bill in Room 01.",
+      "score": 7.8,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment"
+      ]
+    },
+    {
+      "id": "c12-brussels-may22",
+      "name": "C12 Brussels — Shkoon (live)",
+      "organizer": "C12",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "06:00",
+      "city": "Brussels",
+      "venue": "C12, Horta Gallery, near Central Station",
+      "category": "music",
+      "subcategory": "live electronic · Arabic vocals · ambient-techno",
+      "cost": "€?",
+      "source": "C12 / RA",
+      "url": "https://c12space.com/agenda/",
+      "hook": "Shkoon at C12 — Hamburg-via-Damascus duo blending Arabic vocals with deep electronic. A rare Friday in the Horta Gallery underground.",
+      "score": 8.3,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "uniqueness",
+        "alignment",
+        "inspiration"
+      ]
+    },
+    {
+      "id": "garage-noord-ams-may22",
+      "name": "Garage Noord — UNOBSTRUCTED bar40 w/ Khadija Al Hanafi · Meel B · Rozaly · AwA · Candy Coup",
+      "organizer": "Garage Noord",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Amsterdam",
+      "venue": "Garage Noord, Distelweg 87",
+      "category": "music",
+      "subcategory": "club night · experimental · queer",
+      "cost": "€?",
+      "source": "Garage Noord / RA",
+      "url": "https://www.garagenoord.com/club",
+      "hook": "Garage Noord with UNOBSTRUCTED hosting bar40 — eclectic, queer-leaning, Friday at the Distelweg warehouse.",
+      "score": 7.8,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "uniqueness",
+        "alignment",
+        "community"
+      ]
+    },
+    {
+      "id": "tillatec-ams-may22",
+      "name": "TILLATEC — Yuva",
+      "organizer": "TILLATEC",
+      "date": "2026-05-22",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Amsterdam",
+      "venue": "TILLATEC (former De School building)",
+      "category": "music",
+      "subcategory": "techno · club · ex-De School",
+      "cost": "€?",
+      "source": "TILLATEC / RA",
+      "url": "https://ra.co/clubs/232813",
+      "hook": "Yuva at TILLATEC — the new club in the old De School building. Worth checking how the room feels under new management.",
+      "score": 7.5,
+      "hidden_gem": true,
+      "is_festival": false,
+      "reasons": [
+        "uniqueness",
+        "alignment"
+      ]
+    },
+    {
       "id": "nitsa-erol-alkan-bcn-may22",
       "name": "Nitsa Club w/ Erol Alkan · Arnau Obials",
       "organizer": "Nitsa Club",
@@ -584,6 +678,30 @@
       ]
     },
     {
+      "id": "thuishaven-ams-may23",
+      "name": "Thuishaven — Mahmut Orhan · ARYMÉ · Cincity · Nils Hoffmann (SOLD OUT)",
+      "organizer": "Thuishaven",
+      "date": "2026-05-23",
+      "time": "14:00",
+      "endTime": "23:00",
+      "city": "Amsterdam",
+      "venue": "Thuishaven, Contactweg",
+      "category": "music",
+      "subcategory": "open-air · daytime · house",
+      "cost": "SOLD OUT (resale)",
+      "source": "Thuishaven / RA",
+      "url": "https://ra.co/events/2294452",
+      "hook": "Thuishaven daytime open-air with Mahmut Orhan, ARYMÉ, Nils Hoffmann — Saturday in the post-industrial daytime garden setting. Hunt resale.",
+      "score": 8.5,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "uniqueness"
+      ]
+    },
+    {
       "id": "radion-baile-trama-ams-may23",
       "name": "RADION w/ Baile TRAMA — BASSAN & Caio Prince",
       "organizer": "RADION",
@@ -654,6 +772,100 @@
         "audience",
         "alignment",
         "inspiration"
+      ]
+    },
+    {
+      "id": "fuse-brussels-may23",
+      "name": "Fuse Brussels — Natalie Robinson · Dee Diggs · DC Salas · Bendrik",
+      "organizer": "Fuse Brussels",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Brussels",
+      "venue": "Fuse Brussels, Rue Blaesstraat 208",
+      "category": "music",
+      "subcategory": "techno · house · club",
+      "cost": "€15-25",
+      "source": "Fuse Brussels / RA",
+      "url": "https://www.fuse.be/events",
+      "hook": "Saturday at Fuse with Natalie Robinson + Dee Diggs — strong dancer's bill, the right Saturday closer if you're staying in Brussels.",
+      "score": 8.2,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment"
+      ]
+    },
+    {
+      "id": "c12-brussels-may23",
+      "name": "C12 Nite — Schacke · su:zy · Hysope",
+      "organizer": "C12",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Brussels",
+      "venue": "C12, Horta Gallery, near Central Station",
+      "category": "music",
+      "subcategory": "techno · hard · trance",
+      "cost": "€?",
+      "source": "C12 / RA",
+      "url": "https://c12space.com/agenda/",
+      "hook": "C12 Nite with Danish hard-techno regular Schacke + su:zy + Hysope — long Saturday at one of Brussels' best underground rooms.",
+      "score": 8.5,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "garage-noord-ams-may23",
+      "name": "Garage Noord — Lente Kabinet After: Han · Elias Mazian · Stella Zekri · Amz · DJ SWISHA",
+      "organizer": "Garage Noord",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "08:00",
+      "city": "Amsterdam",
+      "venue": "Garage Noord, Distelweg 87",
+      "category": "music",
+      "subcategory": "club · house · festival after",
+      "cost": "€?",
+      "source": "Garage Noord / RA",
+      "url": "https://www.garagenoord.com/club",
+      "hook": "Lente Kabinet's official after with Elias Mazian + DJ SWISHA — the Amsterdam Saturday-night call when you want quality without the festival crowd.",
+      "score": 8.3,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": "tillatec-ams-may23",
+      "name": "TILLATEC — The Planet",
+      "organizer": "TILLATEC",
+      "date": "2026-05-23",
+      "time": "23:00",
+      "endTime": "07:00",
+      "city": "Amsterdam",
+      "venue": "TILLATEC (former De School building)",
+      "category": "music",
+      "subcategory": "techno · club",
+      "cost": "€?",
+      "source": "TILLATEC / RA",
+      "url": "https://ra.co/clubs/232813",
+      "hook": "The Planet at TILLATEC — Saturday techno in the former De School space.",
+      "score": 7.5,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment"
       ]
     },
     {
@@ -852,6 +1064,29 @@
         "inspiration",
         "alignment",
         "community"
+      ]
+    },
+    {
+      "id": "thuishaven-ams-may24",
+      "name": "Thuishaven — KC Lights",
+      "organizer": "Thuishaven",
+      "date": "2026-05-24",
+      "time": "14:00",
+      "endTime": "23:00",
+      "city": "Amsterdam",
+      "venue": "Thuishaven, Contactweg",
+      "category": "music",
+      "subcategory": "open-air · daytime · house",
+      "cost": "€?",
+      "source": "Thuishaven",
+      "url": "https://ra.co/clubs/109027",
+      "hook": "Sunday at Thuishaven with KC Lights — daytime open-air to close the week.",
+      "score": 7.8,
+      "hidden_gem": false,
+      "is_festival": false,
+      "reasons": [
+        "audience",
+        "alignment"
       ]
     },
     {
