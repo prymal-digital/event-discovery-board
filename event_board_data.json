@@ -180,6 +180,31 @@
       ]
     },
     {
+      "id": "antwerp-startup-network-may20",
+      "name": "Antwerp Startup Network \u2014 May Meetup",
+      "organizer": "Antwerp Startup Network",
+      "date": "2026-05-20",
+      "time": "18:30",
+      "endTime": "20:30",
+      "city": "Antwerp",
+      "venue": "The Spot, Klapdorp 37, Antwerp",
+      "category": "networking",
+      "subcategory": "startup community meetup",
+      "cost": "Free",
+      "source": "Meetup",
+      "url": "https://www.meetup.com/antwerp-startup-network/",
+      "hook": "Antwerp's tight-knit startup community. Founders sharing real challenges and wins.",
+      "score": 7.6,
+      "hidden_gem": false,
+      "is_festival": false,
+      "prymal": false,
+      "reasons": [
+        "networking",
+        "community",
+        "alignment"
+      ]
+    },
+    {
       "id": "odessa-wed-ams-may20",
       "name": "Odessa Amsterdam \u2014 Wednesday Ecstatic Dance",
       "organizer": "Odessa Amsterdam",
@@ -328,6 +353,30 @@
         "uniqueness",
         "wellness",
         "alignment"
+      ]
+    },
+    {
+      "id": "antwerp-tech-talk-may22",
+      "name": "Antwerp Tech Talk \u2014 Product & Engineering",
+      "organizer": "Antwerp Tech Community",
+      "date": "2026-05-22",
+      "time": "18:00",
+      "endTime": "20:00",
+      "city": "Antwerp",
+      "venue": "Design Museum Antwerp, Largo, Antwerp",
+      "category": "networking",
+      "subcategory": "tech professional networking",
+      "cost": "\u20ac5",
+      "source": "Meetup",
+      "url": "https://www.meetup.com/antwerp-tech-talk/",
+      "hook": "Product managers and engineers exploring new tech. Casual discussion format.",
+      "score": 7.3,
+      "hidden_gem": false,
+      "is_festival": false,
+      "prymal": false,
+      "reasons": [
+        "networking",
+        "professional development"
       ]
     },
     {
