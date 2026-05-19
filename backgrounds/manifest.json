@@ -1,0 +1,150 @@
+{
+  "description": "Curated landscape festival/outdoor photos for the Event Discovery Board hero band. The weekly scan picks images[ISO_week_number % len(images)] and saves it as bg-current.jpg.",
+  "license": "All images sourced from Unsplash and used under the Unsplash License (free for commercial and personal use). Photographer credits included for attribution.",
+  "images": [
+    {
+      "id": "PgynjbnECzk",
+      "url": "https://images.unsplash.com/photo-1761607531543-ddcda5a7d677?w=1920&q=80",
+      "credit": "Leo_Visions / Unsplash",
+      "theme": "festival crowd outdoor"
+    },
+    {
+      "id": "EhNkFwqBLlI",
+      "url": "https://images.unsplash.com/photo-1660748122721-8d32fd65bda4?w=1920&q=80",
+      "credit": "Ottr Dan / Unsplash",
+      "theme": "large festival crowd"
+    },
+    {
+      "id": "dAjuYLXK17Q",
+      "url": "https://images.unsplash.com/photo-1660748122133-1951c653cd27?w=1920&q=80",
+      "credit": "Ottr Dan / Unsplash",
+      "theme": "large festival crowd"
+    },
+    {
+      "id": "gHxFXoFT9J8",
+      "url": "https://images.unsplash.com/photo-1568552872281-21d63b00eb88?w=1920&q=80",
+      "credit": "Annie Spratt / Unsplash",
+      "theme": "festival stage crowd"
+    },
+    {
+      "id": "uKsnKmmopHE",
+      "url": "https://images.unsplash.com/photo-1681150086113-fb84c74a43f2?w=1920&q=80",
+      "credit": "Roberto Rendon / Unsplash",
+      "theme": "crowd hands raised"
+    },
+    {
+      "id": "pdcyXrcsL2k",
+      "url": "https://images.unsplash.com/photo-1605286232233-e448650f5914?w=1920&q=80",
+      "credit": "Tim Toomey / Unsplash",
+      "theme": "crowd daytime"
+    },
+    {
+      "id": "r3XvSBEQQLo",
+      "url": "https://images.unsplash.com/photo-1574155376612-bfa4ed8aabfd?w=1920&q=80",
+      "credit": "A J. / Unsplash",
+      "theme": "outdoor concert"
+    },
+    {
+      "id": "AOKgCxezZjY",
+      "url": "https://images.unsplash.com/photo-1619229665486-19f7ee2987a5?w=1920&q=80",
+      "credit": "Colin Lloyd / Unsplash",
+      "theme": "daytime concert"
+    },
+    {
+      "id": "eiQqGBAMgIE",
+      "url": "https://images.unsplash.com/photo-1619229666372-3c26c399a4cb?w=1920&q=80",
+      "credit": "Colin Lloyd / Unsplash",
+      "theme": "daytime concert"
+    },
+    {
+      "id": "D2bCvpik",
+      "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1920&q=80",
+      "credit": "Danny Howe / Unsplash",
+      "theme": "concert field"
+    },
+    {
+      "id": "5xNhTYbNnj4",
+      "url": "https://images.unsplash.com/photo-1574504212584-29a03eb6e41e?w=1920&q=80",
+      "credit": "A J. / Unsplash",
+      "theme": "daytime concert"
+    },
+    {
+      "id": "8H72wMWxj90",
+      "url": "https://images.unsplash.com/photo-1619229665876-f54b2276b7bd?w=1920&q=80",
+      "credit": "Colin Lloyd / Unsplash",
+      "theme": "daytime concert"
+    },
+    {
+      "id": "mwxzA4",
+      "url": "https://images.unsplash.com/photo-1735351959795-18dd72749e9c?w=1920&q=80",
+      "credit": "Kiros Amin / Unsplash",
+      "theme": "beach crowd"
+    },
+    {
+      "id": "yOwMYGlJR5k",
+      "url": "https://images.unsplash.com/photo-1752496134012-0836f4917b99?w=1920&q=80",
+      "credit": "Lawrence Krowdeed / Unsplash",
+      "theme": "outdoor sunset concert"
+    },
+    {
+      "id": "5TGwSC4dHOU",
+      "url": "https://images.unsplash.com/photo-1619229667009-e7e51684e8e6?w=1920&q=80",
+      "credit": "Colin Lloyd / Unsplash",
+      "theme": "concert crowd"
+    },
+    {
+      "id": "Ud42qLODFv0",
+      "url": "https://images.unsplash.com/photo-1684349080178-09bf85b33e14?w=1920&q=80",
+      "credit": "Daniela Becerra / Unsplash",
+      "theme": "concert crowd"
+    },
+    {
+      "id": "0XvBzbFul5w",
+      "url": "https://images.unsplash.com/photo-1688417846022-527b97f25619?w=1920&q=80",
+      "credit": "A J. / Unsplash",
+      "theme": "stage performance"
+    },
+    {
+      "id": "6879FYy6M6I",
+      "url": "https://images.unsplash.com/photo-1642424209658-d117382d695e?w=1920&q=80",
+      "credit": "Emediong Umoh / Unsplash",
+      "theme": "stage watching"
+    },
+    {
+      "id": "SvwmxHVO9ko",
+      "url": "https://images.unsplash.com/photo-1684348406379-950ef79e81c9?w=1920&q=80",
+      "credit": "Daniela Becerra / Unsplash",
+      "theme": "crowd hands"
+    },
+    {
+      "id": "tO3U",
+      "url": "https://images.unsplash.com/photo-1727096857692-e9dadf2bc92e?w=1920&q=80",
+      "credit": "Ambitious Studio* | Rick Barrett / Unsplash",
+      "theme": "stage performers"
+    },
+    {
+      "id": "m1WZS5ye404",
+      "url": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1920&q=80",
+      "credit": "Vishnu R Nair / Unsplash",
+      "theme": "band stage"
+    },
+    {
+      "id": "6EUBVQqYMJI",
+      "url": "https://images.unsplash.com/photo-1511814933379-397995d24ef7?w=1920&q=80",
+      "credit": "Sib / Unsplash",
+      "theme": "stage watching"
+    },
+    {
+      "id": "ZhQCZjr9fHo",
+      "url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1920&q=80",
+      "credit": "Aditya Chinchure / Unsplash",
+      "theme": "stage crowd"
+    },
+    {
+      "id": "VSkeg0xHsss",
+      "url": "https://images.unsplash.com/photo-1556340346-5e30da977c4d?w=1920&q=80",
+      "credit": "Lachy Spratt / Unsplash",
+      "theme": "outdoor concert"
+    }
+  ]
+}
