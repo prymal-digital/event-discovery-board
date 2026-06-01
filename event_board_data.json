@@ -3339,7 +3339,7 @@
       "score": 8.4,
       "hidden_gem": false,
       "is_festival": false,
-      "prymal": true,
+      "prymal": false,
       "reasons": [
         "networking",
         "AI",
@@ -3364,7 +3364,7 @@
       "score": 7.9,
       "hidden_gem": false,
       "is_festival": false,
-      "prymal": true,
+      "prymal": false,
       "reasons": [
         "networking",
         "AI"
@@ -3388,7 +3388,7 @@
       "score": 7.6,
       "hidden_gem": true,
       "is_festival": false,
-      "prymal": true,
+      "prymal": false,
       "reasons": [
         "networking",
         "AI",

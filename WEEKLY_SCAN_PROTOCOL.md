@@ -1,175 +1,202 @@
 # Weekly Event Discovery Scan Protocol
-**Established:** 2026-05-19, revised 2026-05-20
-**Purpose:** Efficient weekly scanning that actually catches club programming, not just recurring community events. The 2026-05-20 revision moves RA.co city event pages into the weekly Tier 2 after the prior monthly cadence was found to miss 30+ events per week.
+
+**Canonical, single source of truth for the Monday scan.**
+**Last revised:** 2026-06-01 (consolidated bg rotation + single-digest write; this file is now the only place the protocol lives).
+
+The scheduled task (`event-board-daily-scan`, Mondays 07:38 Europe/Amsterdam) and the `event-discovery-weekly-scan` skill both delegate to this file. Do not duplicate instructions elsewhere — update only here.
 
 ---
 
-## Three-Tier Scanning Model — REVISED 2026-05-20
+## What the scan produces
 
-The key change: **RA.co city event pages run weekly in Tier 2a**, not monthly in Tier 3. The prior monthly cadence missed ~30 events/week of club programming and left Ghent at zero coverage. Switching from "venue-by-venue scraping monthly" to "5 RA city pages weekly" is both cheaper and more complete.
+Each Monday run:
+1. Updates `event_board_data.json` (appends this week's events, dedup by `id`)
+2. Overwrites `Weekly Digests/digest.md` (single file, no dated history)
+3. Rotates `backgrounds/bg-current.jpg` via the manifest in `backgrounds/manifest.json`
+4. One combined commit + push to `origin main` — board redeploys via GitHub Pages
 
-### Tier 1: Recurring Community Sources (WEEKLY — ~5K tokens, ~€0.02/run)
+`index.html` is **never** touched by the scan — it fetches `event_board_data.json` at load and re-renders.
 
-Six direct-URL, high-signal sources. Check every Monday.
+---
 
-| Source | URL | Frequency |
-|--------|-----|-----------|
-| Odessa Amsterdam | https://odessa.amsterdam/ | Daily |
-| Ecstatic Dance Amsterdam | https://www.ecstaticdanceamsterdam.com/ | Tue + Sun |
+## Three-Tier Scanning Model
+
+### Tier 1 — Recurring community sources (weekly, ~5K tokens)
+
+Six direct-URL, high-signal sources. WebFetch first; Chrome MCP fallback if the page is JS-rendered.
+
+| Source | URL | Cadence |
+|--------|-----|---------|
+| Odessa Amsterdam | https://odessa.amsterdam/ | Daily ecstatic dance |
+| Ecstatic Dance Amsterdam | https://www.ecstaticdanceamsterdam.com/ | Tue Loods12 + Sun TOS |
 | The Conscious Club | https://theconsciousclub.com/events | Monthly Friday |
 | Barcelona Entrepreneurs | https://www.meetup.com/pro/barcelona-entrepreneurs/ | Tue + Fri |
 | AI Engineers Barcelona | https://www.meetup.com/ai-engineers-barcelona/ | Every Mon |
-| AI Tinkerers Amsterdam | https://lu.ma/aibuilders | First Thu monthly |
+| AI Tinkerers Amsterdam | https://lu.ma/aibuilders | Note: slug now resolves to SF — verify before adding |
 
-**Method:** WebFetch each page; some are JS-rendered and need Chrome MCP fallback.
+### Tier 2a — RA.co city event pages (weekly, ~75K tokens) — REQUIRED
 
----
+Chrome MCP required (WebFetch returns shells on RA). Batch in one `browser_batch` per city, paginate via `?page=N` until you exit the week window.
 
-### Tier 2a: RA.co City Event Pages (WEEKLY — ~75K tokens, ~€0.20/run) — NEW WEEKLY
+| City | URL | Filter |
+|------|-----|--------|
+| Antwerp | https://ra.co/events/be/antwerp | Full week sweep |
+| Brussels | https://ra.co/events/be/brussels | Full week sweep |
+| Ghent | https://ra.co/events/be/ghent | Full week sweep |
+| Amsterdam | https://ra.co/events/nl/amsterdam | ≥100 RA attendees OR RA Pick |
+| Barcelona | https://ra.co/events/es/barcelona | ≥100 RA attendees OR RA Pick |
 
-Single page per city. Each surfaces 40–800 upcoming events across all listed venues. Replaces the prior monthly venue-by-venue Tier 3.
+**Scoring from RA:** RA Pick = 8.5+; 150+ attendees = 8.0; 50–149 = 7.5; <50 at trusted venue (Fuse, C12, Garage Noord, Shelter, Nitsa, LAUT, Ampere, etc.) = 7.0.
 
-| City | URL | Typical upcoming |
-|------|-----|------------------|
-| Antwerp | https://ra.co/events/be/antwerp | ~75 events |
-| Brussels | https://ra.co/events/be/brussels | ~160 events |
-| Ghent | https://ra.co/events/be/ghent | ~45 events |
-| Amsterdam | https://ra.co/events/nl/amsterdam | ~700 events |
-| Barcelona | https://ra.co/events/es/barcelona | ~800 events |
+### Tier 2b — Meetup + Luma keyword searches (weekly, ~5K tokens)
 
-**Method:** Chrome MCP `navigate` + `get_page_text` (required — WebFetch returns shells on RA.co).
+Chrome MCP (JS-rendered).
 
-**Filtering:**
-- For Antwerp / Brussels / Ghent — include every event whose date falls in `[today, week_end]`.
-- For Amsterdam / Barcelona — filter to ≥100 RA attendees OR RA Pick designation (too large to sweep fully).
-- Always skip events already on the board (check `id`).
+- **Amsterdam:** "AI", "breathwork", "ecstatic", "meditation", "networking", "startup"
+- **Barcelona:** "wellness", "entrepreneurship", "product management", "AI builders"
+- **Antwerp:** "tech", "startup", "networking"
+- **Brussels:** "tech", "startup", "AI", "wellness"
+- **Luma:** `lu.ma/amsterdam`, `lu.ma/barcelona` (scroll for the week)
 
----
+### Tier 3 — Ad-hoc venue sweep (~quarterly, only as needed)
 
-### Tier 2b: Meetup + Luma Keyword Searches (WEEKLY — ~5K tokens, ~€0.02/run)
+Trigger only when RA's city page is suspiciously quiet for a venue with known programming, or a venue has pulled its RA listing. Not on a calendar.
 
-Existing keyword searches across the four primary cities.
-
-**Meetup Keywords (search each region):**
-- Amsterdam: "ecstatic", "breathwork", "sound bath", "meditation", "AI", "networking", "startup"
-- Barcelona: "wellness", "entrepreneurship", "product management", "AI builders"
-- Antwerp: "tech", "startup", "networking" (club programming now in Tier 2a)
-- Brussels: "tech", "startup", "AI", "wellness" (club programming now in Tier 2a)
-
-**Luma Searches:**
-- `lu.ma/search?q=amsterdam+breathwork`
-- `lu.ma/search?q=barcelona+wellness`
-- `lu.ma/search?q=tech+antwerp`
-
-**Method:** Chrome MCP for both Meetup and Luma (JS-rendered).
+Venue checklist (use as needed, do not run all):
+- BCN: Nitsa, LAUT, BORIS, Nacar, DETROIT CLUB, Moog, Razzmatazz, Apolo, Luz de Gas, City Hall
+- AMS: Shelter, RADION, BRET, Lovelee, Garage Noord, Marktkantine, Disco Dolly, Thuishaven, Paradiso, Q-Factory
+- ANT: Ampere, Club Vaag, Petrol, Trix
+- BRX: Fuse, C12, Spirit of 66, Recyclart, Bonnefooi
+- GENT: Kompass Klub, Vooruit, Decadance
 
 ---
 
-### Tier 3: Ad-Hoc Deep Venue Sweep (QUARTERLY or as-needed — ~50K tokens, ~€0.20/run)
+## Event schema (in `event_board_data.json` under `events[]`)
 
-Not on a calendar. Trigger only when RA's city page is suspiciously quiet for a venue with known programming, or a venue has pulled its RA listing.
-
-**Venue list** (use as a checklist when running):
-- Barcelona: Nitsa, LAUT, BORIS CLUB, Nacar, DETROIT CLUB, Moog, Razzmatazz, La [Apolo], Luz de Gas, City Hall
-- Amsterdam: Shelter, RADION, BRET, Lovelee, Garage Noord, Marktkantine, Disco Dolly, Thuishaven, Paradiso, Q-Factory
-- Antwerp: Ampere, Club Vaag, Petrol, Trix (Hangar 41 is a bar — exclude)
-- Brussels: Fuse, C12, Spirit of 66, Recyclart, Bonnefooi
-- Ghent: Kompass Klub, Vooruit, Decadance
-
-**Method:** Chrome MCP navigate to each venue's official agenda. Pick the 3–5 most likely to have been missed by RA, not all 40+.
-
----
-
-## Weekly Workflow (EST. 20-25 mins, ~85K tokens, ~€0.24)
-
-1. **Open EVENT_RESOURCES_MANAGER** — Check "Last Checked" dates
-2. **Run Tier 1** — fetch the 6 recurring community sources
-3. **Run Tier 2a** — Chrome MCP through the 5 RA city event pages (batch in one `browser_batch` call). Extract this-week events per the filtering rules above.
-4. **Run Tier 2b** — Meetup + Luma keyword searches for the four primary cities
-5. **Merge into event_board_data.json**
-   - Deduplicate by `id`
-   - Validate dates within `[week_start, week_end]`
-   - Score using the rubric in SKILL.md
-6. **Update digest** — include the explicit "Sources scanned" tally and "Confirmed gaps & non-coverage" sections
-7. **Commit + push to GitHub** with the format below
-
-```
-Weekly scan [YYYY-MM-DD]: +X events across Y cities
-
-Tier 1: [recurring sources checked]
-Tier 2a (RA city pages): [list cities + counts found]
-Tier 2b (Meetup/Luma): [keywords run]
-Tier 3 (ad-hoc): [only mention if it ran this week]
-
-City totals: AMS X, BCN X, ANT X, BRX X, GENT X
+```json
+{
+  "id": "unique-kebab-case-id",
+  "name": "Event Name",
+  "organizer": "Organizer Name",
+  "date": "YYYY-MM-DD",
+  "time": "HH:MM",
+  "endTime": "HH:MM",
+  "city": "Amsterdam|Barcelona|Antwerp|Brussels|Ghent|Houthalen-Helchteren|Mechelen",
+  "venue": "Venue Name",
+  "category": "wellness|music|networking|community",
+  "subcategory": "ecstatic dance|breathwork|techno|house|AI builders|...",
+  "cost": "€X-Y" or "Free" or "€?",
+  "source": "Odessa|Meetup|Luma|Resident Advisor|venue site|...",
+  "url": "https://...",
+  "hook": "One-sentence appeal",
+  "score": 7.0,
+  "hidden_gem": true|false,
+  "is_festival": true|false,
+  "prymal": false,
+  "reasons": ["alignment","uniqueness","community","ra_pick","networking","free", ...]
+}
 ```
 
-8. **Mark EVENT_RESOURCES_MANAGER "Last Checked"** with today's date.
+### `prymal` flag — read carefully
+
+`prymal: true` is **only** for events that PRYMAL is running, hosting, or formally part of. It is **not** a "this event is relevant to a PRYMAL audience" flag. Default to `false`. If you are not sure whether PRYMAL is the organiser, it is `false`.
 
 ---
 
-## Ad-Hoc Tier 3 Workflow
+## Decision rules
 
-Run only when RA city pages clearly missed a venue. Process:
-
-1. Identify 3–5 specific venues that look quiet on RA but should have programming.
-2. Chrome MCP navigate to each venue's official agenda page.
-3. Extract events into the schema, score, merge, push.
-
-Do not run all 40+ venues on a schedule. That's the model we replaced.
-
----
-
-## Decision Rules
-
-**When to add an event:**
-- Date falls in [week_start - 3 weeks, week_end]
-- Score ≥ 7.0 (see scoring rubric in EVENT_RESOURCES_MANAGER)
+**Add an event when:**
+- Date falls in `[week_start, week_end]`
+- Score ≥ 7.0
 - Source is verifiable (URL + platform)
-- Not duplicate (check id field)
+- Not a duplicate (check `id`)
 
-**When to skip:**
+**Skip when:**
 - Score < 7.0
-- Date is >3 weeks in future (save for next weekly scan)
-- Duplicate of existing event (different source, same actual event → use first source found)
-- Club/venue hasn't announced yet (note in digest as "pending")
-
-**When to refresh digest:**
-- If ≥3 new high-scoring (≥8.0) events added
-- Otherwise, keep existing digest and note "Updated [date] with [X] new additions"
+- Date >3 weeks out (defer to next scan)
+- Duplicate (use first source found)
 
 ---
 
-## Token Budget — REVISED
+## Background rotation (weekly, ~1 sec)
 
-| Tier | Cadence | Tokens/run | Cost/run | Per month |
-|------|---------|------------|----------|-----------|
-| 1 | Weekly | ~5K | ~€0.02 | ~€0.08 |
-| 2a (RA city pages) | Weekly | ~75K | ~€0.20 | ~€0.80 |
-| 2b (Meetup/Luma) | Weekly | ~5K | ~€0.02 | ~€0.08 |
-| 3 (ad-hoc venue sweep) | ~quarterly | ~50K | ~€0.20 | ~€0.07 |
+Pick from `backgrounds/manifest.json` by ISO week:
 
-**Floor:** ~€1/month (no Tier 3 needed any given month).
-**Typical:** ~€2/month (one Tier 3 trigger every 2–3 months).
+```python
+import json, datetime, urllib.request
+manifest = json.load(open('backgrounds/manifest.json'))
+imgs = manifest['images']
+iso_week = datetime.date.today().isocalendar()[1]
+chosen = imgs[iso_week % len(imgs)]
+req = urllib.request.Request(chosen['url'], headers={'User-Agent':'Mozilla/5.0'})
+with urllib.request.urlopen(req, timeout=30) as r:
+    open('backgrounds/bg-current.jpg','wb').write(r.read())
+```
 
-This sits inside the €2-5/month ceiling chosen on 2026-05-20.
-
-### Why this is cheaper than the prior estimate
-
-The original Tier 3 line item budgeted ~€3.33/month for a venue-by-venue Chrome MCP sweep of 40+ pages. Switching to 5 RA city pages (one per city, each surfacing every event at every venue in that city) replaces ~95% of that work with ~5% of the token cost. The savings are not theoretical — today's actual Tier-3 run used ~75K tokens to cover what the old protocol estimated at ~2000 tokens per venue × 40 venues = 80K tokens.
-
----
-
-## Future Improvements
-
-- **Auto-scraping:** Build a cron job to hit Odessa + Ecstatic Dance + Luma weekly
-- **Venue API:** Contact major clubs for direct event feeds (Shelter, RADION, Fuse, C12)
-- **Webhook alerts:** Subscribe to Meetup + Luma webhooks for new event notifications
-- **Scan template:** Create daily-scan SKILL with this protocol built-in
+`index.html` reads `backgrounds/bg-current.jpg` directly — no code change needed. To add new images, append entries to `backgrounds/manifest.json`.
 
 ---
 
-## Last Updated
-- **2026-05-19** — Protocol established after May 18-24 scan complete with 55 events + cost review
-- **2026-05-20** — Revised. Moved RA.co city pages from monthly Tier 3 into weekly Tier 2a after Pentecost-week scan revealed 30+ missed events (Klub Dramatik 4-day festival in Antwerp, Audiodise Park / Mura Masa / Rainbow Disco Club, full Ghent gap). Cost model corrected — actual Tier-3 run cost ~€0.20, not €3.33.
+## Digest
 
+**Path:** `Weekly Digests/digest.md` — **overwrite** each Monday. No dated archive (history lives in git).
+
+**Structure (under 600 words):**
+
+```
+# Where to be this week — Mon DD–DD MMM YYYY
+
+## The 5 picks
+Top 5 by score within this week. Each: **Day Time** — Event Name *(City)* — Score X.X
+One-line why-it-matters. [Source ↗](url)
+
+## Don't miss if you're in...
+Grouped by city, ≥7.0 score, excluding the top 5. One line each.
+
+## Hidden gems
+Events flagged `hidden_gem: true`. One line each.
+
+## What I skipped
+Low-score-but-prominent events considered and rejected, with reason.
+
+## Sources scanned
+Tier-by-tier tally — RA-Antwerp X, RA-Brussels X, RA-Ghent X, RA-AMS X, RA-BCN X, Meetup X, Luma X, Odessa X.
+
+## Confirmed gaps & non-coverage
+Venues genuinely dark this week vs. sources not yet checked (Hipsy, Eventbrite, AllEvents, FB Events — known gaps).
+
+## Board status
+City totals (this week only): AMS X, BCN X, ANT X, BRX X, GENT X, MECH X
+By category: music X, wellness X, networking X
+```
+
+Tone: direct, opinionated, no hedging. Sommelier's pick, not a wine list.
+
+---
+
+## Git workflow
+
+Commit only the four files the scan touches. Never `git add .` or `git add -A`.
+
+```bash
+PB="/Users/OPTIBIZ/Documents/Claude/Projects/Things to do - Planning Board"
+cd "$PB"
+git add event_board_data.json "Weekly Digests/digest.md" backgrounds/bg-current.jpg
+git -c user.name="Henk" -c user.email="henk@optibiz.be" commit -m "Weekly scan ${MONDAY}: +X events across Y cities
+
+Tier 1: [sources checked]
+Tier 2a (RA): AMS X, BCN X, ANT X, BRX X, GENT X
+Tier 2b (Meetup/Luma): [keywords run]
+Bg: ISO week ${WEEK} → ${PHOTOGRAPHER}
+
+City totals after merge: AMS X, BCN X, ANT X, BRX X, GENT X"
+git push origin main
+```
+
+If the push is rejected, bail out and report — do not cherry-pick / rebase / merge.
+
+---
+
+## Final report (one line at end of run)
+
+`Weekly scan ${MONDAY} complete — added X events, pushed as commit ${SHA}. Live board: https://prymal-digital.github.io/event-discovery-board/`
