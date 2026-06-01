@@ -417,7 +417,7 @@ function pickCard(ev, rank) {
 function renderPicks() {
   const grid = document.getElementById("picks-grid");
   grid.innerHTML = "";
-  const top = [...EVENTS].filter(ev => !ev.prymal && passesFilter(ev)).sort((a,b)=>b.score-a.score).slice(0,5);
+  const top = [...EVENTS].filter(ev => !ev.prymal && ev.date >= WEEK_START && ev.date <= WEEK_END && passesFilter(ev)).sort((a,b)=>b.score-a.score).slice(0,5);
   if (!top.length) { grid.innerHTML='<div class="empty">No events match your filters.</div>'; document.getElementById("picks-count").textContent="(0)"; return; }
   top.forEach((ev,i)=>grid.appendChild(pickCard(ev,i+1)));
   document.getElementById("picks-count").textContent=`(top ${top.length})`;
