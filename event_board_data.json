@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-01",
-  "week_start": "2026-06-01",
-  "week_end": "2026-06-07",
-  "today": "2026-06-01",
+  "last_scan": "2026-06-08",
+  "week_start": "2026-06-08",
+  "week_end": "2026-06-14",
+  "today": "2026-06-08",
   "events": [
     {
       "id": "odessa-ams-samaya-may27",
@@ -4904,6 +4904,6 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-05-25"
+    "lastUpdated": "2026-06-08"
   }
 }
