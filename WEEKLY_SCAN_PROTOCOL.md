@@ -3,17 +3,19 @@
 **Canonical, single source of truth for the Monday scan.**
 **Last revised:** 2026-06-01 (consolidated bg rotation + single-digest write; this file is now the only place the protocol lives).
 
-The scheduled task (`event-board-daily-scan`, Mondays 07:38 Europe/Amsterdam) and the `event-discovery-weekly-scan` skill both delegate to this file. Do not duplicate instructions elsewhere — update only here.
+The single scheduled task (`event-board-weekly-digest`, Mondays ~07:43 Europe/Amsterdam) delegates to this file — it is the one and only event-board process: scan, digest, and publish in one run. Do not duplicate instructions elsewhere, and do not create parallel tasks; update only here.
 
 ---
 
 ## What the scan produces
 
 Each Monday run:
-1. Updates `event_board_data.json` (appends this week's events, dedup by `id`)
+1. Updates `event_board_data.json` (appends this week's events, dedup by `id`) — this is the single "calendar" the live board reads
 2. Overwrites `Weekly Digests/digest.md` (single file, no dated history)
-3. Rotates `backgrounds/bg-current.jpg` via the manifest in `backgrounds/manifest.json`
-4. One combined commit + push to `origin main` — board redeploys via GitHub Pages
+3. One commit + push of **those two files** to `origin main` — board redeploys via GitHub Pages
+4. (Optional) rotates `backgrounds/bg-current.jpg`; if done, include it in the same commit
+
+The commit is made from a fresh `/tmp` clone (see Git workflow) — the scheduled runtime can create files in the mounted folder but cannot delete/rename, so it cannot finalize a commit there. Pushing the **data file** is what updates the board; pushing only the digest does nothing visible.
 
 `index.html` is **never** touched by the scan — it fetches `event_board_data.json` at load and re-renders.
 
@@ -176,24 +178,26 @@ Tone: direct, opinionated, no hedging. Sommelier's pick, not a wine list.
 
 ## Git workflow
 
-Commit only the four files the scan touches. Never `git add .` or `git add -A`.
+**Automated runs (scheduled task, in the sandbox): push from a fresh `/tmp` clone.** The mounted working tree cannot finalize a commit (create-only, no delete/rename), so committing in place fails. Add exactly the two published files — never `git add .`, never `index.html`, never the duplicate UI files.
 
 ```bash
-PB="/Users/OPTIBIZ/Documents/Claude/Projects/Things to do - Planning Board"
-cd "$PB"
-git add event_board_data.json "Weekly Digests/digest.md" backgrounds/bg-current.jpg
-git -c user.name="Henk" -c user.email="henk@optibiz.be" commit -m "Weekly scan ${MONDAY}: +X events across Y cities
-
-Tier 1: [sources checked]
-Tier 2a (RA): AMS X, BCN X, ANT X, BRX X, GENT X
-Tier 2b (Meetup/Luma): [keywords run]
-Bg: ISO week ${WEEK} → ${PHOTOGRAPHER}
-
-City totals after merge: AMS X, BCN X, ANT X, BRX X, GENT X"
-git push origin main
+REPO_URL="https://prymal-digital:REPLACE_WITH_VALID_TOKEN@github.com/prymal-digital/event-discovery-board.git"
+CLONE=/tmp/board-push-$(date +%s)
+PB=$(find /sessions -maxdepth 4 -type d -name "Things to do - Planning Board" | head -1)
+git clone --depth 1 "$REPO_URL" "$CLONE" || { echo "clone failed — check token"; exit 1; }
+cp "$PB/event_board_data.json" "$CLONE/event_board_data.json"
+mkdir -p "$CLONE/Weekly Digests"
+cp "$PB/Weekly Digests/digest.md" "$CLONE/Weekly Digests/digest.md"
+cd "$CLONE"
+git config user.email "henk@optibiz.be"; git config user.name "Henk"
+git add event_board_data.json "Weekly Digests/digest.md"
+git commit -m "Weekly scan ${MONDAY}"
+git push origin main && echo "PUSH OK" || echo "PUSH FAILED"
 ```
 
-If the push is rejected, bail out and report — do not cherry-pick / rebase / merge.
+**Manual runs on Henk's Mac** can commit in place instead (`cd "$PB"; git add event_board_data.json "Weekly Digests/digest.md"; git commit; git push`). If a previous run crashed, clear stale locks first: `find .git -name '*.lock' -delete`.
+
+**Token:** the push needs a valid GitHub PAT (`repo` scope) in `REPO_URL`. Henk maintains it. If clone/push fails on auth, **report and STOP** — do not cherry-pick / rebase / merge, and do not retry via another method.
 
 ---
 
