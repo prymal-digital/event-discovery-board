@@ -118,6 +118,10 @@ Venue checklist (use as needed, do not run all):
 - Date >3 weeks out (defer to next scan)
 - Duplicate (use first source found)
 
+### Look-ahead (`lookahead[]`) — prune every run
+
+The board renders the "Looking ahead — Festivals" and "Looking ahead" panels straight from `lookahead[]` with **no date filter** (index.html line ~459). So every run **must drop any `lookahead[]` entry with `date` < today**, or expired festivals keep showing as upcoming. After pruning, repopulate with notable festivals / standout events ~2–8 weeks out, prioritising Barcelona and Amsterdam.
+
 ---
 
 ## Background rotation (weekly, ~1 sec)
