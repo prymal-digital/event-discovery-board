@@ -55,7 +55,7 @@ Chrome MCP required (WebFetch returns shells on RA). Batch in one `browser_batch
 Chrome MCP (JS-rendered).
 
 - **Amsterdam:** "AI", "breathwork", "ecstatic", "meditation", "networking", "startup"
-- **Barcelona:** "wellness", "entrepreneurship", "product management", "AI builders"
+- **Barcelona (broaden — do NOT rely on fixed groups):** sweep Meetup, Luma and Eventbrite for *any* relevant tech / AI / startup / founders / entrepreneurship / product event, **and** wellness (breathwork, ecstatic, meditation, sound bath, cacao). AI Engineers BCN and Barcelona Entrepreneurs are anchors to include if on — not the focus. Surface general events too.
 - **Antwerp:** "tech", "startup", "networking"
 - **Brussels:** "tech", "startup", "AI", "wellness"
 - **Luma:** `lu.ma/amsterdam`, `lu.ma/barcelona` (scroll for the week)
