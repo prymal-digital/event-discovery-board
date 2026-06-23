@@ -8236,6 +8236,30 @@
         "alignment",
         "uniqueness"
       ]
+    },
+    {
+      "id": "eb-pitch-a-friend-bcn-jun25",
+      "name": "Pitch A Friend Barcelona — June Bash",
+      "organizer": "Pitch-A-Friend Barcelona",
+      "date": "2026-06-25",
+      "time": "19:30",
+      "endTime": "22:30",
+      "city": "Barcelona",
+      "venue": "Michael Collins",
+      "category": "community",
+      "subcategory": "social / networking",
+      "cost": "€5.77",
+      "source": "Eventbrite",
+      "url": "https://www.eventbrite.com/d/spain--barcelona/business--events/",
+      "hook": "Playful social night where people pitch their single friends — light, fun networking, not a club.",
+      "score": 7.0,
+      "hidden_gem": true,
+      "is_festival": false,
+      "prymal": false,
+      "reasons": [
+        "community",
+        "social"
+      ]
     }
   ],
   "lookahead": [
