@@ -50,7 +50,7 @@ Chrome MCP required (WebFetch returns shells on RA). Batch in one `browser_batch
 
 **Scoring from RA:** RA Pick = 8.5+; 150+ attendees = 8.0; 50–149 = 7.5; <50 at trusted venue (Fuse, C12, Garage Noord, Shelter, Nitsa, LAUT, Ampere, etc.) = 7.0.
 
-### Tier 2b — Meetup + Luma keyword searches (weekly, ~5K tokens)
+### Tier 2b — Meetup + Luma + Hipsy searches (weekly, ~6K tokens)
 
 Chrome MCP (JS-rendered).
 
@@ -59,6 +59,7 @@ Chrome MCP (JS-rendered).
 - **Antwerp:** "tech", "startup", "networking"
 - **Brussels:** "tech", "startup", "AI", "wellness"
 - **Luma:** `lu.ma/amsterdam`, `lu.ma/barcelona` (scroll for the week)
+- **Hipsy (wellness — `hipsy.eu/events`):** sweep **Amsterdam (NL)** and the **Belgian cities** for ecstatic/ritual/tantric dance, cacao, breathwork, sound baths, conscious parties. Always pass lat/lon — the geocoder is ambiguous ("Amsterdam" alone resolves to Amsterdam **NY**): Amsterdam `52.3676,4.9041` (radius 15); Antwerp `51.2194,4.4025` (radius 40 → sweeps Flanders incl. Ghent/Mechelen); Brussels `50.8503,4.3517` (radius 30). URL: `hipsy.eu/events?location=<City>,+<Country>&latitude=<lat>&longitude=<lon>&radius=<km>`. **Hipsy has no Barcelona coverage (0 events)** — skip it for BCN.
 
 ### Tier 3 — Ad-hoc venue sweep (~quarterly, only as needed)
 

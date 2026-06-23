@@ -25,7 +25,7 @@
   - Meetup — https://www.meetup.com/find/events/?location=es--Barcelona
   - Luma — https://lu.ma/barcelona *(scroll the week)*
   - Eventbrite — https://www.eventbrite.com/d/spain--barcelona/business--events/ · /health--events/
-  - Hipsy (wellness) — https://hipsy.eu
+  - (Hipsy has **no Barcelona events** — skip for BCN; wellness here comes via Meetup / Luma / Eventbrite)
 - ◦ Reliable anchors to fold into the sweep if running (not the focus): AI Engineers Barcelona (Mon) https://www.meetup.com/ai-engineers-barcelona/ · Barcelona Entrepreneurs (Tue + Fri) https://www.meetup.com/pro/barcelona-entrepreneurs/
 
 **Backup venue pages (◦ ad-hoc)**
@@ -58,6 +58,7 @@
 - ★ Odessa Amsterdam (ecstatic dance, most days) — https://odessa.amsterdam/
 - ★ Ecstatic Dance Amsterdam (Tue Loods12 + Sun The Other Side) — https://www.ecstaticdanceamsterdam.com/
 - The Conscious Club (monthly Fri) — https://theconsciousclub.com/events
+- ★ Hipsy (wellness — ecstatic dance, cacao, breathwork, conscious parties) — https://hipsy.eu/events?location=Amsterdam,+Netherlands&latitude=52.3676&longitude=4.9041&radius=15
 
 **Backup venue pages (◦ ad-hoc)**
 - Shelter — https://ra.co/clubs/124413
@@ -83,7 +84,7 @@
 - Meetup — https://www.meetup.com/find/nl--amsterdam/business-entrepreneur-networking/ *(keywords: AI, breathwork, ecstatic, meditation, networking, startup)*
 - Eventbrite — https://www.eventbrite.com/d/netherlands--amsterdam/networking
 - Luma — https://lu.ma/amsterdam · AI Builders https://luma.com/aibuilders_amsterdam · Startup https://luma.com/AmsterdamStartup
-- Hipsy — https://hipsy.eu *(wellness; client-side filter)*
+- _(Hipsy moved to the weekly pull above)_
 
 ---
 
@@ -91,6 +92,7 @@
 
 **Pulled weekly**
 - ★ RA city page (full-week sweep) — https://ra.co/events/be/antwerp  *(Chrome MCP)*
+- ★ Hipsy Belgium (wellness — ecstatic/ritual/tantric dance, ceremonies) — https://hipsy.eu/events?location=Antwerp,+Belgium&latitude=51.2194&longitude=4.4025&radius=40  *(radius 40 sweeps Flanders incl. Ghent/Mechelen)*
 
 **Backup venue pages (◦ ad-hoc)**
 - Ampere — https://ra.co/clubs/98955
@@ -114,6 +116,7 @@
 
 **Pulled weekly**
 - ★ RA city page (full-week sweep) — https://ra.co/events/be/brussels  *(Chrome MCP)*
+- ★ Hipsy Belgium (wellness) — https://hipsy.eu/events?location=Brussels,+Belgium&latitude=50.8503&longitude=4.3517&radius=30
 
 **Backup venue pages (◦ ad-hoc)**
 - Fuse — https://ra.co/clubs/2069 · https://www.fuse.be/agenda
