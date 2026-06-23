@@ -38,7 +38,7 @@ Six direct-URL, high-signal sources. WebFetch first; Chrome MCP fallback if the 
 
 ### Tier 2a — RA.co city event pages (weekly, ~75K tokens) — REQUIRED
 
-Chrome MCP required (WebFetch returns shells on RA). Batch in one `browser_batch` per city, paginate via `?page=N` until you exit the week window.
+Chrome MCP required (WebFetch returns shells on RA). **The city page shows a small "POPULAR" block (≈4 events) and THEN a full chronological list below it. Reading only the popular block misses the bulk of Friday/Saturday club nights — Barcelona and Amsterdam each have 30–45 events PER DAY.** For the busy nights, scan each day individually with `?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD` (cover Thu→Sun for BCN/AMS at minimum), wait ~2.5s, then read the full list and click "Load more" / append `?page=N` until the day is exhausted. Capture every event that meets the filter — not just the popular four.
 
 | City | URL | Filter |
 |------|-----|--------|
