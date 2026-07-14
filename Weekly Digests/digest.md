@@ -17,7 +17,7 @@
 
 **Amsterdam** — Odessa runs daily Wed–Sun (Cacao Ecstatic Dance Fri is the standout); EDA's XL Summer Edition ft. Kareem Raïhani takes over PLLEK on the water Wed. RA stacked Saturday: PALET Mini Festival (490), Kirilski Birthday Bash (356), Phono Lake's Second Night (354), Doppelgang B2B Kamma (279), No Art Opening Festival — ANOTR, Rüfüs Du Sol, Mochakk (203), RAUM invites Bassiani (RA Pick). Garrett David all-nighter at Shelter Fri (313). Securing AI and Scaling Platforms drew 98 RSVPs Wed — best AMS tech meetup this week.
 
-**Barcelona** — RA is loaded: Throwback 80s/90s/00s (771, Fri), CLOSA Selects Reznik/Keinemusik (502, Sat), PINKCLOUD Open Air (701, Sat), Nacar Club ft. Foster the People DJ set (216, Sat), Disco Fever rooftop (445, Thu), City Hall Hardcore Maniaks (403, Thu), Heels & Souls beach party for Palestine Red Crescent (RA Pick, Fri). On the professional side: GTM Night Barcelona — Selling in the Age of AI (small, approval-only, Wed), Failosophy founder-stories night (Wed), Stripe BCN x Builders Cafe (Wed), Beyond the Prototype AI meetup (126 RSVPs, Thu), N5 Neumi Global Summit (almost full, Fri).
+**Barcelona** — RA is loaded, and deeper than last week's cut: Throwback 80s/90s/00s (771, Fri), CLOSA Selects Reznik/Keinemusik (502, Sat), PINKCLOUD Open Air (701, Sat), Club Inferno (306, Sat), Nacar Club ft. Foster the People DJ set (216, Sat), JABBA goes to Hola Club Sitges (215, Sat), Regia Pride Week @ City Hall (183, Sat), Disco Fever rooftop (445, Thu), City Hall Hardcore Maniaks (403, Thu), Boris pres Lost — free entry (122, Thu), Afrodanz open-air afro house (183, Fri), Free Beach Party "Why So Serious" (253, Sat), Pegatina pre-party on the beach (189, Sat), Heels & Souls beach party for Palestine Red Crescent (RA Pick, Fri). Trusted-anchor clubs also running lower-key nights this week: LAUT (recurring Eugenia Spell slot), DETROIT Club, Macarena Club, Razzmatazz — all checked, all quieter than usual. Nitsa and Moog Club were genuinely dark/near-empty on RA this week. On the professional side: GTM Night Barcelona — Selling in the Age of AI (small, approval-only, Wed), Failosophy founder-stories night (Wed), Stripe BCN x Builders Cafe (Wed), Beyond the Prototype AI meetup (126 RSVPs, Thu), N5 Neumi Global Summit (almost full, Fri).
 
 **Antwerp** — beyond Contrair and Tomorrowland: Club Vaag runs Fri and Sat nights; Traum's Contrair afterparty with Eris Drew (Sat).
 
@@ -43,5 +43,5 @@ Odessa 5 · EDA 2 · RA-Antwerp/Brussels/Ghent (full week, one pass each) · RA-
 
 ## Board status
 
-City totals (this week): AMS 19 · BCN 20 · ANT 8 · BRX 6 · GENT 2
-By category: music 32 · wellness 13 · networking 10
+City totals (this week): AMS 19 · BCN 35 · ANT 8 · BRX 6 · GENT 2
+By category: music 47 · wellness 13 · networking 10
