@@ -1,47 +1,47 @@
-# Where to be this week — Mon 20–26 Jul 2026
+# Where to be this week — Mon 27 Jul–02 Aug 2026
 
 ## The 5 picks
 
-- **Sun — Brunch Electronik Barcelona: Disclosure (DJ Set), HAAi, Bibi Seck** *(Parc de la Trinitat, Barcelona)* — Score 8.9
-  888 RSVPs, the single biggest listing of the week anywhere. BCN's signature Sunday closer, and this edition is stacked. [Source ↗](https://ra.co/events/es/barcelona)
-- **Mon — RA Pick: Café d'Anvers Open Air 2026** *(Sint-Jansplein, Antwerp)* — Score 8.7
-  Groove Armada and Felix Da Housecat headline a legendary open-air reunion — a Monday night worth rearranging your week for. [Source ↗](https://ra.co/events/be/antwerp)
-- **Sat — RA Pick: Encore Dub x Vestige Klub • Circle Park x La Fabriek (16 hours)** *(Brussels)* — Score 8.7
-  Mad Professor live, then the party shifts into jungle until sunrise. Unusual format, real depth. [Source ↗](https://ra.co/events/be/brussels)
-- **Sun — RA Pick: NYEGE NYEGE x Garage Fest 2026 Weekender** *(Garage Noord, Amsterdam)* — Score 8.6
-  30-hour weekender showcasing East African electronic labels at a trusted venue — the most distinctive booking on the AMS board this week. [Source ↗](https://ra.co/events/nl/amsterdam)
-- **Wed — RA Pick: FUNKE_GF_DAY06, Black Teeth Radio & Third Floor** *(Funke, Ghent)* — Score 8.6
-  Gentse Feesten's underground night — Al Wootton's dub-infused set headlines. [Source ↗](https://ra.co/events/be/ghent)
+- **Wed–Sun — Dekmantel Festival 2026** *(Amsterdamse Bos, Amsterdam)* — Score 9.5
+  160+ artists over five days — Skrillex, Underground Resistance, Helena Hauff, CCL, Jeff Mills. The unmissable week of the summer. [Source ↗](https://ra.co/events/2351984)
+- **Fri — RA Pick: LAUNDRETTE ...IsBurning** *(Lofi, Amsterdam)* — Score 8.7
+  Two of Amsterdam's sharpest club nights merge to open WorldPride weekend. [Source ↗](https://ra.co/events/nl/amsterdam)
+- **Sat — RA Pick: LLOSS Festival 2026** *(Schans van Landmolen, Antwerp)* — Score 8.5
+  Ava Eva, Rozevelt, UNOS and Giorgio take over a hidden castle fortress — the reason to be in Antwerp this week. [Source ↗](https://ra.co/events/be/antwerp)
+- **Fri — RA Pick: Drum & Beer #40: 5 Years** *(La Source Beer Co, Brussels)* — Score 8.5
+  A scrappy drum & bass anniversary night powered by the Aleph Dub Sound System. [Source ↗](https://ra.co/events/be/brussels)
+- **Fri — Dias de Campo x 24Seven Records** *(Sunseabar Beach Club, Barcelona)* — Score 8.5
+  Free open-air beach party, 674 confirmed RA attendees — the single biggest turnout of the week anywhere. [Source ↗](https://ra.co/events/es/barcelona)
 
 ## Don't miss if you're in...
 
-**Barcelona** — GREC Festival's Ghazal (Tue, RA Pick, Arabic poetry meets ambient production) · VMO's black-metal-industrial-techno chaos at El Pumarejo (Thu, RA Pick) · Paral·lel Festival's mountaintop weekend at Port del Comte (Fri–Sun, RA Pick) · Output pres. Nicola Cruz + Binh, 1,100+ RSVPs (Fri) · a genuinely deep beach-party circuit all weekend (Sunseabar, Almar, W Barcelona — several free). On the founder side: DeepTech Talks BCN (Tue, 72 RSVPs), Founders&Coffee x Itnig (Wed, sold out), Barcelona Entrepreneurs' Tue/Fri terrace meetups.
+**Amsterdam** does double duty: Dekmantel overlaps WorldPride, so Fri–Sun is saturated with Pride specials — Shelter's Dam Swindle night, Queer Aunties' 366-strong Sunday closer at Yellow House, PACH. curates, POOF DOOF, RA Pick Planet Angels at TILLATEC. Calmer: Odessa's full ecstatic-dance week plus a Sunday potluck and Queerstatic, Kareem Raïhani closes Sunday at EDA.
 
-**Amsterdam** — Zeedyke's Pride edition at ISO with Rosa Pistola (Sat, RA Pick) · grady steele b2b ex.sses' leftfield night at murmur (Fri, RA Pick) · No Art Closing Festival at Flevopark — ANOTR, Seth Troxler, The Martinez Brothers (Sat, 244) · Capture with Cosmic Gate at Paal69, the week's biggest AMS listing (Sun, 635). Odessa runs ecstatic dance Wed–Sun; AI Builders Amsterdam met at StartDock Wed (42 RSVPs).
+**Barcelona** pairs its free beach-party circuit (Kazanova, Veridis Quo, TEN Ibiza) with a strong AI/founders week — an AI-in-creative panel at Norrsken House, near-capacity AI-for-women-in-business night, Claude & Coffee's Women in Tech edition. Raresh b2b Praslea headline Hola Beach Club Saturday.
 
-**Antwerp** — Club Vaag runs two trusted-venue nights (Fri, Sat) alongside Café d'Anvers.
+**Antwerp** is thin outside Shelter's opening weekend (RA Pick, brand-new venue) and Club Vaag's usual programming.
 
-**Brussels** — BLUR x UMI's sun-soaked open-air at Place Poelaert (Sat, RA Pick) · Jennifur & Friends' dinner-into-broken-beat night at Lavallée (Sat, RA Pick) · Fuse and C12 both running solid trusted-venue nights (Sat).
+**Brussels** gets Tiësto at the Atomium open-air, Fuse's RSO tour, two rooms at C12 Saturday. Daytime: Bois de la Cambre's outdoor jazz sessions and a Silent Walk in the Forêt de Soignes.
 
-**Ghent** — Gentse Feesten runs all week; Boomtown's open-air brings Luke Slater and Steffi (Thu) alongside FUNKE's RA Pick.
+**Ghent** is quiet but has ACIDICA Festival and a genuinely odd rave staged inside the local IKEA.
 
 ## Hidden gems
 
-Barcelona | Claude Meetup for Builders, waitlisted AI/builder night at WTC Barcelona (Tue) · MO.R.E. — yoga, cacao and dance as one daytime session, Barcelona (Sat) · Pentagram Gathering: Tribal Bloom, a full day-into-night cacao/dance/singing gathering near Antwerp (Sat) · Ecstatic Dance Kaap, a free-space biweekly alternative to Odessa/EDA, Amsterdam (Tue) · Piknik Elektronik, free outdoor daytime party in Bois de la Cambre, Brussels (Sun) · Mary Magdalene ritual gathering in the woods near Antwerp (Wed).
+Morning Ecstatic Dance + Potluck (Odessa, Sun). Meet Me Under the Moon full-moon meditation by the sea (BCN, Thu). PUUR's mindful outdoor dance in a hidden Kampenhout garden (Sat). A full-moon women's healing circle in a Wernhout forest (Wed). &Friends' free secret audiophile bar with a Berlin collab (BCN, Sat). LIMINAL's platonic Cuddle Club (Ams, Sun). DJ Tennis on the W Barcelona rooftop deck (Sun) — barely marketed, worth it.
 
 ## What I skipped
 
-Sub-50-RSVP Amsterdam/Barcelona RA listings with no RA Pick or trusted-venue signal · most Meetup wellness/AI keyword sweeps in Antwerp and Brussels — almost entirely 1–4 RSVP online sessions · standalone breathwork/yoga Meetup listings in Barcelona (1–2 attendees, low uniqueness).
+Sub-50-attendee Barcelona/Brussels club nights with no RA Pick or trusted-venue signal — noise, not signal. Most "AI networking" Meetup results for Antwerp/Brussels were online-only, excluded. Generic yin-yoga listings without a breathwork/sound hook were dropped in favour of the wellness picks above.
 
 ## Sources scanned
 
-Odessa 5 · EDA 1 · PRYMAL (checked — nothing live this week; PRYMAL Fridays teased for Sept 4, WildFlow on waitlist) · RA-Antwerp/Brussels/Ghent (full week, one pass each) · RA-Amsterdam & RA-Barcelona (day-by-day Mon–Sun, ≥100 attendees or RA Pick filter) · Meetup (BCN broad AI/startup/wellness sweep; AMS AI/startup/wellness; Antwerp tech/startup/networking; Brussels AI/startup/wellness) · Luma (lu.ma/amsterdam, lu.ma/barcelona) · Hipsy (Amsterdam r15, Antwerp/Flanders r40, Brussels r30) · Eventbrite (BCN business + health).
+RA: Antwerp 4, Brussels 7, Ghent 2, Amsterdam 39, Barcelona 30 (82 total; AMS/BCN scanned day-by-day Thu–Sun). Odessa 6, EDA 1. Meetup 19, Luma 4, Eventbrite 4 (BCN business + health), Hipsy 8 (AMS r15, Antwerp/Flanders r40, Brussels r30 — all with lat/lon).
 
 ## Confirmed gaps & non-coverage
 
-**Not swept this run:** Facebook Events, AllEvents, Shotgun, Tier-3 venue-by-venue sweep (RA looked healthy across all 5 cities, no trigger for it). **Genuinely thin:** Antwerp and Brussels in-person AI/startup Meetup scene — both sweeps returned almost exclusively online sessions with 1–4 RSVPs.
+Not swept: Shotgun, AllEvents, Facebook Events, Eventbrite for Antwerp/Brussels/Ghent (standing gaps). Antwerp's RA page was genuinely quiet Mon–Thu — not a coverage miss.
 
 ## Board status
 
-City totals (this week): AMS 34 · BCN 37 · ANT 11 · BRX 8 · GENT 2
-By category: music 65 · wellness 18 · networking 9
+This week: Barcelona 51, Amsterdam 49, Brussels 11, Antwerp 6, Ghent 2, plus 5 wellness events in Flemish/Brabant towns near Antwerp (Kampenhout, Brasschaat, Wernhout, Rijsbergen, Wouwse Plantage).
+By category: music 83, wellness 27, networking 11, community 3.
