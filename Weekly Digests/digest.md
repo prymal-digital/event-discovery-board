@@ -1,57 +1,57 @@
-# Where to be this week — Mon 17–23 Aug 2026
+# Where to be this week — Mon 24–30 Aug 2026
 
 ## The 5 picks
 
-**Sun 13:00** — Brunch Electronik Barcelona: Artbat, Adam Ten, ANNA, Shall Ocin *(Barcelona)* — Score 8.5
-1,100+ RSVPs. This is the week's biggest single gathering — Barcelona's flagship Sunday day-festival closes the week properly. [Source ↗](https://ra.co/events/es/barcelona)
+**Sat 11:00** — MO.R.E. – Morning Rave Experience: Yoga + Cacao + Dance *(Barcelona)* — Score 8.7
+Daytime "rave" that's actually yoga, cacao and dance in one room — conscious clubbing without the 4am comedown. [Source ↗](https://www.meetup.com/samanacommunityconsciousliving/events/315778257/)
 
-**Fri 23:00** — Throwback: Back to 80s, 90s & 00s *(Barcelona)* — Score 8.5
-409 RSVPs at La Terrrazza — the week's biggest Friday night, no contest. [Source ↗](https://ra.co/events/es/barcelona)
+**Sat 11:00** — Taller de Respiración Holoscópica *(Barcelona)* — Score 8.6
+A full holotropic breathwork workshop at Soma Yoga — the real deep-work format, not a taster session. [Source ↗](https://www.eventbrite.es/e/taller-de-respiracion-holoscopica-tickets-1996472899185)
 
-**Sat, from noon** — Gula Gula Festival 2026 *(Brussels)* — Score 8.5
-RA Pick, 294 RSVPs. Volunteer-run, creativity-first multidisciplinary festival — second edition, building a real following. [Source ↗](https://ra.co/events/be/brussels)
+**Fri 19:00** — Full Moon | Silent Forest Dance *(Amsterdam)* — Score 8.6
+Ecstatic dance, yoga and cacao under the trees in Amsterdamse Bos, timed to the full moon. [Source ↗](https://hipsy.eu/event/240658-full-moon-silent-forest-dance-amsterdamse-bos-yoga-cacao-dans)
 
-**Sun, from 14:00** — UNFACED Open Air: Pawlowski, Jacidorex, 2hot2play, L.zwo *(Antwerp)* — Score 8.5
-RA Pick. 360° arena rave with an AKU Funktion-One wall — Antwerp's loudest closer. [Source ↗](https://ra.co/events/be/antwerp)
+**Sat 23:59** — Six Sex Live · Cannelle Live · Genosidra · KMILA *(Barcelona)* — Score 8.5
+RA Pick at Nitsa — distorted beats, dirty hooks, the club night with the most heat this week. [Source ↗](https://ra.co/events/2445922)
 
-**Fri 22:00** — Club Solitaire: Marsman, Ofra, Kim Peers, Graftak *(Antwerp)* — Score 8.5
-RA Pick. Der Bürokrat's Belgian debut at Het Bos — synth-pop and sun-faded new beat. [Source ↗](https://ra.co/events/be/antwerp)
+**Fri 23:30** — DJ Marcelle (all night) *(Amsterdam)* — Score 8.5
+RA Pick — the Dutch selector's legendary all-nighter returns to Garage Noord's warehouse fringe. [Source ↗](https://ra.co/events/2494107)
 
 ## Don't miss if you're in...
 
-**Barcelona:** Rooftop Nights x Networking with founders and digital nomads (Fri) · PRISM Hard pres Ueberrest at INPUT (Thu, 366) · free beach parties at Sunseabar — 22Recordings (Fri, 176), Half Baked (Sat, 215) · Andrés Campo all-night at Moog (Wed, 156) · PRISM pres Daria Kolosova, also INPUT (Sat, 162) · Seaseaclub's Arapu birthday bash (Sun, 331) · AI Engineers Barcelona's weekly Monday meetup.
+**Barcelona:** free beach parties all weekend — Bonanza x Liquid Palms (Thu), Kazanova (Fri), Lost Invites Innuendo (Fri) · INPUT's techno run — Ely Oaks (Fri), Clara Cuve (Sat) · Les Enfants pres. Red Axes (Sat) · Brunch Electronik: Marco Carola closes Sunday · AI Engineers (Mon) and Barcelona Entrepreneurs (Tue+Fri) keep running.
 
-**Amsterdam:** Boss Priester b2b Kepler at Shelter (Fri, 327), Shelter's Bondru the next night (Sat, 301) · Sissi's back-to-back Fri/Sat (212, 223) · XL Cacao Summer Edition at PLLEK (Wed).
+**Amsterdam:** Sissi's runs three nights straight (Rythym Thu x2, Huru-Hara Fri, Closecall Sat) · Source takes over Supperclub for Intro Week (Fri) · Vault All Vinyl at RADION (Sat, RA Pick) · SLPFNK's 15-year tour closes at BRET (Sun, RA Pick) · Odessa's ecstatic dance runs Thu–Sun.
 
-**Brussels:** Club Gelatina takes over Lavallée (Fri, 83).
+**Brussels:** C12 x GIMIC Radio's 15-hour open-air-to-club marathon (Sat) · nest_bxl's invite-only ambient day party (Sun, RA Pick, 21+) · Standard's rooftop with Crevette Records (Sat).
 
-**Antwerp:** Thundercat live at the open-air Rivierenhof (Tue) — an outlier booking for a Tuesday.
+**Antwerp:** quiet on music; Dataminded's free AI hackathon (Wed) is the standout.
 
-**Ghent:** quiet again — see gaps below.
+**Ghent:** nothing cleared the bar — genuinely dark, not unscanned.
 
 ## Hidden gems
 
-Sacred Garden *(Aalst, Sat)* — a full day of cacao, singing and movement in an intimate garden, off the club circuit entirely.
+Sex-Positive Techno Party // Back to School *(Barcelona, Fri)* — consent-forward, dress-coded, location revealed 48h out.
 
-Murray Kyle & Marya Stark: Harvest Gathering *(Amsterdam, Fri)* — two internationally touring sacred-song artists, one-off collaboration concert.
+Conscious Place OPENING PARTY *(Amsterdam, Sat)* — launch night for a brand-new wellness venue, worth getting in early.
 
-Microdosing Party Amsterdam — Summer Special *(Diemen, Thu)* — plant medicine, ecstatic dance and conscious networking in one room, genuinely hard to categorize.
+Full Moon Vocal Circle in Nature with Dinner *(Brussels, Thu, Sint-Pieters-Leeuw)* — voice work under the trees, dinner included.
 
-Slow Down & Sink In: Yoga Nidra & Klankschalen *(Rucphen, Fri)* — outdoor yoga nidra and singing bowls in the forest, as far from a club night as this board gets.
+Silent Forest Dance *(Amsterdam, Wed)* — the Full Moon edition's quieter midweek sibling, same forest.
 
 ## What I skipped
 
-Baang meets La Terrrazza (BCN, Fri, 78) and Het Concept at Club Up (AMS, Sat, 54) — under the 100-attendee bar at non-anchor venues. LIMINAL's Shibari programming (AMS) — real community, but outside your stated clusters. A Roosendaal herb walk — too far from your clusters to score.
+ROOFTOP SUMMIT and Financial CHAKRAS networking (both Barcelona) — decent hooks, but stronger conscious-business picks already made the board. Generic "TBA venue" mixers in Antwerp/Brussels scored right at the 7.0 floor — included once each, not repeated.
 
 ## Sources scanned
 
-RA–Antwerp ✓ (51, full week) · RA–Brussels ✓ (138) · RA–Ghent ✓ (45) · RA–Amsterdam ✓ (day-by-day) · RA–Barcelona ✓ (day-by-day, multi-page) · Odessa ✓ · Ecstatic Dance Amsterdam ✓ · Conscious Club ✓ (nothing until Oct 25 — lookahead) · PRYMAL ✓ (nothing in-window; Sept 4 — lookahead) · Meetup ✓ (AMS/BCN/ANT/BRX keywords) · Luma ✓ (Barcelona) · Eventbrite ✓ (Barcelona) · Hipsy ✓ (Amsterdam, Antwerp/Flanders, Brussels).
+RA–Antwerp ✓ (full week, 0) · RA–Brussels ✓ (full week, 3) · RA–Ghent ✓ (full week, 0) · RA–Amsterdam: Mon–Thu ✓ exhaustive, Fri ✓ exhaustive, **Sat/Sun partial** (rate-limit block mid-scan) · RA–Barcelona: **Mon–Wed not scanned** (blocked before start), Thu–Sun ✓ exhaustive · Odessa ✓ · Ecstatic Dance Amsterdam ✓ (no Tue — venue on pause until Sept 1) · PRYMAL ✓ (nothing in-window) · Meetup ✓ (BCN/AMS/ANT/BRX) · Luma ✓ (BCN/AMS) · Eventbrite ✓ (BCN) · Hipsy ✓ (AMS/ANT/BRX).
 
 ## Confirmed gaps & non-coverage
 
-Ghent cleared only 2 events above the bar this week — genuinely thin, not unscanned. Eventbrite for Amsterdam/Antwerp/Brussels/Ghent, AllEvents, Facebook Events and Shotgun remain standing gaps per the resources doc.
+RA hit a bot-detection block twice (mid Amsterdam-Saturday, mid Barcelona-Sunday) — those slices plus Barcelona Mon–Wed are the weakest-covered this run; a follow-up pass would likely surface more. Eventbrite for AMS/ANT/BRX/Ghent, AllEvents, Facebook Events and Shotgun remain standing gaps.
 
 ## Board status
 
-This week: Barcelona 58 · Amsterdam 27 · Antwerp 14 · Brussels 11 · Ghent 2 — 112 total.
-By category: music 78 · wellness 26 · networking 8.
+This week: Barcelona 43 · Amsterdam 40 · Brussels 9 · Antwerp 5 · Ghent 0 — 97 total.
+By category: music 39 · wellness 34 · networking 17 · community 7.
