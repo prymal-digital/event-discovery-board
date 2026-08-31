@@ -1,57 +1,48 @@
-# Where to be this week — Mon 24–30 Aug 2026
+# Where to be this week — Mon 31 Aug–06 Sep 2026
 
 ## The 5 picks
 
-**Sat 11:00** — MO.R.E. – Morning Rave Experience: Yoga + Cacao + Dance *(Barcelona)* — Score 8.7
-Daytime "rave" that's actually yoga, cacao and dance in one room — conscious clubbing without the 4am comedown. [Source ↗](https://www.meetup.com/samanacommunityconsciousliving/events/315778257/)
+**Fri 19:00 — PRYMAL Fridays: Electronic Music & Connection** *(Barcelona, BIGG Fit)* — Score 8.5
+This is Henk's own PRYMAL night, landing in Barcelona this Friday — electronic music, movement, and the connection format PRYMAL is built on. The one to show up for, full stop. [PRYMAL ↗](https://www.prymal.world/events)
 
-**Sat 11:00** — Taller de Respiración Holoscópica *(Barcelona)* — Score 8.6
-A full holotropic breathwork workshop at Soma Yoga — the real deep-work format, not a taster session. [Source ↗](https://www.eventbrite.es/e/taller-de-respiracion-holoscopica-tickets-1996472899185)
+**Sat 16:00 — Brunch Electronik Barcelona: Solomun** *(Barcelona, Jardins de Joan Brossa)* — Score 8.5
+2,400+ RA attendees. Barcelona's daytime party of the season, and Solomun rarely misses. [RA ↗](https://ra.co/events/es/barcelona)
 
-**Fri 19:00** — Full Moon | Silent Forest Dance *(Amsterdam)* — Score 8.6
-Ecstatic dance, yoga and cacao under the trees in Amsterdamse Bos, timed to the full moon. [Source ↗](https://hipsy.eu/event/240658-full-moon-silent-forest-dance-amsterdamse-bos-yoga-cacao-dans)
+**Sat 23:00 — Launch Hexagon** *(Brussels, Hexagon Brussels)* — Score 8.5
+RA Pick. O'Simmie b2b Erykah open with '90s London energy before AK drops grime and garage — a real club launch, not a rebrand. [RA ↗](https://ra.co/events/be/brussels)
 
-**Sat 23:59** — Six Sex Live · Cannelle Live · Genosidra · KMILA *(Barcelona)* — Score 8.5
-RA Pick at Nitsa — distorted beats, dirty hooks, the club night with the most heat this week. [Source ↗](https://ra.co/events/2445922)
+**Fri 23:00 — Field Notes presents... A House Party 2** *(Amsterdam, Het Dorp)* — Score 8.5
+RA Pick. Prins Thomas and Legowelt on cosmic house and boogie duty. [RA ↗](https://ra.co/events/nl/amsterdam)
 
-**Fri 23:30** — DJ Marcelle (all night) *(Amsterdam)* — Score 8.5
-RA Pick — the Dutch selector's legendary all-nighter returns to Garage Noord's warehouse fringe. [Source ↗](https://ra.co/events/2494107)
+**Sun 14:00 — DKMNTL at BRET** *(Amsterdam, BRET)* — Score 8.5
+RA Pick, secret lineup. Dekmantel doesn't announce names and doesn't need to. [RA ↗](https://ra.co/events/nl/amsterdam)
 
 ## Don't miss if you're in...
 
-**Barcelona:** free beach parties all weekend — Bonanza x Liquid Palms (Thu), Kazanova (Fri), Lost Invites Innuendo (Fri) · INPUT's techno run — Ely Oaks (Fri), Clara Cuve (Sat) · Les Enfants pres. Red Axes (Sat) · Brunch Electronik: Marco Carola closes Sunday · AI Engineers (Mon) and Barcelona Entrepreneurs (Tue+Fri) keep running.
+**Barcelona:** Output pres. Apollonia + Sonja Moonear + Gabbs @ Seaseaclub (Sat, 404 RA attendees). City Hall pres. METODI (Sat, 311). Jackies Open Air Daytime w/ Gerd Janson @ La Terrrazza (Sat, from noon) for daylight instead of a 6am finish. Founders side: RevenueCat Shipaton (Thu, waitlisted), 2 Founders 2 Problemas (Fri, near capacity).
 
-**Amsterdam:** Sissi's runs three nights straight (Rythym Thu x2, Huru-Hara Fri, Closecall Sat) · Source takes over Supperclub for Intro Week (Fri) · Vault All Vinyl at RADION (Sat, RA Pick) · SLPFNK's 15-year tour closes at BRET (Sun, RA Pick) · Odessa's ecstatic dance runs Thu–Sun.
+**Amsterdam:** Ryan Elliott b2b Pancratio + Naomi @ Shelter (Sat, 307), Madam by Night: Basics Recording (Sat, 286), Symfora @ Lofi (Sat, 265) — Saturday is stacked, pick a venue and commit. Engineering with AI Agents (AI Native Netherlands, Thu, 200) is the strongest AI/builder room this week.
 
-**Brussels:** C12 x GIMIC Radio's 15-hour open-air-to-club marathon (Sat) · nest_bxl's invite-only ambient day party (Sun, RA Pick, 21+) · Standard's rooftop with Crevette Records (Sat).
+**Brussels:** 707 Takeover l 002 @ C12 (Sat, 52) and two Fuse nights (Fri/Sat) for trusted-venue techno over a big-name gamble.
 
-**Antwerp:** quiet on music; Dataminded's free AI hackathon (Wed) is the standout.
-
-**Ghent:** nothing cleared the bar — genuinely dark, not unscanned.
+**Antwerp:** Amelie Lens plays an open-air set in front of the KMSKA (Sat) — modest RA numbers so far, but worth the trip.
 
 ## Hidden gems
 
-Sex-Positive Techno Party // Back to School *(Barcelona, Fri)* — consent-forward, dress-coded, location revealed 48h out.
-
-Conscious Place OPENING PARTY *(Amsterdam, Sat)* — launch night for a brand-new wellness venue, worth getting in early.
-
-Full Moon Vocal Circle in Nature with Dinner *(Brussels, Thu, Sint-Pieters-Leeuw)* — voice work under the trees, dinner included.
-
-Silent Forest Dance *(Amsterdam, Wed)* — the Full Moon edition's quieter midweek sibling, same forest.
+Leroy Se Meurt / Ottoman Grüw / Froe Char @ Madame Moustache, Brussels (Thu) — RA Pick, electro-punk/EBM, tiny room. POLYGLOT: DJ Plead, MBODJ, TRS & EYRA @ Sala Upload, Barcelona (Fri) — RA Pick, percussive and experimental, not another techno night. Ecstatic Dance Brussels Open Air, Kampenhout (Sat) — last outdoor dance of the season before it moves inside. Deep House Yoga With Saz, Barcelona (Sun) — genuine wellness/music crossover, 146+ RSVPs. Spill the Tea: An Evening of Collective Venting, Amsterdam (Mon, sold out) — worth tracking this organizer. Queer Ecstatic Dance + Live Sound Bath, Amsterdam (Fri).
 
 ## What I skipped
 
-ROOFTOP SUMMIT and Financial CHAKRAS networking (both Barcelona) — decent hooks, but stronger conscious-business picks already made the board. Generic "TBA venue" mixers in Antwerp/Brussels scored right at the 7.0 floor — included once each, not repeated.
+Amelie Lens' Antwerp set shows only 41 RA attendees so far (included anyway on name value alone). Everything else under 50 attendees without an RA Pick or trusted-venue tag got cut — several sub-50 Barcelona club nights, and nearly all of Ghent this week, whose biggest draw (Groove Theory w/ Temudo) sat at 5 attendees.
 
 ## Sources scanned
 
-RA–Antwerp ✓ (full week, 0) · RA–Brussels ✓ (full week, 3) · RA–Ghent ✓ (full week, 0) · RA–Amsterdam: Mon–Thu ✓ exhaustive, Fri ✓ exhaustive, **Sat/Sun partial** (rate-limit block mid-scan) · RA–Barcelona: **Mon–Wed not scanned** (blocked before start), Thu–Sun ✓ exhaustive · Odessa ✓ · Ecstatic Dance Amsterdam ✓ (no Tue — venue on pause until Sept 1) · PRYMAL ✓ (nothing in-window) · Meetup ✓ (BCN/AMS/ANT/BRX) · Luma ✓ (BCN/AMS) · Eventbrite ✓ (BCN) · Hipsy ✓ (AMS/ANT/BRX).
+RA — Antwerp (58 events), Brussels (143), Ghent (48, 0 qualified), Amsterdam (day-by-day Thu–Sun), Barcelona (day-by-day Thu–Sun, ~150 events across the week). Meetup — BCN/AMS/ANT/BRX keyword sweeps. Luma — BCN, AMS. Hipsy — AMS, ANT, BRX. Odessa, Ecstatic Dance Amsterdam, PRYMAL — direct.
 
 ## Confirmed gaps & non-coverage
 
-RA hit a bot-detection block twice (mid Amsterdam-Saturday, mid Barcelona-Sunday) — those slices plus Barcelona Mon–Wed are the weakest-covered this run; a follow-up pass would likely surface more. Eventbrite for AMS/ANT/BRX/Ghent, AllEvents, Facebook Events and Shotgun remain standing gaps.
+Eventbrite wellness/health swept for BCN — nothing qualified. Ghent Meetup/Eventbrite not swept this run (RA-Ghent came back thin). RA "load more" wasn't exhausted past ~20–25 results/day for Amsterdam and Barcelona — a few more 50+ nights on Friday/Saturday BCN are likely uncaptured.
 
 ## Board status
 
-This week: Barcelona 43 · Amsterdam 40 · Brussels 9 · Antwerp 5 · Ghent 0 — 97 total.
-By category: music 39 · wellness 34 · networking 17 · community 7.
+This week: AMS 38, BCN 37, BRX 8, ANT 2, GENT 0. By category: music 59, wellness 14, networking 10, community 2.
