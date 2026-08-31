@@ -366,7 +366,7 @@ function eventCard(ev) {
   card.innerHTML = `
     <div class="event-header">
       <h3 class="event-title"><a href="${ev.url}" target="_blank" rel="noopener">${ev.name}</a></h3>
-      <span class="score-badge ${scoreClass(ev.score)}">${ev.score.toFixed(1)}</span>
+      ${typeof ev.score === "number" ? `<span class="score-badge ${scoreClass(ev.score)}">${ev.score.toFixed(1)}</span>` : ""}
     </div>
     <div class="event-meta">
       <div class="row"><strong>${isoToFullDay(ev.date)} ${prettyDate(ev.date)} · ${ev.time}</strong> · ${ev.venue} · ${ev.city}</div>
@@ -399,7 +399,7 @@ function pickCard(ev, rank) {
   const c = document.createElement("div");
   c.className = "pick-card";
   c.innerHTML = `
-    <div class="rank">#${rank} · ${ev.score.toFixed(1)}</div>
+    <div class="rank">#${rank}${typeof ev.score === "number" ? " · "+ev.score.toFixed(1) : ""}</div>
     <div class="pick-day">${isoToFullDay(ev.date)} ${prettyDate(ev.date)} · ${ev.time}</div>
     <div class="pick-name">${ev.name}</div>
     <div class="pick-meta">${ev.venue} · ${ev.city} · ${ev.cost}</div>
@@ -417,7 +417,7 @@ function pickCard(ev, rank) {
 function renderPicks() {
   const grid = document.getElementById("picks-grid");
   grid.innerHTML = "";
-  const top = [...EVENTS].filter(ev => !ev.prymal && ev.date >= WEEK_START && ev.date <= WEEK_END && passesFilter(ev)).sort((a,b)=>b.score-a.score).slice(0,5);
+  const top = [...EVENTS].filter(ev => !ev.prymal && typeof ev.score === "number" && ev.date >= WEEK_START && ev.date <= WEEK_END && passesFilter(ev)).sort((a,b)=>b.score-a.score).slice(0,5);
   if (!top.length) { grid.innerHTML='<div class="empty">No events match your filters.</div>'; document.getElementById("picks-count").textContent="(0)"; return; }
   top.forEach((ev,i)=>grid.appendChild(pickCard(ev,i+1)));
   document.getElementById("picks-count").textContent=`(top ${top.length})`;
@@ -426,7 +426,7 @@ function renderPicks() {
 function renderWeek() {
   const board = document.getElementById("weekly-board");
   board.innerHTML = "";
-  const filtered = EVENTS.filter(ev => !ev.prymal && passesFilter(ev));
+  const filtered = EVENTS.filter(ev => passesFilter(ev));
   document.getElementById("week-count").textContent=`(${filtered.length} of ${EVENTS.length})`;
   const days=[], start=new Date(WEEK_START+"T12:00:00");
   for(let i=0;i<7;i++){const d=new Date(start);d.setDate(start.getDate()+i);days.push(d.toISOString().slice(0,10));}

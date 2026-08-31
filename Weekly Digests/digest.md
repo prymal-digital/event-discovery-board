@@ -2,8 +2,8 @@
 
 ## The 5 picks
 
-**PRYMAL spotlight — Fri 19:00 — PRYMAL Fridays: Electronic Music & Connection** *(Barcelona, BIGG Fit)* — Score 7.5
-Henk's own launch, so it's here regardless of score: the first-ever PRYMAL Fridays, alcohol-free electronic music at BIGG Fit gym, founding tickets limited. Score reflects real signal (first edition, no track record yet) — not RA/Meetup demand data. [Tickets on Luma ↗](https://luma.com/710wca6a)
+**PRYMAL spotlight — Fri 19:00 — PRYMAL Fridays: Electronic Music & Connection** *(Barcelona, BIGG Fit)* — no score
+Henk's own launch, here regardless of any ranking: the first-ever PRYMAL Fridays, alcohol-free electronic music at BIGG Fit gym, founding tickets limited. No RA/Meetup data exists yet for a first edition, so it isn't scored — shown on merit of being PRYMAL's own night, not a fabricated number. [Tickets on Luma ↗](https://luma.com/710wca6a)
 
 **Sat 16:00 — Brunch Electronik Barcelona: Solomun** *(Barcelona, Jardins de Joan Brossa)* — Score 8.5
 2,400+ RA attendees. Barcelona's daytime party of the season, and Solomun rarely misses. [RA ↗](https://ra.co/events/es/barcelona)
