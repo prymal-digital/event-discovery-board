@@ -12,8 +12,8 @@ The single scheduled task (`event-board-weekly-digest`, Mondays ~07:43 Europe/Am
 Each Monday run:
 1. Updates `event_board_data.json` (appends this week's events, dedup by `id`) — this is the single "calendar" the live board reads
 2. Overwrites `Weekly Digests/digest.md` (single file, no dated history)
-3. One commit + push of **those two files** to `origin main` — board redeploys via GitHub Pages
-4. (Optional) rotates `backgrounds/bg-current.jpg`; if done, include it in the same commit
+3. Rotates `backgrounds/bg-current.jpg` from `backgrounds/manifest.json` (see `backgrounds/README.md`) — **mandatory every run, not optional**
+4. One commit + push of **those three files** to `origin main` — board redeploys via GitHub Pages
 
 The commit is made from a fresh `/tmp` clone (see Git workflow) — the scheduled runtime can create files in the mounted folder but cannot delete/rename, so it cannot finalize a commit there. Pushing the **data file** is what updates the board; pushing only the digest does nothing visible.
 
