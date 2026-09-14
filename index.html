@@ -444,7 +444,7 @@ function renderPrymal() {
   const section = document.getElementById("prymal-section");
   const grid    = document.getElementById("prymal-grid");
   grid.innerHTML = "";
-  const prymalEvents = [...EVENTS, ...LOOKAHEAD].filter(ev => ev.prymal && passesFilter(ev)).sort((a,b)=>a.date.localeCompare(b.date));
+  const prymalEvents = [...EVENTS, ...LOOKAHEAD].filter(ev => ev.prymal && ev.date >= TODAY && passesFilter(ev)).sort((a,b)=>a.date.localeCompare(b.date));
   if (!prymalEvents.length) { section.style.display = "none"; return; }
   section.style.display = "";
   prymalEvents.forEach(ev => grid.appendChild(eventCard(ev)));
