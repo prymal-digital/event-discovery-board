@@ -34564,7 +34564,9 @@
       "url": "https://www.amsterdam-dance-event.nl/",
       "is_festival": true,
       "score": 8.0,
-      "hidden_gem": false
+      "hidden_gem": false,
+      "time": "10:00",
+      "endTime": "23:00"
     },
     {
       "id": "lookahead-consciousclub-adesiradam-oct25",
@@ -34577,7 +34579,9 @@
       "url": "https://theconsciousclub.com/events",
       "is_festival": true,
       "score": 7.5,
-      "hidden_gem": false
+      "hidden_gem": false,
+      "time": "22:00",
+      "endTime": "05:00"
     },
     {
       "id": "lookahead-starwarz-final-oct03",
@@ -34590,7 +34594,9 @@
       "url": "https://ra.co/events/be/ghent",
       "is_festival": false,
       "score": 8.0,
-      "hidden_gem": false
+      "hidden_gem": false,
+      "time": "23:00",
+      "endTime": "05:00"
     }
   ],
   "metadata": {
