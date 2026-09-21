@@ -50,6 +50,20 @@ Chrome MCP required (WebFetch returns shells on RA). **The city page shows a sma
 
 **Scoring from RA:** RA Pick = 8.5+; 150+ attendees = 8.0; 50–149 = 7.5; <50 at trusted venue (Fuse, C12, Garage Noord, Shelter, Nitsa, LAUT, Ampere, etc.) = 7.0.
 
+### Direct per-event URLs — REQUIRED on every source, not just Hipsy
+
+**This has recurred multiple weeks running — treat it as a hard requirement, not a nice-to-have.** Every event added to `event_board_data.json` must link to that event's own page, never a generic search/listing/homepage URL (a city search page, a group's main page, a venue homepage, a platform homepage). A generic link breaks the board's "go to event" / "+ Google" / "+ .ics" actions for that card — the user lands on a search results page instead of the event.
+
+This applies to **every** source used in the scan, not only Hipsy/Luma:
+
+- **Resident Advisor:** never link to `ra.co/events/<cc>/<city>` (or with `?startDate=...`). Each event card is a link to `ra.co/events/<numeric-id>` — grab that exact URL. If it wasn't captured while reading the day's list, re-open that day's URL and extract it before adding the event, e.g. via `javascript_tool`: `Array.from(document.querySelectorAll('a[href*="/events/"]')).filter(a=>/\/events\/\d/.test(a.getAttribute('href'))&&a.textContent.trim()).map(a=>a.getAttribute('href')+' | '+a.textContent.trim())` (strip `#tickets` suffixes and de-dupe).
+- **Meetup:** never link to `meetup.com/find/...` or a bare group page (`meetup.com/<group>/`). Use the specific `meetup.com/<group>/events/<id>/` URL, extracted the same way (`a[href*="/events/"]`, strip query string).
+- **Luma:** never link to `lu.ma/<city>` alone. Each city page embeds a `<script type="application/ld+json">` `ItemList` with every event's real name + URL — parse it directly instead of guessing from card hrefs: `JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent).itemListElement.map(li=>li.item.name+' | '+li.item.url)`. Far more reliable than the old `a[href^="/"]` scrape.
+- **Hipsy:** never link to `hipsy.eu/events?location=...`. Extract via `a[href*="/event/"]` matched to the event name (as already documented below) — or, on odessa.amsterdam / ecstaticdanceamsterdam.com, follow the ticket link straight through: those sites link each date directly to its own `hipsy.nl/event/<id>-<slug>` page.
+- **PRYMAL / venue sites / any other source:** same rule — find that event's own page or ticket link, not the site's homepage or events index.
+
+Before writing an event into the JSON, sanity-check its `url`: the last path segment should not be a bare `events`, a city name, or a query-string-only search page. If a genuine per-event URL cannot be found after a real attempt, use the most specific page available (e.g. the venue's own agenda page for that date) and note it in the digest's gaps section — do not silently fall back to a generic search URL.
+
 ### Tier 2b — Meetup + Luma + Hipsy searches (weekly, ~6K tokens)
 
 Chrome MCP (JS-rendered).
@@ -60,6 +74,13 @@ Chrome MCP (JS-rendered).
 - **Brussels:** "tech", "startup", "AI", "wellness"
 - **Luma:** `lu.ma/amsterdam`, `lu.ma/barcelona` (scroll for the week)
 - **Hipsy (wellness — `hipsy.eu/events`):** sweep **Amsterdam (NL)** and the **Belgian cities** for ecstatic/ritual/tantric dance, cacao, breathwork, sound baths, conscious parties. Always pass lat/lon — the geocoder is ambiguous ("Amsterdam" alone resolves to Amsterdam **NY**): Amsterdam `52.3676,4.9041` (radius 15); Antwerp `51.2194,4.4025` (radius 40 → sweeps Flanders incl. Ghent/Mechelen); Brussels `50.8503,4.3517` (radius 30). URL: `hipsy.eu/events?location=<City>,+<Country>&latitude=<lat>&longitude=<lon>&radius=<km>`. **Hipsy has no Barcelona coverage (0 events)** — skip it for BCN.
+  **Always capture the direct per-event URL, never the generic city search URL** — the latter breaks the board's "go to event" link. After reading the page text, run this in Chrome MCP (`javascript_tool`) on the same tab to get direct links keyed to event names, then match each event you're adding by name:
+  ```js
+  Array.from(document.querySelectorAll('a[href*="/event/"]'))
+    .map(a => a.getAttribute('href').split('?')[0] + ' ||| ' + a.textContent.trim().replace(/\s+/g,' ').slice(0,100))
+    .join('\n');
+  ```
+  This applies to Luma too (`lu.ma/amsterdam`, `lu.ma/barcelona`) — those event cards are also unlabeled image links by default; use the same `a[href^="/"]` extraction approach to grab the specific slug rather than falling back to the bare city page.
 
 ### Tier 3 — Ad-hoc venue sweep (~quarterly, only as needed)
 
