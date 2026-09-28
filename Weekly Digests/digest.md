@@ -1,56 +1,56 @@
-# Where to be this week — Mon 21–27 Sep 2026
+# Where to be this week — Mon 28 Sep–4 Oct 2026
 
 ## The 5 picks
 
-**Thu 24, late** — subbacultcha presents: carla dal forno + ebby *(Amsterdam)* — Score 8.5
-RA Pick, sold out. Avant-garde pop icon Carla dal Forno plays an intimate set at murmur — grab a resale or just know it happened.
-[Source ↗](https://ra.co/events/nl/amsterdam?startDate=2026-09-24&endDate=2026-09-24)
+**Sat 3, 6pm** — SOUNDIT Plaza: Detroit Love — Carl Craig ft Mike Banks(live), Octave One(live) *(Barcelona)* — Score 8.5
+Detroit techno royalty at a 1,800-capacity mountaintop plaza — the week's runaway biggest draw on the board.
+[Source ↗](https://ra.co/events/2480196)
 
-**Fri 25, all night** — Doka Studio with Vladimir Ivkovic - Intergalactic Gary *(Amsterdam)* — Score 8.5
-RA Pick. Two veteran selectors, one hi-fi soundsystem, no map. Doka does this better than almost anyone in the city.
-[Source ↗](https://ra.co/events/nl/amsterdam?startDate=2026-09-25&endDate=2026-09-25)
+**Thu 1, late** — REBORN - Penúltimo Capítulo *(Barcelona)* — Score 8.5
+City Hall's biggest Thursday of the season, nearly 750 RSVPs on a school night.
+[Source ↗](https://ra.co/events/2517954)
 
-**Fri 25, all night** — PARAMIDA (All Night Long) *(Amsterdam)* — Score 8.5
-RA Pick. The Panorama Bar resident takes over CLUB RAUM for an ecstatic, old-school house marathon.
-[Source ↗](https://ra.co/events/nl/amsterdam?startDate=2026-09-25&endDate=2026-09-25)
+**Fri 2, late** — UNTIED *(Amsterdam)* — Score 8.0
+Toekomstmuziek's Friday pulled 391 RSVPs, the best-attended night in Amsterdam this week.
+[Source ↗](https://ra.co/events/2499136)
 
-**Fri 25, late** — Siku pres. Marco Shuttle *(Barcelona)* — Score 8.5
-RA Pick. Berlin's Marco Shuttle debuts at Les Enfants Brillants — hypnotic, tense, cinematic. The night to plan around.
-[Source ↗](https://ra.co/events/es/barcelona?startDate=2026-09-25&endDate=2026-09-25)
+**Sat 3, all night** — Unsilenced x Doka Studio with Petre Inspirescu *(Amsterdam)* — Score 8.0
+Petre Inspirescu all night long — the week's best lineup-to-room match in the city.
+[Source ↗](https://ra.co/events/2530038)
 
-**Sat 26, afternoon** — Heels & Souls On The Beach *(Barcelona)* — Score 8.5
-RA Pick, 438 attendees, free. Sunseabar's best house and electro line-up of the week, and you don't pay for it.
-[Source ↗](https://ra.co/events/es/barcelona?startDate=2026-09-26&endDate=2026-09-26)
+**Fri 2, late** — BAILE TRAMA 4th Anniversary *(Brussels)* — Score 8.0
+La Fabriek's anniversary party is Brussels' biggest party of the week by a wide margin (181 RSVPs).
+[Source ↗](https://ra.co/events/2535096)
 
 ## Don't miss if you're in...
 
-**Barcelona:** the week's biggest rooms — MUTE pres Joris Voorn (Sat, Seaseaclub, 457) and HOPE pres Sven Väth on the beach at Sitges (Sun, 484) — bookend a stacked La Mercè hangover of free parties (City Hall, Almar trance, Electrostad open-air). On the tech side, BarcelonaJS x Factorial pulled 150 RSVPs and LLMs in motion at Monzo pulled 141 — better attended than most BCN club nights this week.
+**Amsterdam:** Shelter runs it back Friday and Saturday (302 both nights), Supperclub triples up (Y2K Thursday, Synced x SV Saturday), and Sissi's does the same Friday-Saturday double. Sunday's TEMPØ community dance (134) closes the week out.
 
-**Amsterdam:** Shelter runs it back Friday and Saturday (331 both nights), Supperclub triples up (Source, PINK, Supper's House x Heatwave), and Sissi's throws an all-dayer Saturday. MAANKARAVAAN's sold-out three-year anniversary combines cacao and ecstatic dance inside Westerkerk — the standout wellness booking of the week. Odessa runs its usual four-night ecstatic block Thu–Sun.
+**Barcelona:** INPUT keeps Friday (SWING pres ÜBERKIKZ & SHDW, 332) and Saturday (Joyhauser, 186) stacked, Jayda G headlines Jackies' Saturday daytime open-air (345), and Patrice Bäumel tops Seaseaclub's TSOA anniversary (254). Tech is quiet this week — DevOpsDays BCN (63) and a "Beyond ChatGPT" session (60) topped the meetup scene, well off last week's 150-RSVP pace.
 
-**Antwerp:** a genuinely good wellness week — Ecstatic Dance launches a new weekly floor in Lier, HEARTBEAT's cacao ceremony hits Kruibeke, and "A different kind of high" pairs ecstatic dance with cacao Sunday. On the club side it's thin: only Club Vaag's Friday bill clears the bar.
+**Brussels:** GIMIC Radio's 2nd birthday at Illegaal (82) is the next-best Saturday after BAILE TRAMA; Fuse and C12 keep their regular slots running.
 
-**Brussels:** Nyege Nyege's Mirror World Festival (1.8K attendees, La Fabriek) is the biggest single draw anywhere on the board this week. Fuse and C12 both have solid Saturday nights.
+**Antwerp:** A thin club week — nothing on RA cleared 15 attendees — but UX Beers @ iO (67) was the city's best-attended meetup, and Ecstatic Dance Antwerpen's Tuesday session with Kareem Raïhani is the wellness pick.
 
-**Ghent:** MODUL'AIR's Off-Location XL brings a stacked outdoor lineup (Partiboi69, Phemia) Saturday — the one to travel for.
+**Ghent:** Star Warz throws its Final Edition at VIERNULVIER Saturday — after 25 years, Belgium's legendary drum & bass party closes up shop. Kompass Klub's Friday NOVAH is the alternative.
 
 ## Hidden gems
 
-MAANKARAVAAN's three-year anniversary (Amsterdam, Fri, sold out) — cacao into full ecstatic dance in a church. "A different kind of high" (Antwerp, Sun) — the same combination, smaller and rawer. Sound Journey - Finding Balance (Schaarbeek/Brussels, Tue) — an autumn equinox sound bath timed to the actual equinox. Mush Birthday (Amsterdam, Sun) — two years of Amsterdam's touch-positive cuddle community. AI and Your Nervous System (Barcelona, Sun) — a breathwork session built around AI-era overwhelm; unusually on-the-nose for anyone doing nervous-system work.
+Rødhåd x Speedy J (Amsterdam, Paradiso, Wed) — two techno veterans at the city's most storied venue on a 42-RSVP Wednesday; the lineup deserves ten times that. Ecstatic Dance Brussels' "Let The Beast Out" (Sat, Forest) pairs live percussion with primal movement, a step beyond the usual Tuesday floor. Petit Comitech's AI-investing breakfast in Barcelona (Wed, Tech Barcelona, two Invivo Partners) is small-room but high-signal for anyone in venture or AI.
 
 ## What I skipped
 
-Sissi's Friday with Easttown (96 RA attendees) and La Aso at La Terrrazza (92) both just missed the 100-attendee bar and aren't at trusted venues. A cluster of 1–3 attendee Meetup wellness listings in Barcelona (cacao, kundalini, sound baths) had no real signal behind the RSVP count. Two Brussels/Antwerp Hipsy listings under "sensuality/tantra" branding were left off — not enough context to place them confidently on a general-audience board.
+Four Antwerp RA listings (TRAUM x2, Garage Klub, 5–10 attendees) and two smaller Ghent listings (Chinastraat, Amigo, 2–4 attendees) didn't clear the bar. Barcelona's cacao/breathwork Meetup sweep turned up only 1–2 RSVP yoga-studio listings — no genuine ceremony-style events this week. Barcelona Entrepreneurs' regular Tuesday/Friday meetups (5–7) and Barcelona SaaS Founders (10) were passed over as under-signal recurring fixtures.
 
 ## Sources scanned
 
-RA-Antwerp (full week) 5, RA-Brussels (full week) 4, RA-Ghent (full week) 4, RA-Amsterdam (day-by-day Thu–Sun) ~115 scanned, RA-Barcelona (day-by-day Thu–Sun) ~150 scanned, Meetup (AMS+BCN keyword sweeps) ~50 scanned, Luma (AMS+BCN) ~25 scanned, Hipsy (AMS+Antwerp/Flanders+Brussels) ~45 scanned, Tier 1 recurring 5.
+RA-Antwerp/Brussels/Ghent (full week) 4 each, RA-Amsterdam (day-by-day) ~90, RA-Barcelona (day-by-day) ~110, Meetup (AMS+BCN+ANT+BRX) ~90, Luma (AMS+BCN) ~25, Hipsy (AMS+Flanders+Brussels) ~40, Tier 1 recurring (Odessa, EDA, Conscious Club) 7.
 
 ## Confirmed gaps & non-coverage
 
-Not checked this run: Eventbrite (BCN broad sweep), Shotgun, Antwerp/Brussels Meetup keyword sweeps (tech/startup), Time Out/I Amsterdam aggregators. RA's "Load more" pagination didn't reliably expand past the first page on Barcelona's busiest days (Fri/Sat), so long-tail sub-100-attendee events there are undercounted.
+Not checked: Eventbrite (BCN broad sweep), Shotgun, Time Out/I Amsterdam aggregators. RA's "Load more" on Barcelona's busiest Saturday added nothing beyond direct-URL pagination, so long-tail sub-20-attendee events there are likely undercounted. The Conscious Club has nothing until its Oct 25 ADE takeover.
 
 ## Board status
 
-**This week:** AMS 30, BCN 43, ANT 5, BRX 6, GENT 2 — 86 events added.
-**By category:** music 58, wellness 14, networking 13, community 1.
+**This week:** AMS 22, BCN 12, BRX 5, ANT 2, GENT 2 — 43 events added.
+**By category:** music 26, wellness 10, networking 7.
