@@ -17,7 +17,7 @@ Moodymann at TRAUM. If you're in Belgium, this is the one. [RA ↗](https://ra.c
 RA Pick. Hard, serious techno from a legend. [RA ↗](https://ra.co/events/2520615)
 
 ## Don't miss if you're in...
-**Barcelona:** INPUT Deborah De Luca (Fri), Kolter (Sat), Jamback (Sun); Ezequiel Arias at Bikini (Sat); La Terrrazza closing weekend (Chico Blanco Fri, Courtesy Sat, Mano Le Tough Sun); Hot Since 82 (Sun). Tech: AI Engineers BCN (Mon), Hack & Tell (Tue), Netlify (Wed).
+**Barcelona:** Derrick May at Moog (Fri), DJ Tennis all night at Nitsa (Sat), Chez Damier at La Paloma (Fri), Jimi Jules at Nitsa (Fri), INPUT Deborah De Luca / Kolter / Jamback (Fri–Sun), Sofia Kourtesis closing La Terrrazza (Sun), Kerri Chandler (Sat). Wellness: breathwork with Phil (Thu), yin + sound healing (Thu), yoga by the sea (Sat/Sun). Tech: AI Engineers BCN, Hack & Tell, Cloudflare UG, BarcelonaJS, Barcelona Entrepreneurs Friday.
 **Amsterdam:** Odessa all week (Cacao Ecstatic Dance Fri, Ecstatic Journey Sat); EDA XL at PLLEK (Wed) and Sunday morning at TOS; Vrouwencirkel cacao + ecstatic (Sat); Shelter Fri/Sat; Lofi, Sissi's and Supperclub for the big-room nights; Harrison Chase agents meetup (Tue).
 **Antwerp / Flanders:** Ecstatic Dance Lier (Thu 8); Moodymann at TRAUM (Fri); Space Age at Ampere and Jungle Alliance (Sat); conscious dance in Roosendaal (Sat); sound healing in Brecht (Sat).
 **Brussels / Leuven:** Fuse Fri and Sat; Buda BXL day-and-night (Sat, RA Pick); Coki at La Fabriek (Fri, RA Pick); cacao ceremony in Leuven (Wed).
@@ -32,11 +32,11 @@ RA Pick. Hard, serious techno from a legend. [RA ↗](https://ra.co/events/25206
 Antwerp avant-pop and noise picks (TJE, Rites of Noise): off-cluster. Karaoke, singles nights and dating-class Hipsy listings: not your lane. Barcelona and Amsterdam rooms under 100 RA attendees.
 
 ## Sources scanned
-Odessa, EDA, RA ANT/BRX/GENT (every day), RA AMS and BCN (Thu–Sun, attendance 100+ or RA Pick), Luma AMS and BCN, Meetup AMS/ANT/BRX/BCN, Hipsy AMS/ANT/BRX with direct links. 100 events added across two passes.
+Odessa, EDA, RA ANT/BRX/GENT every day, RA AMS Thu–Sun, RA BCN every day (full list, load-more exhausted, lowered to trusted venues and 15+ going), Luma AMS and BCN, Meetup AMS/ANT/BRX/BCN (tech, startup, wellness), Eventbrite BCN (business, health), Hipsy AMS/ANT/BRX with direct links.
 
 ## Confirmed gaps & non-coverage
-Eventbrite and PRYMAL site not checked. Mon–Wed on RA AMS/BCN only checked via Thu–Sun sweeps. A few RA entries without IDs were skipped (Jammin' at Plein Publiek, Amsterdam Techno Sessions, Sofia Kourtesis closing night). Most RA start times are estimates. Hipsy: Windmill Rituals (Sun 11) still missing a link.
+PRYMAL site not checked. RA BCN Mon–Wed skipped (no per-day dates on the combined view, low volume). Windmill Rituals (Sun 11) missing a link. Most RA start times are estimates.
 
 ## Board status
-City totals (this week): AMS 32, BCN 25, BRX 18, ANT 17, GENT 5, LEUV 2, MECH 1
-By category: music 60, wellness 25, networking 11, community 4
+City totals (this week): AMS 32, BCN 83, BRX 18, ANT 17, GENT 5, LEUV 2, MECH 1
+By category: music 92, wellness 32, networking 26, community 8
