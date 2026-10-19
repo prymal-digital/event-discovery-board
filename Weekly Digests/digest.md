@@ -1,42 +1,47 @@
-# Where to be this week — Mon 12–Sun 18 Oct 2026
+# Where to be this week — Mon 19–Sun 25 Oct 2026
+
+ADE week. Amsterdam is 893 RA listings; I filtered hard. Your cluster picks are below.
 
 ## The 5 picks
-**Sat 17 Oct, 16:00** — SOUNDIT Plaza: Marcel Dettmann, Sugar Free + more *(Barcelona)* — Score 8.5
-Dettmann in the Plaza Monumental, 926 going. The biggest night in your home city this week. [RA ↗](https://ra.co/events/2480222)
+**Fri 23 Oct, 07:30** — ZERØBPM ADE: 3-Day Ambient Meditation Ritual *(Amsterdam)* — Score 9.0
+RA Pick, 1,370 going, in De Thomaskerk. The most PRYMAL-aligned thing at ADE. [RA ↗](https://ra.co/events/2503161)
 
-**Fri 16 Oct** — INPUT pres. OGAZON *(Barcelona)* — Score 8.5
-RA Pick, 251 going. INPUT is the safest Friday in town. [RA ↗](https://ra.co/events/2509518)
+**Fri 23 Oct, 22:00** — fabric x Loud-Contact: Jeff Mills, FJAAK (Live) *(Amsterdam)* — Score 9.0
+1,746 going at WestWeelde. The headline room of the week. [RA ↗](https://ra.co/events/2452252)
 
-**Sat 17 Oct, 23:30** — Mick Harris presents Culvert Dubs, Vanja Rakić *(Amsterdam)* — Score 8.5
-RA Pick at Garage Noord. Napalm Death's drummer meets dub-techno: odd, and worth it. [RA ↗](https://ra.co/events/2539710)
+**Wed 21 Oct, 23:00** — Klockworks 20 Years *(Amsterdam)* — Score 8.5
+RA Pick, 1,268 going. Ben Klock's label at 20. [RA ↗](https://ra.co/events/2475664)
 
-**Fri 16 Oct** — Slagwerk: Bobby Beethoven / Emma DJ b2b Suutoo *(Brussels)* — Score 8.5
-RA Pick, 184 going. Experimental club at Hexagon. [RA ↗](https://ra.co/events/2542945)
+**Sat 24 Oct, 13:00** — Sasha b2b Patrice Bäumel, 6 hours *(Amsterdam)* — Score 8.5
+Daytime six-hour b2b at Het Sieraad. [RA ↗](https://ra.co/events/2375140)
 
-**Thu 15 Oct, 20:00** — Loraine James + Pépe *(Barcelona)* — Score 8.5
-RA Pick, a live set in a small room. Quiet-week standout. [RA ↗](https://ra.co/events/2543388)
+**Fri 23 Oct, 23:59** — HOC 05 at LAUT *(Barcelona)* — Score 8.0
+RA Pick. Your best Barcelona club night this week (with Boys Noize at Nitsa and INPUT's Eargasm God, 287 going). [RA ↗](https://ra.co/events/2529445)
 
 ## Don't miss if you're in...
-**Barcelona:** La Paloma Eliza Rose (Fri, RA Pick), Nitsa Silva Bumpa (Fri), Nacar at Luz de Gas (Sat, 1,000 going), INPUT x Patrick Topping at Seasea (Sat), HUMANOS Mariano Mellino (Sun). Wellness: Breathwork & Movement with Phil & Louisa (Thu 08:30, €9). Tech: AI Engineers BCN (Mon), AI Lightning Talks with Claude (Thu), Cafe Compute (Tue), Barcelona Entrepreneurs (Tue and Fri), SaaS Founders (Tue).
-**Amsterdam:** Odessa all four nights: Cacao Ecstatic Dance Fri (DJ TBA), Journey Sat, Potluck morning Sun. EDA at The Other Side (Sun 10:30). Ecstatic Dance Kaap (Tue, Jethro), PORANGUÍ live (Tue). Shelter 10SERIES Stef Davidse (Sat). Mindstone AI Meetup (Wed).
-**Antwerp / Flanders:** Palms Trax at TRAUM (Fri), Mala at Ampere (Fri), Ecstatic Dance Antwerpen (Tue), live ecstatic dance in Aalst (Sat).
-**Brussels:** Maribou State at Fuse (Fri), Encore Dub at Lavallée (Fri), C12 Nite (Sat), 24HRS of Fuse (Sat).
-**Ghent:** Kozzmozz 30 years with Len Faki (Sat), Bodzin at Kompass (Sat), Grid goodbye at Amigo (Fri).
+**Barcelona:** POLENTA at La Paloma (Sat, 413 going), INPUT Eargasm God (Fri), Boys Noize at Nitsa (Fri), CULTO at INPUT (Sat). Tech: AI Engineers BCN (Mon), Founders Barcelona (Tue), Barcelona Entrepreneurs (Tue and Fri), Claude Code BCN (Wed), Claude for Everyone (Thu, Luma). Wellness: Breathwork & Movement with Phil (Thu 08:30, €9).
+**Amsterdam:** Avalon Emerson at Bajes (Fri, RA Pick), Kompakt at Ijver (Fri), DJ Bone at RADION (Fri, RA Pick), Speedy J live at Paradiso (Sun). Wellness: EDA Volkshotel special (Wed), Odessa all four nights (Thu to Sun, Cacao Fri), Maankaravaan Hunter's Moon cacao + ecstatic (Fri), EDA Conscious Place (Sun).
+**Antwerp / Flanders:** Villalobos at Ampere (Fri), Paranoid London at Traum (Fri), Ecstatic Dance Lier (Thu).
+**Brussels:** Marco Shuttle live at Fuse (Sat), Ecstatic Dance Brussels, Tikki Masala kirtan and cacao (Sat).
+**Ghent:** Quiet. Nothing above the bar.
 
 ## Hidden gems
-- AQUIARA, Being Here & Now festival, Sat 17 Oct 10:00, Barcelona — conscious daytime gathering, worth scouting for Wildflow. [Meetup ↗](https://www.meetup.com/barcelona-conscious-tribe/events/316680157/)
-- AYLA Tribal Rave BCN Vol. 5, Sun 18 Oct 12:00 — a daytime rave format close to BCR. [Luma ↗](https://luma.com/ayla.vol5)
-- Deux Chevaux at Beursschouwburg, Fri — RA Pick rooftop slow-mo techno. [RA ↗](https://ra.co/events/2494084)
+- BE FREE ecstatic rave, ADE special, Sat 24 Oct 11:00, Amsterdam: a daytime conscious rave. [Hipsy ↗](https://hipsy.eu/event/245448-be-free-ecstatic-rave-ade-special)
+- Crevette Records 10Y daytime gathering, Sat 24 Oct 14:00, Brussels (Illegaal, €15): daytime label-party format close to BCR. [RA ↗](https://ra.co/events/2528214)
+- Techno Yoga x High Society, Wed 21 Oct, Amsterdam. [Luma ↗](https://luma.com/zoku-l95g)
+- Breakfast Club ADE: One Long Groove, Thu 22 Oct, Pllek (RA Pick). [RA ↗](https://ra.co/events/2492381)
 
 ## What I skipped
-City Hall Hardcore Maniaks (331 going, off-cluster), Throwback 80s/90s nights in BCN and AMS, Lovers' Nest and Deep Dating on Hipsy, Barcelona rooms under 100 RA attendees without a Pick.
+Most of ADE's ~890 listings, the "plant medicine" microdosing party on Hipsy, dating events, City Hall's hard-techno Halloween (251 going, off-cluster), Ghent's sub-10-attendee nights.
 
 ## Sources scanned
-Odessa, EDA, RA ANT/BRX/GENT (full week), RA AMS and BCN (every day, API sweep, ≥100 going or Pick), Luma AMS and BCN, Meetup BCN (AI, founders, wellness) and AMS (AI/founders), Hipsy AMS/ANT/BRX, PRYMAL site.
+Odessa, EDA, RA ANT/BRX/GENT (full week), RA AMS and BCN (API sweep, week), Luma AMS and BCN, Meetup BCN (AI, founders, wellness), Hipsy AMS/ANT/BRX.
 
 ## Confirmed gaps & non-coverage
-PRYMAL: WildFlow Barcelona listed as "Back in Oct", waitlist only, no date yet. EDA 18 Oct has no per-event link (agenda page used). Not swept: Meetup ANT/BRX, Eventbrite BCN. RA start times are mostly estimates; many costs are €?. Hipsy results limited to the first page.
+PRYMAL site not checked this run. Meetup AMS/ANT/BRX and Eventbrite not swept. RA attendance is low this early in the week for BCN and the Belgian cities, so scores lean on venue trust. Many costs and venues are TBA. Hipsy results limited to the first page.
 
 ## Board status
-City totals (this week only): AMS 19, BCN 27, ANT 7, BRX 9, GENT 3, other Flanders/NL 3
-By category: music 38, wellness 16, networking 14
+City totals (this week only, added this run): AMS 25, BCN 15, ANT 5 (+1 Lier), BRX 5, GENT 0
+By category: music 26, wellness 17, networking 8
+
+Look-ahead: SOUNDIT Plaza Barcelona (Kittin 14 Nov, Joy Orbison 28 Nov, Jeff Mills 12 Dec), Digweed Bedrock 7 Nov, JOY Autumn Festival 14 Nov.
