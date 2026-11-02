@@ -1,52 +1,51 @@
-# Where to be this week — Mon 26 Oct–Sun 1 Nov 2026
+# Where to be this week — Mon 2 Nov–Sun 8 Nov 2026
 
-Halloween week, and Barcelona owns it. Balla Barcelona takes over the Fòrum Fri–Sat, VORAL lands at Tres Xemeneies, and Amsterdam is in post-ADE comedown. Wellness is thin on the ground in Amsterdam, so the cacao-and-dance Saturday in Barcelona is worth knowing about.
+Saturday 7 Nov is the week. Barcelona stacks Sasha, Dubfire, Mira Festival and a 471-going Nacar night on one date; Amsterdam answers with John Digweed at WestWeelde. Wellness is solid in Amsterdam (Odessa all week, EDA on Sunday), but Barcelona's only real pick is a €9 sunrise breathwork on the beach. Smart City Expo week also lifts the Barcelona networking scene.
 
 ## The 5 picks
 
-**Sat 31 Oct, 14:00** — VORAL festival: Underground Resistance, Sama' Abdulhadi, John Talabot, Regis *(Barcelona)* — Score 9.5
-RA Pick, 2.2K going, first edition in an industrial landmark. The best lineup in your cities this week. [RA ↗](https://ra.co/events/2537452)
+**Sat 7 Nov, 16:00** — Mira Festival 2026: Arca, Helena Hauff, Max Cooper, Shygirl *(Barcelona)* — Score 8.3
+Best lineup of the week, at Fira. [RA ↗](https://ra.co/events/2431595)
 
-**Sat 31 Oct, 23:59** — INPUT pres. Halloween: Lil' Louis, CARISTA, Camelia *(Barcelona)* — Score 9.0
-RA Pick. Chicago house royalty at Seaseaclub. [RA ↗](https://ra.co/events/2524379)
+**Sat 7 Nov, 22:00** — John Digweed – Bedrock *(Amsterdam)* — Score 8.3
+668 going, the biggest night in either of your cities. [RA ↗](https://ra.co/events/2488516)
 
-**Sat 31 Oct, 12:00** — Jackies Open Air Halloween, Balla Barcelona *(Barcelona)* — Score 9.0
-3.7K going, almost sold out. Claptone, Ross From Friends, Sarah Andersson. [RA ↗](https://ra.co/events/2489761)
+**Sat 7 Nov, 23:59** — Sasha, Last Night On Earth Showcase *(Barcelona)* — Score 8.2
+327 going at Bikini. [RA ↗](https://ra.co/events/2559963)
 
-**Wed 28 Oct, 23:59** — Jeff Mills + uroz at Moog *(Barcelona)* — Score 8.5
-342 going. The one midweek night worth leaving the house for. [RA ↗](https://ra.co/events/2541784)
+**Sat 7 Nov, 23:59** — Nacar Club curated by Brunch Electronik *(Barcelona)* — Score 8.2
+471 going. The most popular listing on the day. [RA ↗](https://ra.co/events/2540535)
 
-**Sat 31 Oct, 18:30** — ECSTATIC RHYTHMS · Cacao & Dance *(Barcelona)* — Score 8.5
-€25, Samana community. Closest local thing to Wildflow this week. [Meetup ↗](https://www.meetup.com/samanacommunityconsciousliving/events/317031862/)
+**Fri 6 Nov, 19:30** — Cacao Ecstatic Dance | Yarun Dee *(Amsterdam)* — Score 8.0
+Closest thing to Wildflow in the week. [Hipsy ↗](https://hipsy.nl/event/255381-cacao-ecstatic-dance-yarun-dee)
 
 ## Don't miss if you're in...
 
-**Barcelona:** NOM with John Digweed at Bikini (Sat), AFRODISE at the Fòrum (Fri), Fury 3rd Anniversary (Fri Fòrum, Sun Razzmatazz), Rhadoo all night at Les Enfants (Fri), AUDIODISE with Fumiya Tanaka (Fri). Tech: AI Engineers BCN (Mon), Barcelona Entrepreneurs (Tue and Fri), Still Founders dinner (Thu), Tech Spirit Sant Cugat (Thu). Wellness: sunrise breathwork in English (Wed 06:45), Breathwork & Movement with Phil (Thu 08:30, €9).
-**Amsterdam:** Bob Moses at Het Sieraad (Fri), Shelter both nights, Club Roto at Lofi (Sat). Tech: Claude Community Meetup #5 (Thu, Luma). Wellness: Odessa Thu to Sun (Cacao Fri), Conscious Party Club Día de los Muertos (Fri), EDA at The Other Side (Sun 10:30).
-**Antwerp:** Mika Heggemann at Club Vaag (Fri), Ecstatic Dance Antwerpen (Tue, Edegem).
-**Brussels:** Recyclart Halloween (Sat), Luke Slater at C12 (Sat), Chanel Beads at Botanique (Sun, RA Pick), Ecstatic Dance Brussels glow-in-the-dark (Sat).
-**Ghent:** Mefjus at Kompass (Fri, RA Pick).
+**Barcelona:** Dubfire at INPUT (Sat, 8.2); Les Enfants with Mathew Jonson live (Sat, 8.1); TSOA Jan Blomqvist open air (Sun, 8.0); Mika Heggemann at INPUT (Fri, 8.0); Boris with Reznik (Sat, 8.0). Networking: AI Engineers BCN (Mon), SaaS Founders (Tue), Entrepreneurs (Tue and Fri), AI AFTER rooftop (Wed).
+
+**Amsterdam:** Shelter Fri and Sat (8.0 each), Chaos In The CBD at Lofi (Sat), Cloonee at BRET (Fri). Wellness: Ecstatic Journey at Odessa (Sat), EDA at The Other Side (Sun 10:30), Peppp! All the Good Stuff (Sun).
+
+**Brussels:** KOMPASS Rave Rebels at Palais 12 (Faithless, Joris Voorn; Fri 8.0), Objekt at C12 (Sat).
+
+**Antwerp / Ghent:** Kettama at Antwerp Expo (Sat). Ghent is quiet.
 
 ## Hidden gems
 
-- Another Day, Stormkop, Antwerp, Sat 31 Oct 14:00: RA Pick, eight-hour daytime disco and house. BCR-adjacent format. [RA ↗](https://ra.co/events/2541025)
-- Still Founders: Honest Stories & Dinner, Barcelona, Thu 29 Oct: small-room, no-pitch founder night. [Meetup ↗](https://www.meetup.com/still-founders-barcelona/events/316812299/)
-- DIFFUSE REALITY, Barcelona, Sat 31 Oct: secret-location warehouse, 282 going. [RA ↗](https://ra.co/events/2495401)
-- Soichi Terada at La Paloma, Barcelona, Fri 30 Oct. [RA ↗](https://ra.co/events/2527404)
+SHOW UP sunrise breathwork on San Sebastian beach, Wed 4 Nov, €9 (Barcelona). SIA Startup/Investor Open Coffee, Tue 3 Nov (Barcelona).
 
 ## What I skipped
 
-Generic Halloween house nights under the bar in Amsterdam (Favela, Five30), Hard Mondays and other ADE-tail rooms, and kink/sex-positive parties. Jungle, Andromedik and other Antwerp/Brussels bookings were dropped for low attendance or no per-event link.
+Poly-Rythmo Club at La Paloma (67 going, below the BCN threshold), Tillatec closing weekender (dates unclear), Traum Nacht events in Antwerp (no date captured), online-only Meetups, Hipsy BDSM/dating workshops.
 
 ## Sources scanned
 
-RA-Antwerp 10 listings, RA-Brussels 35, RA-Ghent 7, RA-AMS Mon–Thu/Fri/Sat/Sun, RA-BCN Mon–Wed/Thu/Fri/Sat/Sun, Meetup (BCN AI, startup, wellness; AMS AI, wellness; Brussels AI), Luma BCN and AMS, Hipsy AMS, Antwerp, Brussels, Odessa, EDA, prymal.world.
+RA-Antwerp, RA-Brussels, RA-Ghent (week view), RA-AMS and RA-BCN (daily, Thu–Sun, first page per day), Meetup BCN (startup) and AMS (AI, breathwork), Luma AMS and BCN, Odessa, EDA, Hipsy AMS/ANT/BRX, prymal.world.
 
 ## Confirmed gaps & non-coverage
 
-Eventbrite not swept. Meetup Antwerp not swept separately. RA "Load more" was not exhausted on Sat BCN or AMS, so smaller rooms may be missing. The Conscious Club had nothing listed this week. PRYMAL site shows Wildflow only as "Back in Oct, Barcelona" with a waitlist and no dated event. Hipsy has no Barcelona coverage.
+Chrome extension was offline, so everything ran through the built-in browser. RA day lists were read on first load only, no "Load more" paging, so BCN/AMS club nights are likely under-counted. No Meetup sweeps for Antwerp or Brussels, no Eventbrite, no Conscious Club check. PRYMAL: nothing this week; Wildflow Barcelona is listed as "back in Dec" with a waitlist.
 
 ## Board status
 
-City totals (this week only): AMS 26, BCN 43, ANT 7, BRX 8, GENT 3, MECH 1, Leuven 2.
-By category: music 55, wellness 18, networking 17.
+City totals (this week): AMS 19, BCN 25, ANT 1, BRX 4, GENT 2, MECH 0
+By category: music 28, wellness 10, networking 13
