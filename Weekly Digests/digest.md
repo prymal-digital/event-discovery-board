@@ -1,51 +1,50 @@
-# Where to be this week — Mon 2 Nov–Sun 8 Nov 2026
+# Where to be this week — Mon 9–Sun 15 Nov 2026
 
-Saturday 7 Nov is the week. Barcelona stacks Sasha, Dubfire, Mira Festival and a 471-going Nacar night on one date; Amsterdam answers with John Digweed at WestWeelde. Wellness is solid in Amsterdam (Odessa all week, EDA on Sunday), but Barcelona's only real pick is a €9 sunrise breathwork on the beach. Smart City Expo week also lifts the Barcelona networking scene.
+This ran on Friday the 13th, so Mon–Thu is gone. The weekend is strong. Saturday belongs to Barcelona: 2,254 people are going to SOUNDIT at the bullring. In Amsterdam, NATARAJ turns 24 with a ten-hour free-dance festival, and that is the wellness event to plan your Saturday around. Belgium has its best weekend in a while: DJ Marcelle at Recyclart, Ben Klock at Fuse and Max Cooper's 3D show in Ghent.
 
 ## The 5 picks
 
-**Sat 7 Nov, 16:00** — Mira Festival 2026: Arca, Helena Hauff, Max Cooper, Shygirl *(Barcelona)* — Score 8.3
-Best lineup of the week, at Fira. [RA ↗](https://ra.co/events/2431595)
+**Sat 14 Nov, 16:00** — SOUNDIT Plaza: Miss Kittin b2b mad miran, Paranoid London *(Barcelona)* — Score 9.0
+It's an RA Pick, it's open-air at Plaza Monumental, and it's the biggest event in any of your cities. [RA ↗](https://ra.co/events/2480238)
 
-**Sat 7 Nov, 22:00** — John Digweed – Bedrock *(Amsterdam)* — Score 8.3
-668 going, the biggest night in either of your cities. [RA ↗](https://ra.co/events/2488516)
+**Sat 14 Nov, 15:00** — NATARAJ 24 Years ★ One Day Festival *(Amsterdam)* — Score 8.6
+Ten hours of free dance and live music. [Hipsy ↗](https://hipsy.nl/event/238493-nataraj-24-years-one-day-festival)
 
-**Sat 7 Nov, 23:59** — Sasha, Last Night On Earth Showcase *(Barcelona)* — Score 8.2
-327 going at Bikini. [RA ↗](https://ra.co/events/2559963)
+**Sat 14 Nov, 22:00** — ISENGARD with DJ Marcelle, Spooky, Burden Revival *(Brussels)* — Score 8.8
+It's an RA Pick with 229 going. Marcelle on three turntables, at Recyclart. [RA ↗](https://ra.co/events/2562160)
 
-**Sat 7 Nov, 23:59** — Nacar Club curated by Brunch Electronik *(Barcelona)* — Score 8.2
-471 going. The most popular listing on the day. [RA ↗](https://ra.co/events/2540535)
+**Fri 13 Nov, 19:30** — Max Cooper: 3D/AV Live *(Ghent)* — Score 8.7
+RA Pick, at Wintercircus. A second show runs Saturday at 21:00. [RA ↗](https://ra.co/events/2510140)
 
-**Fri 6 Nov, 19:30** — Cacao Ecstatic Dance | Yarun Dee *(Amsterdam)* — Score 8.0
-Closest thing to Wildflow in the week. [Hipsy ↗](https://hipsy.nl/event/255381-cacao-ecstatic-dance-yarun-dee)
+**Sat 14 Nov, 23:00** — Fuse presents 20YRS Klockworks with Ben Klock *(Brussels)* — Score 8.5
+A label anniversary at the club that suits it best. [RA ↗](https://ra.co/events/2528347)
 
 ## Don't miss if you're in...
 
-**Barcelona:** Dubfire at INPUT (Sat, 8.2); Les Enfants with Mathew Jonson live (Sat, 8.1); TSOA Jan Blomqvist open air (Sun, 8.0); Mika Heggemann at INPUT (Fri, 8.0); Boris with Reznik (Sat, 8.0). Networking: AI Engineers BCN (Mon), SaaS Founders (Tue), Entrepreneurs (Tue and Fri), AI AFTER rooftop (Wed).
-
-**Amsterdam:** Shelter Fri and Sat (8.0 each), Chaos In The CBD at Lofi (Sat), Cloonee at BRET (Fri). Wellness: Ecstatic Journey at Odessa (Sat), EDA at The Other Side (Sun 10:30), Peppp! All the Good Stuff (Sun).
-
-**Brussels:** KOMPASS Rave Rebels at Palais 12 (Faithless, Joris Voorn; Fri 8.0), Objekt at C12 (Sat).
-
-**Antwerp / Ghent:** Kettama at Antwerp Expo (Sat). Ghent is quiet.
+**Barcelona:** Danilo Plessow (MCDE) DJ set at La Paloma (Sat, 8.4). PRISM with Colin Benders live and Beste Hira at INPUT (Fri, 8.3). Deliann's 3-year birthday at a secret location (Sat, RA Pick, but sold out). For networking: Barcelona Entrepreneurs at ICON BCN (tonight).
+**Amsterdam:** November SPIELRAUM Weekender at RAUM (Fri, RA Pick). Loco Dice all night long at Lofi (Fri, 407 going). JOY Autumn Festival at Thuishaven (Sat, 432 going). On the wellness side, Odessa is on all weekend, and EDA has Indi Raeva at TOS on Sunday.
+**Brussels:** Ecstatic Dance Brussels with DJ Mixwell (Sat 17:00).
+**Antwerp:** Open Circle invites Chris Stussy at Antwerp Expo (Fri), and Oh Honey's 5-year 24h rave at TRAUM (Sat).
 
 ## Hidden gems
 
-SHOW UP sunrise breathwork on San Sebastian beach, Wed 4 Nov, €9 (Barcelona). SIA Startup/Investor Open Coffee, Tue 3 Nov (Barcelona).
+- **MO.R.E. – Morning Rave Experience (BCN, Sat 11:00):** yoga, cacao and a sober daytime rave. It's almost a Wildflow blueprint. [Meetup ↗](https://www.meetup.com/samanacommunityconsciousliving/events/317244233/)
+- RA Picks with small crowds: Dek Bass and Shana Qru at Garage Noord (AMS, Sat), La Misan Expansiva at El Pumarejo (BCN, Sat) and Perila live A/V at Casa Montjuïc (BCN, Fri).
+- Adem Raakt, a full-day breathwork retreat in Zandhoven (ANT, Sat).
 
 ## What I skipped
 
-Poly-Rythmo Club at La Paloma (67 going, below the BCN threshold), Tillatec closing weekender (dates unclear), Traum Nacht events in Antwerp (no date captured), online-only Meetups, Hipsy BDSM/dating workshops.
+Microdosing Party Amsterdam: plant-medicine events stay off the board. Kinky Films (BCN): off brief. Hardcore Maniaks and Vandal at City Hall: a big crowd, but the wrong scene. The Throwback party (644 going) got marked down to 7.6. Weekend Meetup "networking" in AMS, BRX and ANT was mostly drinks and singles nights.
 
 ## Sources scanned
 
-RA-Antwerp, RA-Brussels, RA-Ghent (week view), RA-AMS and RA-BCN (daily, Thu–Sun, first page per day), Meetup BCN (startup) and AMS (AI, breathwork), Luma AMS and BCN, Odessa, EDA, Hipsy AMS/ANT/BRX, prymal.world.
+RA-Antwerp 16 → 5 kept. RA-Brussels 51 → 11. RA-Ghent 12 → 4. RA-AMS 92 → 21. RA-BCN 159 → 33. Odessa 4, EDA 1, Hipsy AMS 2 / ANT 3 / BRX 1, Meetup 10, Luma 3.
 
 ## Confirmed gaps & non-coverage
 
-Chrome extension was offline, so everything ran through the built-in browser. RA day lists were read on first load only, no "Load more" paging, so BCN/AMS club nights are likely under-counted. No Meetup sweeps for Antwerp or Brussels, no Eventbrite, no Conscious Club check. PRYMAL: nothing this week; Wildflow Barcelona is listed as "back in Dec" with a waitlist.
+The Luma city feeds were thin and mostly social, and Eventbrite BCN was mostly real-estate seminars. Not checked: Mon–Thu tech meetups (they had already passed when this ran), The Conscious Club, Shotgun, AllEvents and FB Events.
 
 ## Board status
 
-City totals (this week): AMS 19, BCN 25, ANT 1, BRX 4, GENT 2, MECH 0
-By category: music 28, wellness 10, networking 13
+**City totals (this week):** AMS 30, BCN 43, ANT 8, BRX 13, GENT 4, MECH 0
+**By category:** music 74, wellness 16, networking 6, community 2
