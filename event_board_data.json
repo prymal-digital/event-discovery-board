@@ -47346,7 +47346,15 @@
    "url": "https://ra.co/events/2480238",
    "is_festival": true,
    "score": 8.0,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-joy-autumn-nov14",
@@ -47359,7 +47367,15 @@
    "url": "https://ra.co/events/2532079",
    "is_festival": true,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-nataraj24-nov14",
@@ -47372,7 +47388,15 @@
    "url": "https://hipsy.eu/event/238493-nataraj-24-years-one-day-festival",
    "is_festival": true,
    "score": 8.0,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-hot-creations-bikini-nov27",
@@ -47385,7 +47409,15 @@
    "url": "https://ra.co/events/2518326",
    "is_festival": false,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "electronic",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-soundit-orbison-nov28",
@@ -47398,7 +47430,15 @@
    "url": "https://ra.co/events/2480242",
    "is_festival": true,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-drumcode-beyer-nov28",
@@ -47411,7 +47451,15 @@
    "url": "https://ra.co/events/2554309",
    "is_festival": true,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-worakls-sieraad-dec5",
@@ -47424,7 +47472,15 @@
    "url": "https://ra.co/events/2535009",
    "is_festival": false,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "electronic",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-soundit-mills-dec12",
@@ -47437,7 +47493,15 @@
    "url": "https://ra.co/events/2480247",
    "is_festival": true,
    "score": 8.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-ants-amsterdam-dec12",
@@ -47450,7 +47514,15 @@
    "url": "https://ra.co/events/2532114",
    "is_festival": true,
    "score": 8.0,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-nataraj-rave-dec19",
@@ -47463,7 +47535,15 @@
    "url": "https://hipsy.eu/event/246093-nataraj-rave-kaap-amsterdam",
    "is_festival": true,
    "score": 7.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-eastenddubs-extended-dec31",
@@ -47476,7 +47556,15 @@
    "url": "https://ra.co/events/2545713",
    "is_festival": true,
    "score": 8.0,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   },
   {
    "id": "lookahead-output-nyd-hawtin-jan1",
@@ -47489,7 +47577,15 @@
    "url": "https://ra.co/events/2524908",
    "is_festival": true,
    "score": 8.5,
-   "hidden_gem": false
+   "hidden_gem": false,
+   "time": "",
+   "endTime": "",
+   "category": "music",
+   "subcategory": "festival",
+   "cost": "€?",
+   "source": "Resident Advisor",
+   "reasons": [],
+   "prymal": false
   }
  ],
  "metadata": {
