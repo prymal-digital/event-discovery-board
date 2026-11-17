@@ -1,50 +1,76 @@
-# Where to be this week — Mon 9–Sun 15 Nov 2026
+# Where to be this week — Mon 16–Sun 22 Nov 2026
 
-This ran on Friday the 13th, so Mon–Thu is gone. The weekend is strong. Saturday belongs to Barcelona: 2,254 people are going to SOUNDIT at the bullring. In Amsterdam, NATARAJ turns 24 with a ten-hour free-dance festival, and that is the wellness event to plan your Saturday around. Belgium has its best weekend in a while: DJ Marcelle at Recyclart, Ben Klock at Fuse and Max Cooper's 3D show in Ghent.
+This scan ran on Tuesday 17 Nov, so Monday is gone. Friday and Saturday are where the week sits. Brussels has Listen Festival, a 24-hour club-culture festival across 15 locations on one ticket. Barcelona has the La Terrrazza season closer and BASSHAUS on Saturday, plus a daytime Bcn Coffee Rave at SEASEACLUB. Amsterdam is a Shelter, Het Sieraad and Supperclub weekend, with Odessa running cacao dance on Friday and a morning dance with potluck on Sunday.
 
 ## The 5 picks
 
-**Sat 14 Nov, 16:00** — SOUNDIT Plaza: Miss Kittin b2b mad miran, Paranoid London *(Barcelona)* — Score 9.0
-It's an RA Pick, it's open-air at Plaza Monumental, and it's the biggest event in any of your cities. [RA ↗](https://ra.co/events/2480238)
+**Sat 21 Nov** — UNLOCKED pres. MVGRI (ANL) *(Barcelona)* — Score 8.8
+Biggest Barcelona listing of the weekend: 1.1K going. [Source ↗](https://ra.co/events/2557201)
 
-**Sat 14 Nov, 15:00** — NATARAJ 24 Years ★ One Day Festival *(Amsterdam)* — Score 8.6
-Ten hours of free dance and live music. [Hipsy ↗](https://hipsy.nl/event/238493-nataraj-24-years-one-day-festival)
+**Sat 21 Nov** — Listen Festival 2026 *(Brussels)* — Score 8.8
+24+ hour club-culture festival across 15 locations on one ticket. 510 going. [Source ↗](https://ra.co/events/2305608)
 
-**Sat 14 Nov, 22:00** — ISENGARD with DJ Marcelle, Spooky, Burden Revival *(Brussels)* — Score 8.8
-It's an RA Pick with 229 going. Marcelle on three turntables, at Recyclart. [RA ↗](https://ra.co/events/2562160)
+**Sat 21 Nov** — Jackies Open Air Daytime - Closing 2026 Season *(Barcelona)* — Score 8.6
+Season-closing daytime open-air at La Terrrazza. 542 going. [Source ↗](https://ra.co/events/2534107)
 
-**Fri 13 Nov, 19:30** — Max Cooper: 3D/AV Live *(Ghent)* — Score 8.7
-RA Pick, at Wintercircus. A second show runs Saturday at 21:00. [RA ↗](https://ra.co/events/2510140)
+**Sat 21 Nov, 12:00** — Bcn Coffee Rave Festival featuring SISTEK *(Barcelona)* — Score 8.6
+A daytime coffee rave in Barcelona, the closest comparable to BCR this week. [Source ↗](https://luma.com/k4k8goh5)
 
-**Sat 14 Nov, 23:00** — Fuse presents 20YRS Klockworks with Ben Klock *(Brussels)* — Score 8.5
-A label anniversary at the club that suits it best. [RA ↗](https://ra.co/events/2528347)
+**Sat 21 Nov** — FUSE - Hivernacle Barcelona *(Barcelona)* — Score 8.4
+FUSE's Barcelona edition in the Carpa at Poble Espanyol — sold out. 536 going. [Source ↗](https://ra.co/events/2554283)
 
 ## Don't miss if you're in...
 
-**Barcelona:** Danilo Plessow (MCDE) DJ set at La Paloma (Sat, 8.4). PRISM with Colin Benders live and Beste Hira at INPUT (Fri, 8.3). Deliann's 3-year birthday at a secret location (Sat, RA Pick, but sold out). For networking: Barcelona Entrepreneurs at ICON BCN (tonight).
-**Amsterdam:** November SPIELRAUM Weekender at RAUM (Fri, RA Pick). Loco Dice all night long at Lofi (Fri, 407 going). JOY Autumn Festival at Thuishaven (Sat, 432 going). On the wellness side, Odessa is on all weekend, and EDA has Indi Raeva at TOS on Sunday.
-**Brussels:** Ecstatic Dance Brussels with DJ Mixwell (Sat 17:00).
-**Antwerp:** Open Circle invites Chris Stussy at Antwerp Expo (Fri), and Oh Honey's 5-year 24h rave at TRAUM (Sat).
+**Barcelona**
+- Fri Hop on The Top - The Last Jam - La Terrrazza 2026 — La Terrrazza (8.3)
+- Sat INPUT pres L.P RHYTHM — INPUT High Fidelity Dance Club (8.1)
+- Fri PRISM pres Kangding Ray & Kerrie — INPUT High Fidelity Dance Club (8.0)
+- Fri La Paloma presents: Quantic DJ set + Chica Acosta + Angela Blackburn — La Paloma (8.0)
+- Sat Nitsa Club: Cloonee · HANIE / Somoslas x PLAYG — Nitsa Club (8.0)
+- Fri Les Enfants x Roots pres. Dan Ghenacia All Night Long — Les Enfants Brillants (7.8)
+
+**Amsterdam**
+- Sat Andrea Oliva, Argia, Samm... — Shelter Amsterdam (8.3)
+- Fri Caleb Laurenson, Wheats b2b Tommy — Shelter Amsterdam (8.2)
+- Fri Rødhåd All Night Long - Vault Sessions — RADION (8.2)
+- Sat Avangart Tabldot - Echonomist — Het Sieraad (8.2)
+- Fri Cacao Ecstatic Dance | Inphiknight — Odessa (8.2)
+- Fri Modo Mio — Yellow House (8.0)
+
+**Brussels**
+- Sat Fuse x Listen Festival with MCR-T & Miss Bashful — Fuse (7.0)
+- Fri Fuse presents: Life Extension w/ Partiboi69, LB aka LABAT & Salome — Fuse (7.0)
+
+**Antwerp**
+- Fri Ampere presents DJ Marky & GQ — Ampere (7.0)
 
 ## Hidden gems
 
-- **MO.R.E. – Morning Rave Experience (BCN, Sat 11:00):** yoga, cacao and a sober daytime rave. It's almost a Wildflow blueprint. [Meetup ↗](https://www.meetup.com/samanacommunityconsciousliving/events/317244233/)
-- RA Picks with small crowds: Dek Bass and Shana Qru at Garage Noord (AMS, Sat), La Misan Expansiva at El Pumarejo (BCN, Sat) and Perila live A/V at Casa Montjuïc (BCN, Fri).
-- Adem Raakt, a full-day breathwork retreat in Zandhoven (ANT, Sat).
+- Listen Festival 2026 — 24+ hour club-culture festival across 15 locations on one ticket. 510 going. *(Brussels)*
+- Bcn Coffee Rave Festival featuring SISTEK — A daytime coffee rave in Barcelona, the closest comparable to BCR this week. *(Barcelona)*
+- Morning Ecstatic Dance + Potluck | Yona — Sunday morning dance followed by a shared potluck. *(Amsterdam)*
+- Barcelona Techies — Thursday Rooftop Afterwork — Rooftop meetup with AI/startup lightning talks and open networking. *(Barcelona)*
+- DUSKGROOVE pres. SECRET ROOFTOP — Secret rooftop session from DUSKGROOVE. 118 going. *(Barcelona)*
+- 10AM Club — Morning club session at Yellow House. 113 going. *(Amsterdam)*
 
 ## What I skipped
 
-Microdosing Party Amsterdam: plant-medicine events stay off the board. Kinky Films (BCN): off brief. Hardcore Maniaks and Vandal at City Hall: a big crowd, but the wrong scene. The Throwback party (644 going) got marked down to 7.6. Weekend Meetup "networking" in AMS, BRX and ANT was mostly drinks and singles nights.
+- Agents Of Time at Lofi (271 going): cancelled.
+- Second Favela listing at Supperclub and the 20 Nov Fuse Life Extension duplicate listing: counted once.
+- Large pop and rock concerts (Interpol, Jessie Ware, Night of the Proms): not a fit for the board's audience.
 
 ## Sources scanned
 
-RA-Antwerp 16 → 5 kept. RA-Brussels 51 → 11. RA-Ghent 12 → 4. RA-AMS 92 → 21. RA-BCN 159 → 33. Odessa 4, EDA 1, Hipsy AMS 2 / ANT 3 / BRX 1, Meetup 10, Luma 3.
+RA-BCN Thu–Sun, RA-AMS Thu–Sun, RA-BXL week, RA-ANT week, Luma-BCN, Luma-AMS, Hipsy-BXL, Hipsy-ANT, Odessa (via Hipsy), TechnoBeatsCloud for non-RA nights.
 
 ## Confirmed gaps & non-coverage
 
-The Luma city feeds were thin and mostly social, and Eventbrite BCN was mostly real-estate seminars. Not checked: Mon–Thu tech meetups (they had already passed when this ran), The Conscious Club, Shotgun, AllEvents and FB Events.
+- Resident Advisor Ghent, Meetup, Eventbrite and the Barcelona Wed/Tue club nights were not scanned: the Chrome extension disconnected mid-run.
+- RA start times were not captured for most club nights (time left empty); attendee counts are from 17 Nov.
+- Luma-Amsterdam showed no events that fit the board.
+- Ecstatic Dance Antwerpen and Brussels Hipsy listings were not dated in the page text, so they are not on the board.
 
 ## Board status
 
-**City totals (this week):** AMS 30, BCN 43, ANT 8, BRX 13, GENT 4, MECH 0
-**By category:** music 74, wellness 16, networking 6, community 2
+City totals (this week only, added this run): AMS 18, BCN 22, ANT 1, BRX 3
+By category: music 37, wellness 4, networking 3
