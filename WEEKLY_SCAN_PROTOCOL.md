@@ -142,26 +142,30 @@ Venue checklist (use as needed, do not run all):
 
 ### Look-ahead (`lookahead[]`) — prune every run
 
+**Every `lookahead[]` entry MUST carry the full event schema, including `time` and `endTime` (use `""` if unknown), `category`, `cost`, `source`.** A missing `time` crashes the board's Google-Calendar link builder, the JSON load fails, and the live board silently falls back to the old embedded May data ("Last scan: May 25").
+
 The board renders the "Looking ahead — Festivals" and "Looking ahead" panels straight from `lookahead[]` with **no date filter** (index.html line ~459). So every run **must drop any `lookahead[]` entry with `date` < today**, or expired festivals keep showing as upcoming. After pruning, repopulate with notable festivals / standout events ~2–8 weeks out, prioritising Barcelona and Amsterdam.
 
 ---
 
 ## Background rotation (weekly, ~1 sec)
 
-Pick from `backgrounds/manifest.json` by ISO week:
+Pick from `backgrounds/manifest.json` by **season**, then by ISO week. April–September uses the `outdoor` images (festivals, open air); October–March uses the `indoor` images (clubs), because most events then happen inside. Never pick an outdoor festival photo in the winter half of the year.
 
 ```python
 import json, datetime, urllib.request
 manifest = json.load(open('backgrounds/manifest.json'))
-imgs = manifest['images']
-iso_week = datetime.date.today().isocalendar()[1]
-chosen = imgs[iso_week % len(imgs)]
+today = datetime.date.today()
+setting = 'outdoor' if 4 <= today.month <= 9 else 'indoor'
+pool = [i for i in manifest['images'] if i.get('setting') == setting]
+iso_week = today.isocalendar()[1]
+chosen = pool[iso_week % len(pool)]
 req = urllib.request.Request(chosen['url'], headers={'User-Agent':'Mozilla/5.0'})
 with urllib.request.urlopen(req, timeout=30) as r:
     open('backgrounds/bg-current.jpg','wb').write(r.read())
 ```
 
-`index.html` reads `backgrounds/bg-current.jpg` directly — no code change needed. To add new images, append entries to `backgrounds/manifest.json`.
+`index.html` reads `backgrounds/bg-current.jpg` directly — no code change needed. To add new images, append entries to `backgrounds/manifest.json` with `"setting": "outdoor"` or `"setting": "indoor"`.
 
 ---
 

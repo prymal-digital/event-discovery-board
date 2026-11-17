@@ -4,27 +4,29 @@ This folder powers the hero band image at the top of `index.html`.
 
 ## Files
 
-- `manifest.json` — curated list of landscape Unsplash photos themed to electronic music festival / summer outdoor (festival crowds, open-air stages, beach/forest festivals, sunset crowds, etc.). Each entry has `id`, `url` (direct `images.unsplash.com` link at `w=1920&q=80`), `credit`, and `theme`.
+- `manifest.json` — curated list of landscape Unsplash photos. Each entry has `id`, `url` (direct `images.unsplash.com` link at `w=1920&q=80`), `credit`, `theme` and `setting`:
+  - `"setting": "outdoor"` — summer festival / open-air photos (festival crowds, open-air stages, sunset crowds).
+  - `"setting": "indoor"` — club photos (dark rooms, lasers, DJ booths, club crowds).
 - `bg-current.jpg` — the image shown this week. Referenced by `index.html` as `backgrounds/bg-current.jpg`.
 
-## Rotation
+## Rotation (seasonal)
 
-The weekly scheduled scan rotates `bg-current.jpg` once per week using the ISO week number:
+The weekly scheduled scan rotates `bg-current.jpg` once per week. It first picks the pool that matches the season, then uses the ISO week number within that pool:
 
 ```
-index = ISO_week_number % len(manifest.images)
-chosen = manifest.images[index]
+setting = "outdoor" if April <= month <= September else "indoor"
+pool    = [img for img in manifest.images if img.setting == setting]
+chosen  = pool[ISO_week_number % len(pool)]
 download(chosen.url) -> backgrounds/bg-current.jpg
-git add backgrounds/bg-current.jpg && git commit && git push
 ```
 
-So the same week of every year picks the same photo, and adding a new image at the end of the manifest does not disturb earlier weeks (modulo the list-length change). `index.html` itself never has to change — it always reads `backgrounds/bg-current.jpg`.
+So the board shows festivals in the summer half of the year and clubs from October to March, when most events are inside. `index.html` itself never has to change — it always reads `backgrounds/bg-current.jpg`.
 
 ## Adding new images
 
-1. Find a landscape Unsplash photo (≥ 1600px wide, daytime/sunset, outdoor, festival/crowd vibe).
+1. Find a landscape Unsplash photo (≥ 1600px wide) under the free Unsplash License, not Unsplash+.
 2. Resolve its direct image URL: `https://images.unsplash.com/photo-XXXXXXXXXX?w=1920&q=80`.
-3. Append `{ "id": "...", "url": "...", "credit": "Name / Unsplash", "theme": "short tag" }` to `manifest.json`.
-4. Commit. Next weekly scan will pick it up automatically when the week index lands on its slot.
+3. Append `{ "id": "...", "url": "...", "credit": "Name / Unsplash", "theme": "short tag", "setting": "outdoor" | "indoor" }` to `manifest.json`.
+4. Commit. The next weekly scan picks it up when the week index lands on its slot in that season's pool.
 
 All images are used under the Unsplash License (free for commercial and personal use, no attribution required — but we keep `credit` for hygiene).
