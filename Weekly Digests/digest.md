@@ -44,6 +44,38 @@ FUSE's Barcelona edition in the Carpa at Poble Espanyol — sold out. 536 going.
 **Antwerp**
 - Fri Ampere presents DJ Marky & GQ — Ampere (7.0)
 
+## Builders & founders (added in follow-up pass)
+
+- 19 Nov Hack & Tell: Secure AI Agents, GDPR and the EU AI Act — AI Campus Barcelona, Carrer de Jesús 3 *(Barcelona)* — 7.8 [↗](https://www.meetup.com/ai-engineers-barcelona/events/317314414/)
+- 17 Nov Barcelona Entrepreneurs • Tuesday Meetup — ICON BCN, C/ de Roger de Llúria 21 *(Barcelona)* — 7.2 [↗](https://www.meetup.com/barcelona-entrepreneurs-and-startups/events/316856557/)
+- 20 Nov Barcelona Entrepreneurs • Friday Meetup — ICON BCN, C/ de Roger de Llúria 21 *(Barcelona)* — 7.2 [↗](https://www.meetup.com/barcelona-entrepreneurs-and-startups/events/317223193/)
+- 18 Nov AI Revolution Day · Turno de tarde (presencial) — Fundació Joan Miró *(Barcelona)* — 7.5 [↗](https://www.eventbrite.es/e/ai-revolution-day-turno-de-tarde-presencial-tickets-2004127907521)
+- 18 Nov AI Builders Amsterdam - Nov 18 — Amsterdam *(Amsterdam)* — 7.0 [↗](https://www.meetup.com/aibuildersclub/events/317380717/)
+- 19 Nov Startup Garage Meetup @ Meet Berlage — Meet Berlage *(Amsterdam)* — 7.0 [↗](https://www.meetup.com/startup-garage-amsterdam-startup-networking-meetup/events/317052193/)
+- 21 Nov Vibecode your AI Chief of Staff — Amsterdam *(Amsterdam)* — 7.0 [↗](https://www.meetup.com/amsterdam-vibe-coding-meetup/events/317275309/)
+- 21 Nov Founders Running Club :: Antwerp — Antwerpen *(Antwerp)* — 7.0 [↗](https://www.meetup.com/founders-running-club-antwerpen/events/317236146/)
+- Sat 21 Nov The Subs at Kompass *(Ghent)* — 7.0 [↗](https://ra.co/events/2519691)
+
+## Antwerp, properly this time (follow-up pass)
+
+Antwerp's week is small but has character. On Saturday there is a tantric-dance evening with a breathwork opening, then Het Bos's queer night, then Club Vaag and TRAUM after 23:00. Sacred Sundays closes the week with a breath circle. Warrecords runs free afternoon record-shop sets on Friday and Saturday.
+
+- 19 Nov 20:00 — Anoushka Shankar, De Singel International Arts Centre — 7.2 [↗](https://allevents.in/antwerp/anoushka-shankar-in-antwerpen/3300030143652431)
+- 20 Nov 16:00 — Warrecords invites TOMISLAV SLAVINSKI & OSMOS, WARRECORDS — 7.0 [↗](https://ra.co/events/2570479)
+- 20 Nov 20:00 — Nachtraven speelt Grans & Hietje, Het Bos — 7.0 [↗](https://ra.co/events/2553238)
+- 20 Nov 23:00 — BOILER ROOM EDITION, Het Leienpaleis — 7.0 [↗](https://ra.co/events/2584317)
+- 21 Nov 09:45 — Founders Running Club :: Antwerp, Antwerpen — 7.0 [↗](https://www.meetup.com/founders-running-club-antwerpen/events/317236146/)
+- 21 Nov 16:00 — Warrecords invites OVERSTAG, WARRECORDS — 7.0 [↗](https://ra.co/events/2570488)
+- 21 Nov 19:00 — CHINCHILLA, Zappa — 7.0 [↗](https://ra.co/events/2494129)
+- 21 Nov 19:00 — Tantric Dance SPECIAL Antwerpen met breathwork door Pieter, Antwerpen — 7.6 [↗](https://hipsy.eu/event/224877-tantric-dance-special-antwerpen-met-breathwork-door-pieter)
+- 21 Nov 19:30 — OSKI, Trix — 7.0 [↗](https://ra.co/events/2513039)
+- 21 Nov 21:00 — Woeker x Female Boyfriends: a queer night for flinta* & friends, Het Bos — 7.4 [↗](https://ra.co/events/2567942)
+- 21 Nov 23:00 — NEXT OF KIN with BAUGRUPPE90 & Stef de Haan, Club Vaag — 7.4 [↗](https://ra.co/events/2564851)
+- 21 Nov 23:00 — Traum Nacht: Warrecords x Vloerbedekking, TRAUM — 7.2 [↗](https://ra.co/events/2574983)
+- 22 Nov 18:00 — Sacred Sundays ꩜ The Return Within, Antwerpen — 7.4 [↗](https://hipsy.eu/event/249828-sacred-sundays-the-return-within)
+- 22 Nov 23:00 — Club Vaag invites NVNS & Shogun, Club Vaag — 7.2 [↗](https://ra.co/events/2565380)
+- Looking ahead: Ecstatic Dance Antwerpen with Kareem Raïhani, Tue 24 Nov (Edegem); Sven Väth at Ampere and Ellen Allien at TRAUM, Sat 28 Nov.
+
 ## Hidden gems
 
 - Listen Festival 2026 — 24+ hour club-culture festival across 15 locations on one ticket. 510 going. *(Brussels)*
@@ -61,16 +93,17 @@ FUSE's Barcelona edition in the Carpa at Poble Espanyol — sold out. 536 going.
 
 ## Sources scanned
 
-RA-BCN Thu–Sun, RA-AMS Thu–Sun, RA-BXL week, RA-ANT week, Luma-BCN, Luma-AMS, Hipsy-BXL, Hipsy-ANT, Odessa (via Hipsy), TechnoBeatsCloud for non-RA nights.
+RA-BCN Thu–Sun, RA-AMS Thu–Sun, RA-BXL week, RA-ANT week, Luma-BCN, Luma-AMS, Hipsy-BXL, Hipsy-ANT, Odessa (via Hipsy), TechnoBeatsCloud for non-RA nights. Follow-up pass: RA-Ghent 1, Meetup-BCN 3, Meetup-AMS 3, Eventbrite-BCN 1.
 
 ## Confirmed gaps & non-coverage
 
-- Resident Advisor Ghent, Meetup, Eventbrite and the Barcelona Wed/Tue club nights were not scanned: the Chrome extension disconnected mid-run.
+- Barcelona Tue/Wed club nights were not swept on RA.
+- Meetup Antwerp and Brussels returned only online events this week.
 - RA start times were not captured for most club nights (time left empty); attendee counts are from 17 Nov.
 - Luma-Amsterdam showed no events that fit the board.
 - Ecstatic Dance Antwerpen and Brussels Hipsy listings were not dated in the page text, so they are not on the board.
 
 ## Board status
 
-City totals (this week only, added this run): AMS 18, BCN 22, ANT 1, BRX 3
-By category: music 37, wellness 4, networking 3
+City totals (this week): AMS 21, BCN 26, ANT 15, BRX 3, GENT 1
+By category: music 49, wellness 6, networking 11
