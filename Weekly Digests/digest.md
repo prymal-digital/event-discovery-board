@@ -76,6 +76,14 @@ Antwerp's week is small but has character. On Saturday there is a tantric-dance 
 - 22 Nov 23:00 — Club Vaag invites NVNS & Shogun, Club Vaag — 7.2 [↗](https://ra.co/events/2565380)
 - Looking ahead: Ecstatic Dance Antwerpen with Kareem Raïhani, Tue 24 Nov (Edegem); Sven Väth at Ampere and Ellen Allien at TRAUM, Sat 28 Nov.
 
+### Making new friends in Antwerp (25–50)
+
+Only events that say they are meant for this age group, or whose organiser shows that crowd:
+- **Sun 22 Nov 12:30** — Brunch Social: Make New Friends *(Meet New Friends Antwerp, ages 25–45)* — 7.8 [↗](https://www.meetup.com/meet-new-friends-antwerp/events/314957039/)
+- **Sat 21 Nov 09:45** — Founders Running Club: a weekly easy run for founders and startup people (no age limit stated) [↗](https://www.meetup.com/founders-running-club-antwerpen/events/317236146/)
+- Looking ahead: Vibes n' Strikes bowling night (Fri 27 Nov, crowd 25–34), 80s & 90s Over 30s Daytime Clubbing (Sat 28 Nov, 30+, friends 25+ welcome), and another brunch on Sun 29 Nov.
+- Skipped because they give no age target: Antwerp Outlanders "Make New Friends" drinks, Socrates Café, Expats in Antwerp, and Padel x Afrobeats. No walking groups in Antwerp were listed on Meetup or Eventbrite for these two weeks.
+
 ## Hidden gems
 
 - Listen Festival 2026 — 24+ hour club-culture festival across 15 locations on one ticket. 510 going. *(Brussels)*

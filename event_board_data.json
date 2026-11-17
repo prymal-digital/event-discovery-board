@@ -48923,6 +48923,31 @@
     "free",
     "entrepreneurship"
    ]
+  },
+  {
+   "id": "meetup-ant-new-friends-brunch-nov22",
+   "name": "Brunch Social: Make New Friends",
+   "organizer": "Meet New Friends Antwerp",
+   "date": "2026-11-22",
+   "time": "12:30",
+   "endTime": "",
+   "city": "Antwerp",
+   "venue": "Restaurant, Graaf van Hoornestraat, Antwerpen",
+   "category": "community",
+   "subcategory": "small-group brunch · ages 25–45",
+   "cost": "€? (ticket via Groupvibe)",
+   "source": "Meetup",
+   "url": "https://www.meetup.com/meet-new-friends-antwerp/events/314957039/",
+   "hook": "Small-group brunch (4–6 people) for 25–45-year-olds looking for real friends in Antwerp.",
+   "score": 7.8,
+   "hidden_gem": true,
+   "is_festival": false,
+   "prymal": false,
+   "reasons": [
+    "community",
+    "offline_community",
+    "sunday"
+   ]
   }
  ],
  "lookahead": [
@@ -49306,6 +49331,81 @@
    "reasons": [
     "alignment",
     "community"
+   ]
+  },
+  {
+   "id": "eventbrite-ant-vibes-n-strikes-nov27",
+   "name": "VIBESNEXTDOOR: VIBES N’ STRIKES 3.0",
+   "organizer": "VIBESNEXTDOOR",
+   "date": "2026-11-27",
+   "time": "22:00",
+   "endTime": "",
+   "city": "Antwerp",
+   "venue": "Bowling Stones, Antwerpen",
+   "category": "community",
+   "subcategory": "social bowling night · crowd 25–34",
+   "cost": "€22",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.be/e/vibesnextdoor-vibes-n-strikes-30-tickets-2004378199150",
+   "hook": "Bowling-and-music night with 250+ going; Eventbrite shows a 25–34 crowd.",
+   "score": 7.6,
+   "hidden_gem": false,
+   "is_festival": false,
+   "prymal": false,
+   "reasons": [
+    "community",
+    "big_turnout",
+    "social"
+   ]
+  },
+  {
+   "id": "eventbrite-ant-over30s-daytime-clubbing-nov28",
+   "name": "80s & 90s Over 30s Daytime Clubbing - ANTWERP",
+   "organizer": "Beyond 30 Events",
+   "date": "2026-11-28",
+   "time": "16:00",
+   "endTime": "21:00",
+   "city": "Antwerp",
+   "venue": "IKON Antwerpen, Straatsburgdok Noordkaai 3",
+   "category": "community",
+   "subcategory": "daytime clubbing · 30+ (friends 25+ welcome)",
+   "cost": "€22",
+   "source": "Eventbrite",
+   "url": "https://www.eventbrite.be/e/80s-90s-over-30s-daytime-clubbing-antwerp-tickets-2003779419183",
+   "hook": "Daytime party for 30+ (friends aged 25+ welcome), home by 21:00.",
+   "score": 7.6,
+   "hidden_gem": true,
+   "is_festival": false,
+   "prymal": false,
+   "reasons": [
+    "daytime",
+    "community",
+    "social"
+   ]
+  },
+  {
+   "id": "meetup-ant-new-friends-brunch-nov29",
+   "name": "Brunch Social: Make New Friends",
+   "organizer": "Meet New Friends Antwerp",
+   "date": "2026-11-29",
+   "time": "12:30",
+   "endTime": "",
+   "city": "Antwerp",
+   "venue": "Antwerpen",
+   "category": "community",
+   "subcategory": "small-group brunch · ages 25–45",
+   "cost": "€? (ticket via Groupvibe)",
+   "source": "Meetup",
+   "url": "https://www.meetup.com/meet-new-friends-antwerp/events/313813832/",
+   "hook": "Small-group brunch for 25–45-year-olds; 32 already signed up.",
+   "score": 7.8,
+   "hidden_gem": false,
+   "is_festival": false,
+   "prymal": false,
+   "reasons": [
+    "community",
+    "offline_community",
+    "sunday"
    ]
   }
  ],
